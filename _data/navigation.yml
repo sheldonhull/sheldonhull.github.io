@@ -10,5 +10,7 @@ main:
     url: /page-archive/
   - title: "Collections"
     url: /collection-archive/
+- title: "Archive By Date"
+    url: /date-archive/
   - title: "about"
     url: /about/
