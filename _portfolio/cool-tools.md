@@ -1,6 +1,7 @@
 ---
 title: "Cool Tools"
 excerpt: "awesome tools I've used"
+toc: true
 ---
 
 ## SQL PERFORMANCE TUNING
