@@ -1,5 +1,5 @@
 ﻿---
-layout: post
+
 title: Exploring SQL Server With Powershell And SMO Basics
 date: 2017-08-09
 tags: ["sql-server","powershell","smo","development","development","powershell","sql-server","tech"]
@@ -7,11 +7,11 @@ tags: ["sql-server","powershell","smo","development","development","powershell",
 
 # SqlServer Powershell Cmdlets 2017 - Initialize Look
 
-Diving into the Sql Server Management Objects library can be a pretty interesting process. You get to work with database objects as in a new way, and begin manipulating and execute code in a much different approach than purely using T-SQL. Powershell offers a unique way to interact with prebuilt cmdlets, and you can explore leveraging .NET in powershell as well to have a powerful toolkit of options. 
+Diving into the Sql Server Management Objects library can be a pretty interesting process. You get to work with database objects as in a new way, and begin manipulating and execute code in a much different approach than purely using T-SQL. Powershell offers a unique way to interact with prebuilt cmdlets, and you can explore leveraging .NET in powershell as well to have a powerful toolkit of options.
 
-This post is a not focused on a full walk-through, but instead to communicate some of the exploration I've done, to help if you are beginning to explore more database automation and management. 
+This post is a not focused on a full walk-through, but instead to communicate some of the exploration I've done, to help if you are beginning to explore more database automation and management.
 
-I plan on doing some basic walk-throughs for the powershell newbie in the future, so if you are confused about anything powershell related feel free to post a comment and I'll add it to my list of stuff to walk through. 
+I plan on doing some basic walk-throughs for the powershell newbie in the future, so if you are confused about anything powershell related feel free to post a comment and I'll add it to my list of stuff to walk through.
 
 ## cmdlets vs .NET approach
 
@@ -43,7 +43,7 @@ For an adhoc purpose the scripts MidnightDba provided are excellent and would al
 
 I approach this with a different method in one final script using just the SMO server method KillAllProcesses. For some tasks I've found it really helpful to have a simple 1 line kill statement thanks to MidnightDba's pointer with the statements similar to the one above.
 
-Using Microsoft's documented method shows another example of how to use to restart the service. This was one modified approach I took. I prefer not to use this type of approach as working with `get-childitem` with server objects to me as a little unintuitive. 
+Using Microsoft's documented method shows another example of how to use to restart the service. This was one modified approach I took. I prefer not to use this type of approach as working with `get-childitem` with server objects to me as a little unintuitive.
 
     <#
             .LINK https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/start-stop-pause-resume-restart-sql-server-services#PowerShellProcedure
@@ -51,14 +51,14 @@ Using Microsoft's documented method shows another example of how to use to resta
     #>
     $ErrorActionPreference = 'continue'
     [bool]$Matched = (get-module -name SqlServer -listavailable ' measure-object).count
-    if($Matched -eq $false) { install-package SqlServer -scope CurrentUser -verbose:$false -Force} 
+    if($Matched -eq $false) { install-package SqlServer -scope CurrentUser -verbose:$false -Force}
 
     [datetime]$StepTimer = [datetime]::Now
 
     $private:ServerName = $env:ServerName
     import-module -name sqlserver -disablenamechecking -verbose:$false -debug:$false
 
-    # Get a reference to the ManagedComputer class.  
+    # Get a reference to the ManagedComputer class.
     CD SQLSERVER:\SQL\$private:ServerName -Verbose:$false -Debug:$false
     $Wmi = (get-item -debug:$false -verbose:$false .).ManagedComputer
     $DfltInstance = $Wmi.Services['MSSQLSERVER']
@@ -68,7 +68,7 @@ Using Microsoft's documented method shows another example of how to use to resta
     $DfltInstance.Stop()
 
     while($DfltInstance.ServiceState.value__ -ne 1) #1 stopped
-    { 
+    {
         Start-Sleep -seconds 5
         $DfltInstance.Refresh()
         write-host "... state: $($DfltInstance.ServiceState)"
@@ -80,7 +80,7 @@ Using Microsoft's documented method shows another example of how to use to resta
     $DfltInstance.Start()
 
     while($DfltInstance.ServiceState.value__ -ne 4) #4 running
-    { 
+    {
         Start-Sleep -seconds 5
         $DfltInstance.Start()
         $DfltInstance.Refresh()

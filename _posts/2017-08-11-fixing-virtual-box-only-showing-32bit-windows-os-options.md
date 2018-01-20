@@ -1,5 +1,5 @@
 ﻿---
-layout: post
+
 title: Fixing VirtualBox Only Showing 32bit Windows OS Options
 date: 2017-08-11
 tags: ["troubleshooting","virtualization","ramblings","tech"]

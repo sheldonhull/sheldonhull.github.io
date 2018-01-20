@@ -1,5 +1,5 @@
 ﻿---
-layout: post
+
 title: Dataedo - First Look
 date: 2017-08-07
 tags: ["sql-server","cool-tools","sql-server","tech","cool-tools"]
@@ -7,13 +7,13 @@ tags: ["sql-server","cool-tools","sql-server","tech","cool-tools"]
 
 ## Diagraming and Documentation
 
-Previously, I've [written up on database diagramming ](https://www.sheldonhull.com/search?q=database%20diagram)for visualization of database structures. Check that out for more detailed review on what I've used. 
+Previously, I've [written up on database diagramming ](https://www.sheldonhull.com/search?q=database%20diagram)for visualization of database structures. Check that out for more detailed review on what I've used.
 
-I've recently taken a swing at this newer tool and found it very promising as a database documentation tool that bridged the gap of usability and flexibility. 
+I've recently taken a swing at this newer tool and found it very promising as a database documentation tool that bridged the gap of usability and flexibility.
 
 ## TL;DR
 
-Promising future tool for diagramming, and worth evaluating if looking to build out some documentation for the first time. For my purposes, it was missing some diagramming options that prevent me from leveraging as a replacement for my existing toolkit. 
+Promising future tool for diagramming, and worth evaluating if looking to build out some documentation for the first time. For my purposes, it was missing some diagramming options that prevent me from leveraging as a replacement for my existing toolkit.
 
 ## Setting Up Initial Diagrams
 
@@ -27,9 +27,9 @@ The only difference I could see for adding tables to the ERD when adding previou
 
       ![](exporting.pngexporting?format=original)
 
-Exporting documentation provided immediate feedback on generating a custom template, along with all the required files. This was a definite plus over some other tools I've worked with, as it promoted the customization that would be required by some, with all the necessary files generated. My props to the developers of this, as this showed a nice touch for their technical audience, not forcing the user into a small set of options, or making it complicated to customize. 
+Exporting documentation provided immediate feedback on generating a custom template, along with all the required files. This was a definite plus over some other tools I've worked with, as it promoted the customization that would be required by some, with all the necessary files generated. My props to the developers of this, as this showed a nice touch for their technical audience, not forcing the user into a small set of options, or making it complicated to customize.
 
-No delete button for the CustomTemplate was a bit confusing, but an easy fix for them in the future. At this time, you'd just delete the folder in Dataedo/Templates/HTML and they won't show up in the template dialogue. 
+No delete button for the CustomTemplate was a bit confusing, but an easy fix for them in the future. At this time, you'd just delete the folder in Dataedo/Templates/HTML and they won't show up in the template dialogue.
 
 During the export process you also have the option of saving the export command options you already setup to a dataedo command file to make it easily automated. That's a nice touch!
 

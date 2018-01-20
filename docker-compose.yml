@@ -1,0 +1,13 @@
+
+jekyll:
+  image: jekyll/jekyll
+  container_name: sheldonhull.github.io
+  command: jekyll s --config _config.yml,_config.dev.yml --force_polling --incremental
+  ports:
+    - 4000:4000
+  host:
+    - 127.0.0.1
+  environment:
+    - JEKYLL_ENV=docker # if set on development, it will mess up
+  volumes:
+    - .:/srv/jekyll

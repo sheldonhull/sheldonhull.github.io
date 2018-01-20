@@ -1,11 +1,11 @@
 ﻿---
-layout: post
+
 title: Ultrawide Monitor - Samsung CF971 - First impressions
 date: 2017-08-16
 tags: ["gear","geek","monitor","geek-cred","ramblings","tech"]
 ---
 
-As a developer, I've been a big fan of multiple monitors for a long time. I moved to a triple screen setup years ago, and up until recently, had no desire to try anything different. 
+As a developer, I've been a big fan of multiple monitors for a long time. I moved to a triple screen setup years ago, and up until recently, had no desire to try anything different.
 
 Well... I've finally found the replacement. The holy grail of productivity, immersion, as well as usability. Ultrawides :-)
 
@@ -15,7 +15,7 @@ No. The width of the screen is plenty for 2 full Visual Studio environments, or 
 
 ### Do you need the curve?
 
-I prefer it.the Samsung CF971 is curved at 1500R, which is one of the most curve displays as of the current time. Unlike TV, where this feature is pretty much useless, with an ultrawide monitor only a few feet from your face, the curve is welcome, and still subtle. I do videography, photography, and some gaming, and for my purposes I've found it to be perfect. 
+I prefer it.the Samsung CF971 is curved at 1500R, which is one of the most curve displays as of the current time. Unlike TV, where this feature is pretty much useless, with an ultrawide monitor only a few feet from your face, the curve is welcome, and still subtle. I do videography, photography, and some gaming, and for my purposes I've found it to be perfect.
 
 ### Do I need to get a 3440x1440 or can I save money and get 2560x1080?
 
@@ -23,15 +23,15 @@ Get the 3440x1440 if you are doing anything besides gaming. Then for gaming just
 
 ### Gaming on it?
 
-Awesome! I still am running an old AMD 7950, and when I down the settings I'm still enjoying it. It's about time with Vega to upgrade, but until then, I'm still getting some life out of the current card, and still not leveraging the 100hz refresh rate with Freesync. 
+Awesome! I still am running an old AMD 7950, and when I down the settings I'm still enjoying it. It's about time with Vega to upgrade, but until then, I'm still getting some life out of the current card, and still not leveraging the 100hz refresh rate with Freesync.
 
 ### Any negatives?
 
-I had 1 stuck pixel that I couldn't fix, so with black background this small dot can be seen (red). However, I'm still happy with the choice. 
+I had 1 stuck pixel that I couldn't fix, so with black background this small dot can be seen (red). However, I'm still happy with the choice.
 
 ### For Development
 
-I plan on moving to this screen in the future for development as well. I included some images of the workspace you gain, so I have no complaints about my time at home working on it. 
+I plan on moving to this screen in the future for development as well. I included some images of the workspace you gain, so I have no complaints about my time at home working on it.
 
 ### But I'm scared of moving away from IPS!
 
