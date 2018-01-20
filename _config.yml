@@ -245,7 +245,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "posts"
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -262,12 +262,12 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-defaults:
-  # _portfolio
-  - scope:
-      path: "_portfolio"
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
+# defaults:
+#   # _portfolio
+#   - scope:
+#       path: "_portfolio"
+#       type: portfolio
+#     values:
+#       layout: single
+#       author_profile: false
+#       share: true
