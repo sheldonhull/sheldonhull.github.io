@@ -17,6 +17,4 @@ Now for some sleep... or not ;-)
 Shout out to Willowbrook Women's Center for their consideration and stellar care during the delivery. I left my camera in the other room, not knowing operating room rules, and wanted to respect that, and not complicate the moment. A nurse asked me where my camera was so I could capture a few of the precious first moments, and walked to the other side of the hospital section to go fetch it for me to make it happen. That's how considerate they were! 
 
 Thanks to their care I have a healthy baby girl, healthy wife, and some beautiful moments despite the complication of the delivery. 
-
-<iframe src="vB1EqN-WfkI?wmode=opaque&enablejsapi=1" height="480" width="854" scrolling="no" frameborder="0" allowfullscreen="">
-</iframe>
+{% include video id=""vB1EqN-WfkI" provider="youtube" %}
