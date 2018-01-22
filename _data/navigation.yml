@@ -9,3 +9,5 @@ main:
     url: /page-archive/
   - title: Archive By Date
     url: /date-archive/
+  - title: about
+    url: /about/
