@@ -34,5 +34,8 @@ Projections for the area are never certain, but seems to point to being clear of
       ![](Gettysburg+-+That%27s+what+google+maps+calls+this+spot.jpgGettysburg+-+That%27s+what+google+maps+calls+this+spot?format=original)
 
 For those interested in helping out in the area, my church is participating in relief efforts and starting to gather resources to help those in the community. Randy (the lead pastor at nwvineyard.com) will make sure that any donations made are used to impact the local area as this is a core passion of our small church plant.
+{% raw %}
 
-<iframe src="video.php?href=https%3A%2F%2Fwww.facebook.com%2Frandy.whittemore.7%2Fvideos%2F10213558913424645%2F&width=200&show_text=true&appId=169909920247926&height=532" width="200" height="660" style="border:none;overflow:auto" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+<iframe src="video.php?href=https%3A%2F%2Fwww.facebook.com%2Frandy.whittemore.7%2Fvideos%2F10213558913424645%2F&width=200&show_text=true&appId=169909920247926&height=532" width="200" height="660" style="border:none;overflow:auto" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true">
+</iframe>
+{% endraw %}

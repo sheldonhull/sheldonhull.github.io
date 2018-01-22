@@ -1,7 +1,9 @@
 ---
+Layout: single
 title: "Cool Tools"
 excerpt: "awesome tools I've used"
 toc: true
+permalink: /cool-tools/
 ---
 
 ## SQL PERFORMANCE TUNING

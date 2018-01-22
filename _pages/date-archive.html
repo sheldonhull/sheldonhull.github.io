@@ -12,7 +12,7 @@ css: "/assets/css/CloudListFilter.css"
 <div class="post-preview">
   {% assign openList = '<ul class="later on">'  %}
   {% assign closeList = '</ul>' %}
-  {% assign archive_url = site.baseurl | append: '/CloudDate/' %}
+  {% assign archive_url = site.baseurl | append: '/archive/' %}
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: '%B %Y' %}
   {% if currentdate != date %}
