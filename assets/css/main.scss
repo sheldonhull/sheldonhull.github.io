@@ -20,7 +20,7 @@ highlighter-rouge, code, pre, highlight  {
 }
 // this keeps sidebar for table of contents sticky, at least in chrome
 .sidebar__right {
-    position: -webkit-sticky;
+    position: -webkit-sticky!important;;
     position: sticky!important;
     top: 0;
     float:right!important;
