@@ -123,6 +123,8 @@ exclude:
   - tmp
   - /docs
   - /test
+  - .ps1
+  - .sh
 keep_files:
   - .git
   - .svn
