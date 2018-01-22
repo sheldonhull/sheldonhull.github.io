@@ -3,9 +3,11 @@
 title: InfluxDB and Annotations
 date: 2017-08-07
 tags: ["time-series","powershell","influxdb","monitoring","powershell","sql-server","cool-tools","development"]
+toc: true
+
 ---
 
-### InfluxDb & Grafana Series
+## InfluxDb & Grafana Series
 
 *   [Running InfluxDb As A Service in Windows](https://www.sheldonhull.com/blog/running-influxdb-as-a-service-in-windows?rq=influx)
 *   [Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev
@@ -35,13 +37,13 @@ Warning: I did experience performance degradation with Grafana and many annotati
 
       ![](inserting+annotation+shows+on+graph.pnginserting+annotation+shows+on+graph?format=original)
 
-## Adding Annotations to Grafana
+### Adding Annotations to Grafana
 
 Now that you have the results being inserted into InfluxDB, you can query these in Grafana as annonations to overlay your graphs.
 
       ![](Adding+Annotation+To+Grafana+to+pull+from+InfluxDB.pngAdding+Annotation+To+Grafana+to+pull+from+InfluxDB?format=original)
 
-## Potential Uses
+### Potential Uses
 
 I could see a whole lot of uses for this!
 
