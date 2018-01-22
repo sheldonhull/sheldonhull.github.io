@@ -3,6 +3,22 @@
 ---
 
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Source+Sans+Pro');
+body
+{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.page__content {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:0.9em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+highlighter-rouge, code, pre, highlight  {
+    font-family: 'Fira Mono', monospace!important;
+}
+
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
