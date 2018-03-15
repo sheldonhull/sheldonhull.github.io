@@ -1,12 +1,13 @@
 jekyll:
-  image: jekyll/jekyll
+  image: jekyll/jekyll:latest
   container_name: sheldonhull.github.io
   command: >-
-    jekyll s --port 4000 --config _config.yml,_config.dev.yml --force_polling
-    --incremental
+    jekyll s --port 4000 --config _config.yml,_config.dev.yml --force_polling --incremental
   ports:
     - '4000:4000'
   environment:
     - JEKYLL_ENV=docker
+    - DOCKER_API_VERSION=1.24
+    - COMPOSE_API_VERSION=1.24
   volumes:
     - '.:/srv/jekyll'

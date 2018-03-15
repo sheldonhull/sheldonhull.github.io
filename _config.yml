@@ -1,4 +1,4 @@
-minimal_mistakes_skin: contrast
+minimal_mistakes_skin: air
 locale: en-US
 title: sheldonhull.com
 title_separator: '-'
@@ -59,9 +59,9 @@ social:
   name: null
   links: null
 analytics:
-  provider: false
+  provider: google
   google:
-    tracking_id: null
+    tracking_id: UA-40198001-3
 author:
   name: Sheldon Hull
   avatar: null
@@ -125,6 +125,7 @@ exclude:
   - /test
   - .ps1
   - .sh
+  - .bat
 keep_files:
   - .git
   - .svn
@@ -161,6 +162,7 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed
+
 permalink: '/:categories/:title/'
 paginate: 5
 paginate_path: '/page:num/'
@@ -171,6 +173,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-mermaid
+  - jekyll-archives
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -178,11 +182,22 @@ whitelist:
   - jekyll-feed
   - jemoji
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
+#https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 compress_html:
   clippings: all
   ignore:
@@ -198,6 +213,7 @@ defaults:
       comments: null
       share: true
       related: true
+      permalink: /blog/:title
   - scope:
       path: _pages
       type: pages
@@ -225,4 +241,3 @@ defaults:
 
   # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
   # span, block element options fall back to global
-
