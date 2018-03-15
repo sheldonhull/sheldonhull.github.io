@@ -1,10 +1,9 @@
-﻿---
+---
 
-title: Dataedo - First Look
+
+title:  "Dataedo - First Look"
 date: 2017-08-07
 tags: ["sql-server","cool-tools","sql-server","tech","cool-tools"]
-toc: true
-
 ---
 
 ## Diagraming and Documentation
@@ -27,7 +26,7 @@ The only difference I could see for adding tables to the ERD when adding previou
 
 ## Exporting Customization Is Easy
 
-      ![](exporting.pngexporting?format=original)
+![](/assets/img/exporting.pngexporting?format=original)
 
 Exporting documentation provided immediate feedback on generating a custom template, along with all the required files. This was a definite plus over some other tools I've worked with, as it promoted the customization that would be required by some, with all the necessary files generated. My props to the developers of this, as this showed a nice touch for their technical audience, not forcing the user into a small set of options, or making it complicated to customize.
 
@@ -37,7 +36,7 @@ During the export process you also have the option of saving the export command 
 
 ## ERD Diagrams
 
-      ![](erd.pngerd?format=original)
+![](/assets/img/erd.pngerd?format=original)
 
 **PROS**
 

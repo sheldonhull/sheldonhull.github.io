@@ -1,8 +1,53 @@
-﻿---
-
-title: Ultrawide Monitor - Samsung CF971 - First impressions
+---
+title:  "Ultrawide Monitor - Samsung CF971 - First impressions"
 date: 2017-08-16
 tags: ["gear","geek","monitor","geek-cred","ramblings","tech"]
+categories: ["tech"]
+gallery:
+  - url: /assets/img/20170708+1304+2352134.jpg
+    image_path: /assets/img/20170708+1304+2352134.jpg
+    alt: 20170708+1304+2352134.jpg
+    title: None
+  - url: /assets/img/20170708+1429+2352140.jpg
+    image_path: /assets/img/20170708+1429+2352140.jpg
+    alt: 20170708+1429+2352140.jpg
+    title: None
+  - url: /assets/img/20170708+1445+2352144.jpg
+    image_path: /assets/img/20170708+1445+2352144.jpg
+    alt: 20170708+1445+2352144.jpg
+    title: None
+  - url: /assets/img/20170708+1446+2352147.jpg
+    image_path: /assets/img/20170708+1446+2352147.jpg
+    alt: 20170708+1446+2352147.jpg
+    title: None
+  - url: /assets/img/2017-07-08_14-52-53.png
+    image_path: /assets/img/2017-07-08_14-52-53.png
+    alt: 2017-07-08_14-52-53.png
+    title: None
+  - url: /assets/img/2017-07-08_16-34-48.png
+    image_path: /assets/img/2017-07-08_16-34-48.png
+    alt: 2017-07-08_16-34-48.png
+    title: None
+  - url: /assets/img/2017-07-08_14-51-59.png
+    image_path: /assets/img/2017-07-08_14-51-59.png
+    alt: 2017-07-08_14-51-59.png
+    title: None
+  - url: /assets/img/2017-07-08_16-04-20.png
+    image_path: /assets/img/2017-07-08_16-04-20.png
+    alt: 2017-07-08_16-04-20.png
+    title: None
+  - url: /assets/img/2017-07-08_15-16-31.png
+    image_path: /assets/img/2017-07-08_15-16-31.png
+    alt: 2017-07-08_15-16-31.png
+    title: None
+  - url: /assets/img/2017-07-08_16-03-25.png
+    image_path: /assets/img/2017-07-08_16-03-25.png
+    alt: 2017-07-08_16-03-25.png
+    title: None
+  - url: /assets/img/2017-07-20_12-45-12.png
+    image_path: /assets/img/2017-07-20_12-45-12.png
+    alt: 2017-07-20_12-45-12.png
+    title: None
 ---
 
 As a developer, I've been a big fan of multiple monitors for a long time. I moved to a triple screen setup years ago, and up until recently, had no desire to try anything different.
@@ -37,30 +82,4 @@ I plan on moving to this screen in the future for development as well. I include
 
 Me too. No regrets. The SVA panel beautiful. No complaints whatsoever, and no regrets about leaving behind my IPS display for this.
 
-<div class="image-gallery-wrapper">
-
-   ![](20170708+1304+%2352134.jpg)
-
-   ![](20170708+1429+%2352140.jpg)
-
-   ![](20170708+1445+%2352144.jpg)
-
-   ![](20170708+1446+%2352147.jpg)
-
-</div><div class="image-gallery-wrapper">
-
-   ![](2017-07-08_14-52-53.png)
-
-   ![](2017-07-08_16-34-48.png)
-
-   ![](2017-07-08_14-51-59.png)
-
-   ![](2017-07-08_16-04-20.png)
-
-   ![](2017-07-08_15-16-31.png)
-
-   ![](2017-07-08_16-03-25.png)
-
-   ![](2017-07-20_12-45-12.png)
-
-</div>
+{% include gallery caption="Ultrawide" %}

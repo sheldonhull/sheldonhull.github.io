@@ -1,9 +1,11 @@
 main:
-  - title: Posts
-    url: /year-archive/
-  - title: Tags
-    url: /tags/
+  - title: blog
+    url: /blog/
+  - title: archive
+    url: /archive/
   - title: cool tools
     url: /cool-tools/
   - title: about
     url: /about/
+  - title: categories
+    url: /categories/

@@ -1,6 +1,7 @@
-﻿---
+---
 
-title: Spotify vs Google Play
+
+title:  "Spotify vs Google Play"
 date: 2017-08-05
 tags: ["music","ramblings","ramblings"]
 ---

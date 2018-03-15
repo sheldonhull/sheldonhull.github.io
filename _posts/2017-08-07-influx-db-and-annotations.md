@@ -1,13 +1,12 @@
-﻿---
-
-title: InfluxDB and Annotations
-date: 2017-08-07
-tags: ["time-series","powershell","influxdb","monitoring","powershell","sql-server","cool-tools","development"]
-toc: true
-
 ---
 
-## InfluxDb & Grafana Series
+
+title:  "InfluxDB and Annotations"
+date: 2017-08-07
+tags: ["time-series","powershell","influxdb","monitoring","powershell","sql-server","cool-tools","development"]
+---
+
+### InfluxDb & Grafana Series
 
 *   [Running InfluxDb As A Service in Windows](https://www.sheldonhull.com/blog/running-influxdb-as-a-service-in-windows?rq=influx)
 *   [Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev
@@ -27,7 +26,10 @@ This post on maxchadwick.xyz greatly helped me get started: [Creating Grafana An
 
 Per Max's original post it supports html as well, so you could link for example to a build, test result, or anything else you want to link to from your performance statistics.
 
-<script data-preserve-html-node="true" src="e95ca6d909f741ebe80fa28c6da4de5b.js"></script>
+{% raw %}
+ <script src="https://gist.github.com/sheldonhull/e95ca6d909f741ebe80fa28c6da4de5b.js"></script>
+{% endraw %}
+
 
 This provides an annotation on your timeline in a nice format for browsing through the timeline. I can see usage cases for identifying specific activity or progress in tests, helping coorelate the performance metrics with known activity steps from a build, script, or other related tasks. You could have an type of activity trigger this powershell insert, providing a lot of flexibility to help relate useful metrics to your monitoring.
 
@@ -35,15 +37,15 @@ My personal use case has been to ensure load testing start/end times and other s
 
 Warning: I did experience performance degradation with Grafana and many annotations on a timeline. I found just disabling the annotations kept this from occurring, so you only pull them when youd them.
 
-      ![](inserting+annotation+shows+on+graph.pnginserting+annotation+shows+on+graph?format=original)
+![](/assets/img/inserting+annotation+shows+on+graph.pnginserting+annotation+shows+on+graph?format=original)
 
-### Adding Annotations to Grafana
+## Adding Annotations to Grafana
 
 Now that you have the results being inserted into InfluxDB, you can query these in Grafana as annonations to overlay your graphs.
 
-      ![](Adding+Annotation+To+Grafana+to+pull+from+InfluxDB.pngAdding+Annotation+To+Grafana+to+pull+from+InfluxDB?format=original)
+![](/assets/img/Adding+Annotation+To+Grafana+to+pull+from+InfluxDB.pngAdding+Annotation+To+Grafana+to+pull+from+InfluxDB?format=original)
 
-### Potential Uses
+## Potential Uses
 
 I could see a whole lot of uses for this!
 
