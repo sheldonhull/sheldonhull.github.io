@@ -3,7 +3,7 @@
 
 title:  "Remote Desktop Workflow Improvements"
 date: 2016-08-29
-tags: ["#ReadyToSchedule","cool-tools","sql-server","cool-tools","ramblings"]
+tags: ["cool-tools","sql-server","cool-tools","ramblings"]
 ---
 
 Remote server management is a fact of life for folks involved with sql server. Since we work so often with remote machines I looked into a few tools that provided a better workflow than the default Microsoft tools. This one came out as the winner by far.
