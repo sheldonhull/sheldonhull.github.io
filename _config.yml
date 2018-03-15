@@ -40,7 +40,7 @@ reCaptcha:
   siteKey: null
   secret: null
 atom_feed:
-  path: null
+  path: "https://www.feedio.co/@sheldon_hull?came_from=homepagefeedbutton"
 search: true
 search_full_content: true
 google_site_verification: null
