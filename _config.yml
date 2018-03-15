@@ -3,8 +3,8 @@ locale: en-US
 title: sheldonhull.com
 title_separator: '-'
 name: Sheldon Hull
-description: random thoughts and ramblings by yours truly
-url: 'https://sheldonhull.github.io'
+description: random thoughts and ramblings
+url: 'https://www.sheldonhull.com'
 baseurl: ''
 repository: sheldonhull/sheldonhull.github.io
 teaser: null
@@ -13,7 +13,7 @@ words_per_minute: 200
 comments:
   provider: null
   disqus:
-    shortname: null
+    shortname: sheldon_hull
   discourse:
     server: null
   facebook:
@@ -48,7 +48,7 @@ bing_site_verification: null
 yandex_site_verification: null
 naver_site_verification: null
 twitter:
-  username: null
+  username: sheldon_hull
 facebook:
   username: null
   app_id: null
