@@ -127,6 +127,7 @@ exclude:
   - .ps1
   - .sh
   - .bat
+  - _oldsitemap
 keep_files:
   - .git
   - .svn
