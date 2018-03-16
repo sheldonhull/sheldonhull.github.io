@@ -1,3 +1,4 @@
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: air
 locale: en-US
 title: sheldonhull.com
@@ -175,6 +176,7 @@ plugins:
   - jemoji
   - jekyll-mermaid
   - jekyll-archives
+  - jekyll-remote-theme
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
