@@ -5,47 +5,7 @@ excerpt: "awesome tools I've used"
 toc: true
 permalink: /cool-tools/
 ---
-<style>
-.initial-content
-{
-    font-size:0.8em;
-    padding-left:35%;
-    padding-right:35%
-}
-H1 {
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 1.4px;
-    border-bottom: solid 1px #006600;
-    text-transform: uppercase;
-}
-H2 {
-    font-size: 14px;
-    font-weight: normal;
-    letter-spacing: 1.2px;
-}
-P, BLOCKQUOTE {
-    font-size: 11px;
-    line-height: 1.5;
-    letter-spacing: .25px;
-}
-BLOCKQUOTE {
-    font-style: italic;
-    color: #444444;
-    letter-spacing: 1.25px;
-    line-height: 1.5;
-    background: #EEEEEE;
-    padding: 5px;
-    margin: auto 15px;
-}
-A {
-    color: #006600;
-}
-ABBR {
-    border-bottom: dotted 1px #006600;
-}
 
-</style>
 # SQL PERFORMANCE TUNING
 
 _Note - all licensing costs are for general reference only, look at supplier for up to date pricing metrics._
