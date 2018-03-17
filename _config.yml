@@ -98,6 +98,7 @@ include:
   - .htaccess
   - _pages
   - _portfolio
+  - _redirects
 exclude:
   - '*.sublime-project'
   - '*.sublime-workspace'
