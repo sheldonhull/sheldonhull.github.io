@@ -184,5 +184,10 @@ body .gist .gist-meta {
 }
 /*END ADD COPY BUTTON TO GIST*/
 
+/* Custom search provider highlighting */
+.custom_highlight {
+    color:#619bac;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";  /* skin */
 @import "minimal-mistakes"; /* main partials */

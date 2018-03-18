@@ -179,6 +179,7 @@ plugins:
   - jekyll-mermaid
   - jekyll-archives
   - jekyll-remote-theme
+  - jekyll-algolia
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -242,6 +243,24 @@ defaults:
       layout: single
       author_profile: false
       share: true
+
+search_provider: algolia
+algolia:
+  application_id         : 04HSGXXQD5
+  index_name             : sheldonhull.com
+  search_only_api_key    : a7ec2763a5d966a5b9f8d70b254bfb68
+  powered_by             : true
+  files_to_exclude       :
+    - archive/*.html
+    - categories/*.html
+    - collection-archive/*.html
+    - date-archive/*.html
+    - page-archive/*.html
+    - pages/*.md
+    - pages/*.html
+  settings:
+    highlightPreTag: '<em class="custom_highlight">'
+    highlightPostTag: '</em>'
 
   # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
   # span, block element options fall back to global
