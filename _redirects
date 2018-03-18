@@ -1,1 +1,3 @@
 /blog?category=tech,sql-server&format=rss /tags/tech/feed.xml
+tag/sql-server                            /tags/#sql-server
+blog.sheldonhull.com                      sheldonhull.com/blog
