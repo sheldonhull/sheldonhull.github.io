@@ -2,7 +2,7 @@ main:
   - title: blog
     url: /blog/
   - title: archive
-    url: /archive/
+    url: /tags/
   - title: cool tools
     url: /cool-tools/
   - title: about
