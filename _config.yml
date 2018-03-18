@@ -14,7 +14,7 @@ words_per_minute: 200
 comments:
   provider: null
   disqus:
-    shortname: sheldon_hull
+    shortname: sheldonhull
   discourse:
     server: null
   facebook:
