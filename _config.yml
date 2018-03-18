@@ -12,7 +12,7 @@ teaser: null
 breadcrumbs: true
 words_per_minute: 200
 comments:
-  provider: disqus
+  provider: Disqus
   disqus:
     shortname: sheldonhull
   discourse:
