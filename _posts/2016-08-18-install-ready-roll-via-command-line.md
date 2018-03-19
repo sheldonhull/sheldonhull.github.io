@@ -27,5 +27,5 @@ I personally use Ketarin to help me manage automatically updating apps like SQL 
 - For automated setup and install use the following code with Ketarin
 
 {% raw %}
- <script src="bfde8f5846555183e3abd4e7575bc2a9.js"></script>
+ <script src="https://gist.github.com/sheldonhull/bfde8f5846555183e3abd4e7575bc2a9.js"></script>
 {% endraw %}

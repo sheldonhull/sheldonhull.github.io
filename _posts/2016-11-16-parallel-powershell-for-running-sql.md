@@ -12,5 +12,5 @@ Another great option that is under more active development is [PoshRsJob](http:/
 Hope this helps get you started if you want to give parallel query execution a shot. Here's a function using PSParallel to get you started. Let me know if it helps
 
 {% raw %}
- <script src="5bb1a8adea09276c4fd274b5b2900b6a.js"></script>
+ <script src="https://gist.github.com/sheldonhull/5bb1a8adea09276c4fd274b5b2900b6a.js"></script>
 {% endraw %}

@@ -10,5 +10,5 @@ Point this at a directory of dlls and you can get some of the loaded assembly de
 Some dlls with invalid assembly header information were found, and this skips those as warnings.
 
 {% raw %}
- <script src="ab1a65ce636231e72214dc1acad30f6d.js"></script>
+ <script src="https://gist.github.com/sheldonhull/ab1a65ce636231e72214dc1acad30f6d.js"></script>
 {% endraw %}

@@ -8,6 +8,6 @@ tags: ["sql-server"]
 
 Common date values you may need to reference that you may not want to write from scratch each time.
 {% raw %}
- <script src="5390417.js"></script>
+ <script src="https://gist.github.com/sheldonhull/5390417.js"></script>
 {% endraw %}
  Hope this helps someone else!

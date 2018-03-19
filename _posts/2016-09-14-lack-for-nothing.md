@@ -1,6 +1,4 @@
 ---
-
-
 title:  "Lack for Nothing"
 date: 2016-09-14
 tags: ["music","ramblings","worship","music","ramblings","follower-of-Jesus"]
@@ -20,8 +18,11 @@ Instead, just as the author of Hebrews writes (Heb 10), we can come with bold co
 >   This has shaped my paradigm a lot. It's hard for me to hear about others feeling unworthy in coming before God, like they have to get things together before coming to Him. This is so antithetical to the nature of God and to all of what we see Christ exemplifying in His life. Christ never demonstrated superiority, judgement against those who don't demonstrate perfection. When He did bring out anger and judgement, it was focused on those who, in their misguided concepts of God, put barriers between God and His people.
 >   So, just a friendly reminder that you "Lack for Nothing". Cheers!
 >
+
 {% raw %}
-<script src="03a51d7ea231974bb3ce10feb0d2ad6c.js"></script>
+
+<script src="https://gist.github.com/sheldonhull/03a51d7ea231974bb3ce10feb0d2ad6c.js"></script>
+
 {% endraw %}
 
 
