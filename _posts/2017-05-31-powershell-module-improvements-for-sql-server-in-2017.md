@@ -3,8 +3,16 @@
 
 title:  "Powershell Module Improvements for SQL Server in 2017"
 date: 2017-05-31
-tags: ["powershell","sql-server","automation","sql-server","powershell","tech","development"]
+tags: ["powershell","sql-server","automation","tech","development"]
+
 ---
+
+<div class="premonition info">
+<div class="fa fa-plus"></div>
+<div class="content">
+<p class="header">Updated: 2018-03-19</p>
+I don't use these much, if any now. Check out dbatools which is a much better module with a full range of features to save you a ton of time.
+</div></div>
 
 # simple setup
 
@@ -18,9 +26,8 @@ This is very promising, and great if you want to leverage some of the functional
 
 In reviewing, I ran across a few new cmdlet's as well. For instance, you could easily right click on a table and output the results into a powershell object, json, csv, gridview, or anything else you want. This is great flexibility.
 
-![](/assets/img/opening+powershell+from+ssms+with+table+context.pngopening+powershell+from+ssms+with+table+context?format=original)
+![exploring-sql-path-provider](/assets/img/exploring-sql-path-provider.png)
 
-![calling gridview from ssms invoked prompt](/assets/img/calling+gridview+from+ssms+invoked+prompt.pngcalling+gridview+from+ssms+invoked+prompt?format=original) calling gridview from ssms invoked prompt
 
 In versions of SQL Server (as of 2012 or earlier) I believe the version SQL Server was utilizing was out of date with the installed version. For instance, on Windows Server 2012 with Powershell ISE reporting PsVersion of 4.0, Sql Server reported version 2.0 being utilized.
 

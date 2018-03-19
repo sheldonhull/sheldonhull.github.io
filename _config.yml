@@ -8,11 +8,11 @@ description: random thoughts and ramblings
 url: 'https://www.sheldonhull.com'
 baseurl: ''
 repository: sheldonhull/sheldonhull.github.io
-teaser: null
+teaser: /assets/img/sheldon_400x400.jpg
 breadcrumbs: true
 words_per_minute: 200
 comments:
-  provider: Disqus
+  provider: disqus
   disqus:
     shortname: sheldonhull
   discourse:
@@ -54,7 +54,7 @@ facebook:
   username: null
   app_id: null
   publisher: null
-og_image: null
+og_image: /assets/img/sheldon_400x400.jpg
 social:
   type: null
   name: null
