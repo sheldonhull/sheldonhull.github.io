@@ -3,7 +3,7 @@
 
 title:  "Stranger Danger... The need for trust with constraints"
 date: 2015-08-13
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 I ran into an issue with errors with an database upgrade running into a violation of a foreign key constraint. Don't know how it happened. Figured that while I'm at it, I'd go ahead and evaluate every single check constraint in the database to see if I could identify any other violations, because they shouldn't be happening.

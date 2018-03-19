@@ -3,7 +3,7 @@
 
 title:  "Database Stuck in Single-User Mode Due to Botched Restore"
 date: 2015-07-28
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 Working in a development environment, I botched up a restore. After this restore attempt to overwrite my database with the previous version, I had it stuck in single-user mode.

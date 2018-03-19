@@ -3,7 +3,7 @@
 
 title:  "Check Constraints can help enforce the all or nothing approach when it comes to column updates"
 date: 2013-07-18
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 If you have a set of columns inside your table that you want to allow nulls in, however if one of the columns is updated force all columns in the set to be updated, use a check constraint. In my case, I had 3 columns for delete info, which were nullable. However, if one value was updated in there, I want all three of the delete columns to require updating. I created the script below to generate the creation and removal of these constraints on a list of tables:

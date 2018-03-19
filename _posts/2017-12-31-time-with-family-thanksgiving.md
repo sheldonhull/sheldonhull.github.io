@@ -1,7 +1,7 @@
 ---
 title:  "Time With Family - Thanksgiving"
 date: 2017-12-31
-tags: ["family","ramblings","ramblings"]
+tags: ["family","ramblings"]
 categories: ["family"]
 ---
 

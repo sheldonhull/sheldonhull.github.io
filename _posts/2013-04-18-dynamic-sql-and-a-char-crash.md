@@ -3,7 +3,7 @@
 
 title:  "dynamic sql and a char crash"
 date: 2013-04-18
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 Dynamic SQL can be helpful, but a pain to debug. I spent hours today working on figuring out why my simple date comparison in dynamic SQL wasn't working. Found out that the remote database I was connecting to had a char date instead of a datetime. I found the comparison of CHARDATE > VARCHARDATE failed to error out, but also failed to give a proper result set. Changing the look-up to ensure both dates were converted to date fixed the issue. During this debugging I was reviewing my dynamically created SQL statement.

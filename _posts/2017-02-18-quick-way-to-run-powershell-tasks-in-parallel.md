@@ -3,7 +3,7 @@
 
 title:  "Quick Way to Run Powershell Tasks in Parallel"
 date: 2017-02-18
-tags: ["powershell","sql-server","sql-server"]
+tags: ["powershell","sql-server"]
 ---
 
 Running tasks in parallel can be a bit difficult in powershell. However, there are a few projects out there that optimize the performance and provide a better experience of running tasks in parallel with less effort.#cool uses

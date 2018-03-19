@@ -3,7 +3,7 @@
 
 title:  "XML Attribute VS Element Assignment when working with SQL"
 date: 2015-09-21
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 ## XML handling with aliases

@@ -3,7 +3,7 @@
 
 title:  "Fixing non-deterministic error when creating indexed view"
 date: 2016-10-09
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 I discovered a bit of info on working with float values, while creating a hash value that contained a float value, and a date value.

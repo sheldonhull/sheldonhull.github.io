@@ -3,7 +3,7 @@
 
 title:  "SSMS - Connection Color with SQL Prompt & SSMSBoost"
 date: 2016-08-23
-tags: ["cool-tools","redgate","sql-server","sql-server","cool-tools"]
+tags: ["cool-tools","redgate","sql-server","cool-tools"]
 ---
 
 If you haven't explored the visual color coding of tabs based on pattern matches with SQL Prompt, I'd suggest you check this out. Earlier iterations of Red Gate's SQL Prompt did not change tab color immediately when the connection was changed. Red Gate's tab color could get out of sync occasionally, so I stopped depending on it.

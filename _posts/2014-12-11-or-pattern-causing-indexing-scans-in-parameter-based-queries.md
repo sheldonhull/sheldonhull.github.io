@@ -1,7 +1,7 @@
 ---
 title:  "OR pattern causing indexing scans in parameter based queries"
 date: 2014-12-11
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 #Tl;dr

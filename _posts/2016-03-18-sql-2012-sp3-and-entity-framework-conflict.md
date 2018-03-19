@@ -3,7 +3,7 @@
 
 title:  "SQL 2012 SP3 and entity framework conflict"
 date: 2016-03-18
-tags: ["entity-framework","sql-server","sql-server"]
+tags: ["entity-framework","sql-server"]
 ---
 
 ## the problem

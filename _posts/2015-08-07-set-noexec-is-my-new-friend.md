@@ -3,7 +3,7 @@
 
 title:  "SET NOEXEC is my new friend"
 date: 2015-08-07
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 Have never really played around with the option: `SET NOEXEC ON`

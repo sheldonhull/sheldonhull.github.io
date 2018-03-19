@@ -3,7 +3,7 @@
 
 title:  "SQL Compare 12: Initial Look"
 date: 2016-06-26
-tags: ["cool-tools","sql-server","sql-server","cool-tools"]
+tags: ["cool-tools","sql-server","cool-tools"]
 ---
 
 I know there have been a few other folks going into more detail on SQL Compare 12 (beta), but I thought I'd share just a few looks at the new design. Looks pretty slick, and I like where the design is going. Just a quick look, as I'm sure there will be more to cover when it's finally released. Until then....

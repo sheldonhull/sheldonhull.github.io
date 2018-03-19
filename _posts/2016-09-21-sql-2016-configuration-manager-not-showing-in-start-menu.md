@@ -3,7 +3,7 @@
 
 title:  "SQL 2016 - Configuration Manager Not Showing in Start Menu"
 date: 2016-09-21
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 Didn't see SQL 2016 Configuration manager in the start menu. Ran a quick search to see if this was a common issue and found an article: [Quick Trick Where is SQL Server](http://thoughtsonopsmgr.blogspot.com/2014/01/quick-trick-where-is-sql-server.html) for SQL 2012I looked and found the SQL Configuration Manager for 2016 in the same location: `C:\Windows\System32\SQLServerManager13.msc`

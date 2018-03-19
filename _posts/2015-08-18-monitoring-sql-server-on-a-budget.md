@@ -3,7 +3,7 @@
 
 title:  "Monitoring SQL Server on a budget"
 date: 2015-08-18
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 ## Cheap ain't easy

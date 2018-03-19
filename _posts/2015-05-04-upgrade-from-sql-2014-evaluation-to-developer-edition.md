@@ -3,7 +3,7 @@
 
 title:  "Upgrade from SQL 2014 Evaluation to Developer Edition"
 date: 2015-05-04
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 Couldn't find documentation showing that upgrade from SQL 2014 evaluation version was possible to developer edition. I just successfully converted an evaluation version to developer edition.

@@ -1,17 +1,13 @@
----
-
-
+﻿---
 title:  "SQL Sentry Pro Explorer is worth it..."
 date: 2015-04-22
 tags: ["sql-server","performance-tuning","sql-server"]
 ---
 
-------------------------- UPDATE: 2017-04-21 -------------------------
-
+> info "Updated 2017-04-21"
 > Another great bit of news from reviewing this older post I wrote... SQL Sentry Pro is now a free tool thanks to the generosity of the Sentry One team! It's a must have. Go download it for sure.
 
-------------------------- UPDATE: 2015-04-28 -------------------------
-
+> info "Updated 2015-04-28"
 > I created a few autohotkey scripts and solved the problem of collapsing panes and a few other annoyances. This has improved my experience a little. - Also noted one major improvement that would help with tuning is aggregating the total IO, and stats, rather than only each individual statement. I've found the need to compare two very different plans to see the total writes/reads variation and the impact on IO, but I've having to utilize another tool for statistics IO parsing to run totals, and then come back to the SQL Sentry Plan explorer for other details. The SQL Sentry plan explorer tool could be improved by enhancing with totals/sums to better compare various runs of plans. I can make do without it, but it makes me have to do a lot of workarounds for now.
 
 ------------------------- ORIGINAL POST -------------------------
@@ -22,3 +18,4 @@ I'll post more later, but after a full day of query tuning on a difficult view, 
 ![Image SQL Tuning Session 3](/assets/img/SQL_Sentry_Plan_Explorer_PRO-2015-04-22_17_05_06_gef52g.png)
 ![Image SQL Tuning Session 4](/assets/img/Statistics_Parser-2015-04-22_16_32_34-2015-04-22_17_08_21_CLEANED_ntkowe.png)
 ![Image SQL Tuning Session 5](/assets/img/new_version-2015-04-22_16_35_36-2015-04-22_17_08_48_CLEANED_zejqww.png)
+

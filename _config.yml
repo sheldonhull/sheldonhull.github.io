@@ -43,7 +43,7 @@ reCaptcha:
 atom_feed:
   path: "https://www.feedio.co/@sheldon_hull?came_from=homepagefeedbutton"
 search: true
-search_full_content: true
+#search_full_content: true  #only needed for lur
 google_site_verification: null
 bing_site_verification: null
 yandex_site_verification: null
@@ -60,7 +60,7 @@ social:
   name: null
   links: null
 analytics:
-  provider: google
+  provider: google-gtag
   google:
     tracking_id: UA-40198001-3
 author:
@@ -129,6 +129,7 @@ exclude:
   - .sh
   - .bat
   - _oldsitemap
+  - /util
 keep_files:
   - .git
   - .svn
@@ -138,7 +139,6 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: |+
-
 
 incremental: false
 kramdown:
@@ -167,7 +167,7 @@ sass:
   style: compressed
 
 permalink: '/:categories/:title/'
-paginate: 5
+paginate: 8
 paginate_path: '/page:num/'
 timezone: America/Chicago
 plugins:
@@ -180,6 +180,8 @@ plugins:
   - jekyll-archives
   - jekyll-remote-theme
   - jekyll-algolia
+  - premonition
+
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -195,13 +197,13 @@ tag_archive:
 #https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
-    - categories
-    - tags
+     - tags
+#    - categories
   layouts:
-    category: archive-taxonomy
+    #category: archive-taxonomy
     tag: archive-taxonomy
   permalinks:
-    category: /categories/:name/
+    #category: /categories/:name/
     tag: /tags/:name/
 compress_html:
   clippings: all
@@ -258,6 +260,7 @@ algolia:
     - page-archive/*.html
     - pages/*.md
     - pages/*.html
+    - util/*
   settings:
     highlightPreTag: '<em class="custom_highlight">'
     highlightPostTag: '</em>'
