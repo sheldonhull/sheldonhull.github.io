@@ -10,8 +10,12 @@ SQL Server Management Studio (SSMS) is not offered as a standalone download on M
 
 Here's some screenshots to give you a guide on installing SSMS by itself when working with the full installer.
 
-> info "Updated 2017-02"
-> This doesn't apply for future SSMS versions as they began (I believe with 2014) to package SSMS outside of the database engine installer, allowing continual iterations and improvements for SSMS outside of being included as part of SQL server patching (finally!). If you are still reading this.... get an updated SSMS!
+<div class="premonition info">
+<div class="fa fa-plus"></div>
+<div class="content">
+<p class="header">Updated: 2017-02</p>
+This doesn't apply for future SSMS versions as they began (I believe with 2014) to package SSMS outside of the database engine installer, allowing continual iterations and improvements for SSMS outside of being included as part of SQL server patching (finally!). If you are still reading this.... get an updated SSMS!
+</div></div>
 
 ![install_ssms2012_1](/assets/img/install_ssms2012_1_rqpqhb.jpg)
 ![install_ssms2012_2](/assets/img/install_ssms2012_2_lfdg7r.jpg)
