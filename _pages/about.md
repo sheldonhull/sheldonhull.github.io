@@ -22,6 +22,7 @@ I specialize in working with SQL Server to help speed things up, and develop sol
 
 I'm allergic to red-tape, excessive emails, meetings for the sake of meetings, and busy work for the sake of busy work. I like to bring real value and see the company and client's work impacted for the better thanks to my efforts. Saving folks some money and time is always a win!
 
+[Resume Here](/assets/files/material-dark.pdf)
 
 ## Other Interests
 My passions extend beyond technology into the creative realm as well. I've enjoyed doing videography, photography, and creating music. I've been honored to serve as an associate pastor of worship for a period of time, and still engage in church community with the goal of loving like Jesus demonstrated. I'm a sucker for good post-rock music, which I think is the best type of music for coding around.
