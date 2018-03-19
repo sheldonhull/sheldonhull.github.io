@@ -22,5 +22,5 @@ Maybe this will help you get up to speed if you want to try out this great solut
 The ease of installation across multiple instances makes this my current favorite solution, followed by the [fantastic Ola Hallengren solution](http://bit.ly/2e8d9qW).
 
 {% raw %}
- <script src="2fee8ab97c0210918e8fb10719fca3f5.js"></script>
+ <script src="https://gist.github.com/sheldonhull/2fee8ab97c0210918e8fb10719fca3f5.js"></script>
 {% endraw %}
