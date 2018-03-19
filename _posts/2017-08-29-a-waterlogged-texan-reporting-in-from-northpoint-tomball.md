@@ -6,7 +6,7 @@ date: 2017-08-29
 tags: ["ramblings","family","follower-of-Jesus","ramblings"]
 ---
 
-![The view from my driveway. I was seriously blessed, as many others were not as high](/assets/img/View+from+My+Driveway.jpgView+from+My+Driveway?format=original) The view from my driveway. I was seriously blessed, as many others were not as high
+![The view from my driveway. I was seriously blessed, as many others were not as high](/assets/img/View+from+My+Driveway.jpg) The view from my driveway. I was seriously blessed, as many others were not as high
 
 What a crazy weekend. Choose to evacuate the family as water was slowly creeping up closer to the house. I was ready today when I made it back to the house to see the water in the house, but to my astonishment it was only half-way up the driveway. Turning down the road 1 house away, many houses did not fare so well, and water looks to have made it in many homes.
 
@@ -22,7 +22,7 @@ Our area was not as devastated as downtown and other areas that have been on the
 
 The hospitality and friendship shown by my church was encouraging, and without these friends we'd have been in a tough spot. From driving through some deeper water, to providing warm meals and hospitality (and giving up some rooms/space) for us. As it stands, thanks to my friends I've got my kids tucked in warm and safe and am able to sit back and think about the days' events without being in the rain. Being removed for our home for a week helps put the important things back in perspective for sure!
 
-![](/assets/img/Northern+Point+-+North+Entrance.jpgNorthern+Point+-+North+Entrance?format=original)
+![](/assets/img/Northern+Point+Entrance.jpg)
 
 If we make it through tonight we should be fine with no water damage, but this storm has definitely given us surprises.
 
