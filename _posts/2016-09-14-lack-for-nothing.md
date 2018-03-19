@@ -4,11 +4,6 @@ date: 2016-09-14
 tags: ["music","ramblings","worship","music","ramblings","follower-of-Jesus"]
 ---
 
-{% raw %}
-<iframe width="853" height="480" src="https://www.youtube.com/embed/TZgXnO1MtGU?rel=0" frameborder="0" allowfullscreen="yes"></iframe>
-{% endraw %}
-
-
 The message of this song is one that that has been driving itself home as more and more important to me.
 We are not viewed in our frailty as we come before God to worship Him. We are not judged and condemned. He doesn't look and tell us to come back when we are in a better place.
 Instead, just as the author of Hebrews writes (Heb 10), we can come with bold confidence, knowing that the way has been made for us in Christ, with us being viewed through the "curtain" of Christ. This is critical to every person wanting to draw closer to God, as without a realization that we should be able to approach with confidence and no judgement, we will hold back from fully diving into our relationship with Him.
@@ -20,9 +15,13 @@ Instead, just as the author of Hebrews writes (Heb 10), we can come with bold co
 >
 
 {% raw %}
+<iframe width="853" height="480" src="https://www.youtube.com/embed/TZgXnO1MtGU?rel=0" frameborder="0" allowfullscreen="yes"></iframe>
+{% endraw %}
 
+
+
+{% raw %}
 <script src="https://gist.github.com/sheldonhull/03a51d7ea231974bb3ce10feb0d2ad6c.js"></script>
-
 {% endraw %}
 
 
