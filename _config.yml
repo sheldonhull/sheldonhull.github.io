@@ -65,7 +65,7 @@ analytics:
     tracking_id: UA-40198001-3
 author:
   name: Sheldon Hull
-  avatar: null
+  avatar: /assets/img/sheldon_400x400.jpg
   bio: Resident automator of spline reticulation
   location: 'Houston, TX'
   email: null
@@ -217,8 +217,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: null
-      share: true
+      comments: true
+      share: false
       related: true
       permalink: /blog/:title
   - scope:
