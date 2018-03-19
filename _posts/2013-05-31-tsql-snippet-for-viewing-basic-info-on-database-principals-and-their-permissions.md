@@ -3,7 +3,7 @@
 
 title:  "TSQL Snippet for viewing basic info on database principals and their permissions"
 date: 2013-05-31
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 Quick snippet I put together for reviewing basic info on database users/principals, permissions, and members if the principal is a role.:

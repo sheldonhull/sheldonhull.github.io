@@ -3,7 +3,7 @@
 
 title:  "Using Qure Profiler To Benchmark Tuning Progress"
 date: 2015-08-10
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 ### the problem of monster views

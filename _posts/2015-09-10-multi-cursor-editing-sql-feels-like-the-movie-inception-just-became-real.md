@@ -3,7 +3,7 @@
 
 title:  "Multi-Cursor Editing SQL feels like the movie Inception just became real"
 date: 2015-09-10
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 *   Yes... multicursor editing is epic

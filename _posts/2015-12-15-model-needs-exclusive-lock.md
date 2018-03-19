@@ -3,7 +3,7 @@
 
 title:  "Model needs exclusive lock"
 date: 2015-12-15
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 Ran into an issue where a developer was trying to create a database and was denied due to no ability to obtain exclusive lock on model. After verifying with other blogs, I found that creating a database required exclusive lock to use model as a template for the new database creation.

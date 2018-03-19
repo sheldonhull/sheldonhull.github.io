@@ -3,7 +3,7 @@
 
 title:  "Generate Random Date With Starting Point"
 date: 2014-08-12
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 If you want to create sample random samples when dealing with date calculations to test your results, you can easily create a start and end point of randomly created dates. This is a snippet I've saved for reuse:

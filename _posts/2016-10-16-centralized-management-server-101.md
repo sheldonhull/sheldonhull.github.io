@@ -3,7 +3,7 @@
 
 title:  "Centralized Management Server 101"
 date: 2016-10-16
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 # Registered Servers

@@ -3,7 +3,7 @@
 
 title:  "Shortcut to reference examples, syntax, and definitions straight from SSMS"
 date: 2013-07-24
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 I've never really used the F1 key for help files with most applications. I was surprised at the usefulness in SSMS I discovered today that uses scripting to actually get you MSDN articles relevant to your current selection in the query editor.

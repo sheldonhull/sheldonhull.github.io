@@ -3,7 +3,7 @@
 
 title:  "Improvements with SSMS 2016"
 date: 2016-07-12
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 The staple of every SQL Server developer's world, SSMS has been impossible to usurp for the majority of us. However, it's also been behind the development cycle of visual studio, and didn't have continual updates. That changed recently, as I've previously posted on. SSMS (Sql Server Management Studio) now being decoupled from the SQL Server database releases.I've been enjoying some of the improvements, especially as relatest to the built in execution plan viewer. I use SQL Sentry Pro, but for a quick review, any improvements to the default viewer is a welcome addition!

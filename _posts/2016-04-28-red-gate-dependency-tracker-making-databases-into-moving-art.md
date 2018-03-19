@@ -3,7 +3,7 @@
 
 title:  "Red Gate Dependency Tracker - Making Databases Into Moving Art"
 date: 2016-04-28
-tags: ["cool-tools","photography","sql-server","sql-server"]
+tags: ["cool-tools","photography","sql-server"]
 ---
 
 ## data structures are art

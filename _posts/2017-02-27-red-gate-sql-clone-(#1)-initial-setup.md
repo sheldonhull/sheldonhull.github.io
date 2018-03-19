@@ -3,7 +3,7 @@
 
 title:  "Red Gate SQL Clone (#1) - Initial Setup"
 date: 2017-02-27
-tags: ["redgate","sql-server","sql-server"]
+tags: ["redgate","sql-server"]
 ---
 
 Note this was during earlier beta usage, so some of the UI and other features will have been updated more. I plan on writing more on this promising tool as  I get a chance to dive into it more, especially the powershell cmdlets for database cloning automation. In the meantime, I believe the permissions issue is still relevant, so I'll post this as a reminder in case someone is working through the initial setup.

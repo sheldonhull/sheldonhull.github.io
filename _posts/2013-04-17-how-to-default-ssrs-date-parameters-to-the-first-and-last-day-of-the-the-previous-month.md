@@ -3,7 +3,7 @@
 
 title:  "How to default SSRS date parameters to the first and last day of the the previous month"
 date: 2013-04-17
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 Populating default dates in SSRS can be helpful to save the user from having to constantly input the date range they normally would use. When a report is pulled for last month's information, defaulting the date fields for the user can help streamline their usage of the report, instead of them manually selecting with the date-picker control in SSRS. The formula's I used were:

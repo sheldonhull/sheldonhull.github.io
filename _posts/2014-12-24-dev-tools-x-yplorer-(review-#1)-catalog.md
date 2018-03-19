@@ -1,4 +1,4 @@
----
+﻿---
 
 
 title:  "Dev Tools: XYplorer (review #1) - Catalog"
@@ -33,3 +33,4 @@ Opening the properties of a file allow one to futher edit the actions the applic
 Lots of functionality in the catalog to benefit from, but time is limited, I'm going to visit further in next post.
 
 _note: was given a license by developer to help me evaluate long term. This did not affect my review, as it wasn't solicited at all by XYPlorer developer._
+

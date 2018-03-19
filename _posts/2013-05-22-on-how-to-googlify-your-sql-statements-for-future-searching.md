@@ -3,7 +3,7 @@
 
 title:  "On how to Googlify your SQL statements for future searching"
 date: 2013-05-22
-tags: ["sql-server","sql-server","geek-cred","cool-tools"]
+tags: ["sql-server","geek-cred","cool-tools"]
 ---
 
 For sake of future generations, let's begin to reduce typing and reuse code we've built. I think we can all agree that TSQL statements are often repeated.

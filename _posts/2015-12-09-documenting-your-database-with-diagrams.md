@@ -3,7 +3,7 @@
 
 title:  "Documenting Your Database with Diagrams"
 date: 2015-12-09
-tags: ["sql-server","sql-server","cool-tools"]
+tags: ["sql-server","cool-tools"]
 ---
 
 Don't get too excited. I know you love documentation, and just can't wait to spend some time digging in to document your database thoroughly. I imagine you probably want to build visio charts manually, or draw whiteboard diagrams by hand and take pictures.

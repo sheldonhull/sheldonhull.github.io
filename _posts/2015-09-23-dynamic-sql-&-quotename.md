@@ -1,9 +1,8 @@
 ---
-
-
 title:  "Dynamic SQL & Quotename"
+permalink: "dynamic-sql-quotename"
 date: 2015-09-23
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 ## Not quite fineprint, but sure feels like it!

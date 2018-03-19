@@ -3,7 +3,7 @@
 
 title:  "Transaction Logging & Recovery (part 3)"
 date: 2016-01-20
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 Continuation of some notes regarding the excellent content by Paul Randal in [Pluralsight: SQL Server: Logging, Recovery, and the Transaction Log](http://www.pluralsight.com/courses/sqlserver-logging).

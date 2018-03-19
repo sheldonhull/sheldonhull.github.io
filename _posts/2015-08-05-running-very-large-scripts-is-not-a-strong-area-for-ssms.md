@@ -3,7 +3,7 @@
 
 title:  "Running very large scripts is not a strong area for SSMS"
 date: 2015-08-05
-tags: ["sql-server","sql-server"]
+tags: ["sql-server"]
 ---
 
 ## out of memory, argggh!
