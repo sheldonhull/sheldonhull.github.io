@@ -4,8 +4,6 @@ date: 2018-03-19
 tags: ["tech","jekyll","website"]
 ---
 
-# Migration To Jekyll
-
 I've been in the process of migrating my site to it's final home (as far as my inner geek can be satisfied staying with one platform)... Jekyll. 
 
 ## Jekyll
