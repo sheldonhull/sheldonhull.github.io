@@ -3,7 +3,7 @@
 
 title:  "Programming Fonts For The Newb"
 date: 2017-05-08
-tags: ["workflow","readability","development","fonts","geek-cred","tech","development"]
+tags: ["workflow","readability","fonts","geek-cred","tech"]
 ---
 
 # the camps

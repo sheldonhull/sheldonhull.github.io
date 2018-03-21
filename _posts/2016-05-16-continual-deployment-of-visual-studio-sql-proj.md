@@ -3,7 +3,7 @@
 
 title:  "Continual Deployment of Visual Studio SqlProj"
 date: 2016-05-16
-tags: ["sql-server","development","cool-tools","database-lifecycle"]
+tags: ["sql-server","cool-tools","database-lifecycle"]
 ---
 
 ## Unveil the inner workings of the esoteric build system...

@@ -1,7 +1,7 @@
 ﻿---
 title:  "SQL Sentry Pro Explorer is worth it..."
 date: 2015-04-22
-tags: ["sql-server","performance-tuning","sql-server"]
+tags: ["sql-server","performance-tuning"]
 ---
 <div class="premonition info">
 <div class="fa fa-plus"></div>

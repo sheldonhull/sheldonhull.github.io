@@ -1,7 +1,7 @@
 ---
 title:  "Cool Tools: Powershell ISE-Steroids"
 date: 2016-04-14
-tags: ["cool-tools","powershell","sql-server","powershell","development","cool-tools"]
+tags: ["cool-tools","powershell","sql-server","powershell","cool-tools"]
 ---
 
 

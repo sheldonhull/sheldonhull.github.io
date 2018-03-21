@@ -3,7 +3,7 @@
 
 title:  "Exploring SQL Server With Powershell And SMO Basics"
 date: 2017-08-09
-tags: ["sql-server","powershell","smo","development","development","powershell","sql-server","tech"]
+tags: ["sql-server","powershell","smo","powershell","tech"]
 categories: ["sql-server","powershell"]
 ---
 

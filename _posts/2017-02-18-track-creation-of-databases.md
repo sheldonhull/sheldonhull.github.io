@@ -3,7 +3,7 @@
 
 title:  "Track Creation of Databases"
 date: 2017-02-18
-tags: ["sql-management","sql-server","sql-snippet","sql-server"]
+tags: ["sql-management","sql-server","sql-snippet"]
 ---
 
 Sys.Databases has some create information, but I was looking for a way to track aging, last access, and if databases got dropped. In a development environment, I was hoping this might help me gauge which development databases were actually being used or not.

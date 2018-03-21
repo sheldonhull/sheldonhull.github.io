@@ -3,7 +3,7 @@
 
 title:  "SSMS 2012 Extender for the times you want some organization to the random pile of objects gathering in the dusty confines of that database"
 date: 2013-07-16
-tags: ["sql-server","cool-tools","sql-server"]
+tags: ["sql-server","cool-tools"]
 ---
 
 When dealing with large amounts of objects in a database, navigation can be tedious with SSMS object explorer. This extender organizes the objects into groups based on schema, helping a developer easily navigate to the appropriate object. The current version didn't work for views, but the other objects were grouped effectively. Highly recommend!

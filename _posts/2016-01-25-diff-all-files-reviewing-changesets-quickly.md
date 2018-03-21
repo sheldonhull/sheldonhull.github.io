@@ -3,7 +3,7 @@
 
 title:  "Diff All Files - Reviewing Changesets Quickly"
 date: 2016-10-12
-tags: ["coding","cool-tools","sql-server","development","sql-server"]
+tags: ["coding","cool-tools","sql-server"]
 ---
 
 # Diff all files

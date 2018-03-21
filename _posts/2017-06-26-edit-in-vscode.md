@@ -1,7 +1,7 @@
 ---
 title:  "External Tool VSCODE called from SQL Management Studio"
 date: 2017-06-26
-tags: ["sql-server","text-manipulation","vscode","sql-server","tech","cool-tools","development"]
+tags: ["sql-server","text-manipulation","vscode","tech","cool-tools"]
 ---
 
 Previous Related Post:

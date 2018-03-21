@@ -3,7 +3,7 @@
 
 title:  "InfluxDB and Annotations"
 date: 2017-08-07
-tags: ["time-series","powershell","influxdb","monitoring","powershell","sql-server","cool-tools","development"]
+tags: ["time-series","powershell","influxdb","monitoring","powershell","sql-server","cool-tools"]
 ---
 
 ### InfluxDb & Grafana Series

@@ -3,7 +3,7 @@
 
 title:  "Parallel Powershell for Running SQL"
 date: 2016-11-16
-tags: ["powershell","powershell-snippet","sql-server","powershell"]
+tags: ["powershell","sql-server","powershell"]
 ---
 
 This is just a quick look. I plan on diving into this in the future more, as I'm still working through some of the changes being made in the main parallel modules I utilize for SQL server. In the meantime, if you are looking for a quick way to leverage some parallel query running, take a look at [PSParallel](http://bit.ly/2gcXl7H). I've avoided Powershell Jobs/Workflow due to limitations they have and the performance penalty I've seen is associated with them.For my choice, I've explored PSParallel & PoshRSJob.

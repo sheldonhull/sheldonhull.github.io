@@ -3,7 +3,7 @@
 
 title:  "Utilizing the power of table parameters to reduce IO, improve performance, decrease pollution, and achieve world peace..."
 date: 2015-04-30
-tags: ["sql-server","deep-dive","sql-server"]
+tags: ["sql-server","deep-dive"]
 ---
 
 I was dealing with a challenging dynamic sql procedure that allowed a .NET app to pass in a list of columns and a view name, and it would generate a select statement from this view. Due to requirements at the time, I needed the flexibility of the "MAIN" proc which generated a dynamic select statement, while overriding certain requested views by executing a stored proc instead of the dynamic sql.

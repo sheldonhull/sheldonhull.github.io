@@ -3,7 +3,7 @@
 
 title:  "Bad Idea Jeans: Query Optimization Through Minification"
 date: 2017-01-23
-tags: ["bad-idea","development","sql-server","tech","sql-server"]
+tags: ["bad-idea","sql-server","tech"]
 ---
 
 SQL is pretty verbose compared to some languages. It's a pretty big disappointment that I have to type out `select customer from dbo.customers where id = 2` instead of a much simpler syntax like `dbo.Customers ' Customer` like Powershell might offer. As I considered the disappointing verbosity of sql server, I considered that perhaps one way to reduce network traffic, save electricity, and aid the garrulous language known as sql might be to require all code running to be minified.Think about the potential savings in bandwidth and having to scroll. Anyone who complains about this should just realize there is a thing called word-wrap which will solve all the readability problems. No more need for Red Gate Sql Prompt's beautiful yet wasteful formatting options. (sorry RG). In fact, no more debates on readability of formatting standards at all!
