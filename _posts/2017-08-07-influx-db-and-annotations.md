@@ -3,18 +3,16 @@
 
 title:  "InfluxDB and Annotations"
 date: 2017-08-07
-tags: ["time-series","powershell","influxdb","monitoring","powershell","sql-server","cool-tools"]
+tags: ["time-series","powershell","influxdb","monitoring","sql-server","cool-tools"]
 ---
 
 ### InfluxDb & Grafana Series
 
 *   [Running InfluxDb As A Service in Windows](https://www.sheldonhull.com/blog/running-influxdb-as-a-service-in-windows?rq=influx)
-*   [Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev
-](https://www.sheldonhull.com/blog/setting-up-influxdb-chronograf-and-grafana-for-the-sqlserver-dev?rq=influx)
+*   [Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev](https://www.sheldonhull.com/blog/setting-up-influxdb-chronograf-and-grafana-for-the-sqlserver-dev)
 *   **_[InfluxDB And Annotations](https://www.sheldonhull.com/blog/influxdb-an-annotations)_**
 *   [Capturing Perfmon Counters With Telegraf](https://www.sheldonhull.com/blog/Capturing-Perfmon-Counters-With-Telegraf)
 
-* * *
 
 This post assumes you've already setup InfluxDB and have Grafana running.
 
