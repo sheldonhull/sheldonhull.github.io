@@ -3,7 +3,7 @@
 
 title:  "Failed to Initialize SQL Agent Log... not worthy"
 date: 2016-04-01
-tags: ["sql-server","troubleshooting","sql-server"]
+tags: ["sql-server","troubleshooting"]
 ---
 
 Moving system databases in SQL Server takes a bit of practice. I got that again, along with a dose of SQL humility (so tasty!), today after messing up some cleanup with sql agent server log files.

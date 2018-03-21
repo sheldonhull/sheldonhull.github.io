@@ -3,7 +3,7 @@
 
 title:  "Fixing Untrusted Foreign Key or Check Constraint"
 date: 2016-10-22
-tags: ["sql-server","sql-snippet","sql-server"]
+tags: ["sql-server","sql-snippet"]
 ---
 
 Untrusted constraints can be found when you alter/drop foreign key relationships and then add them back without the proper syntax.If you are deploying data through several tables, you might want to disable foreign keys on those tables during the deployment to ensure that all the required relationships have a chance to insert their data before validation.

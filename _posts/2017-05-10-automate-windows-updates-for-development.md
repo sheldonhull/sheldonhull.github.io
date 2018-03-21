@@ -3,7 +3,7 @@
 
 title:  "Automate Windows Updates for Development"
 date: 2017-05-10
-tags: ["powershell","powershell-snippet","automation","development","snippets","powershell","tech","sql-server"]
+tags: ["powershell","automation","tech","sql-server"]
 ---
 
 I've run into the case where I wanted updates continually applied, while the machine still was part of the GPO that didn't automatically install updates. For this developer and test oriented machine I wanted every update applied.

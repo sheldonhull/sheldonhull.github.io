@@ -3,7 +3,7 @@
 
 title:  "Capturing Perfmon Counters With Telegraf"
 date: 2017-08-08
-tags: ["sql-server","monitoring","grafana","influxdb","cool-tools","development","powershell","sql-server"]
+tags: ["sql-server","monitoring","grafana","influxdb","cool-tools","powershell"]
 ---
 
 ### InfluxDb & Grafana Series

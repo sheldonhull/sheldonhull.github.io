@@ -1,7 +1,7 @@
 ---
 title:  "Get Backup History for All Databases in Server"
 date: 2016-11-01
-tags: ["sql-management","sql-server","sql-snippet","sql-server"]
+tags: ["sql-management","sql-server","sql-snippet"]
 excerpt_separator: <!--more-->
 ---
 

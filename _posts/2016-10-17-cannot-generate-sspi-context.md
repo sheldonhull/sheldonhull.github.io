@@ -3,7 +3,7 @@
 
 title:  "Cannot Generate SSPI Context"
 date: 2016-10-17
-tags: ["sql-server","troubleshooting","mysteries","sql-server"]
+tags: ["sql-server","troubleshooting","mysteries"]
 ---
 
 ## Troubleshooting

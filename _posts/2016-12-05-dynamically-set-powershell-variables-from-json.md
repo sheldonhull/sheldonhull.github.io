@@ -1,7 +1,7 @@
 ---
 title:  "Dynamically Set Powershell Variables from json"
 date: 2016-12-05
-tags: ["powershell","powershell-snippet","tech","sql-server"]
+tags: ["powershell","tech","sql-server"]
 excerpt_separator: <!--more-->
 ---
 

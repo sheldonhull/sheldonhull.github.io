@@ -3,7 +3,7 @@
 
 title:  "Running InfluxDB as a service in Windows"
 date: 2017-05-24
-tags: ["influxdb","powershell","configuration","tech","sql-server","powershell","development"]
+tags: ["influxdb","powershell","configuration","tech","sql-server","powershell"]
 ---
 
 ### InfluxDb & Grafana Series

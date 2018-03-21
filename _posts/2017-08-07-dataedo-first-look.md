@@ -3,7 +3,7 @@
 
 title:  "Dataedo - First Look"
 date: 2017-08-07
-tags: ["sql-server","cool-tools","sql-server","tech","cool-tools"]
+tags: ["sql-server","cool-tools","tech","cool-tools"]
 ---
 
 ## Diagraming and Documentation
