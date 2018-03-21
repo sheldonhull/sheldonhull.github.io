@@ -3,18 +3,18 @@
 
 title:  "ANTS Performance Profiler for the SQL Server Dev"
 date: 2017-07-21
-tags: ["sql-server","cool-tools","performance-tuning","ORM","execution-plans""redgate","powershell","tech"]
+tags: ["sql-server","cool-tools","performance-tuning","ORM","execution-plans","redgate","powershell","tech"]
 ---
 
-There are a few .NET tools that until recently I haven&#39;t had the chance to work with as much, specifically ANTS Memory Profiler and ANTS Performance Profiler. The memory profiler is more useful for someone focused on memory leaks which a SQL Dev isn&#39;t as focused on for performance tuning. However, there are major benefits for diving into SQL Performance tuning with ANTS Performance profiler. I think I&#39;d say this tool makes the _epic_ category of my #cooltools kit and will be added to my **[COOL TOOLS](https://www.sheldonhull.com/cool-tools/)** page here for SQL performance tuning.
+There are a few .NET tools that until recently I haven't had the chance to work with as much, specifically ANTS Memory Profiler and ANTS Performance Profiler. The memory profiler is more useful for someone focused on memory leaks which a SQL Dev isn't as focused on for performance tuning. However, there are major benefits for diving into SQL Performance tuning with ANTS Performance profiler. I think I'd say this tool makes the _epic_ category of my #cooltools kit and will be added to my **[COOL TOOLS](https://www.sheldonhull.com/cool-tools/)** page here for SQL performance tuning.
 
 One of the most challenging processes for profiling activity is really identifying the single largest pain point. Trying to line up timings with the SQL plans and the application side by side is a big timesaver, and Red Gate improved ANTS Performance profiler to include the executed SQL with execution plans, making it a single stop to profile and get some useful information.
 
-There are other ways to get useful information, such as running Brent Ozar&#39;s First Responder kit queries, Glenn Berry&#39;s diagnostic queries, Query Store, and more. These tend to focus on server performance. As someone working in software development, there is something to be said for the simplicity of running the application and profiling the .NET and SQL performance in one captured & filtered result set. It&#39;s a pretty quick way to immediately reduce noise and view a complete performance picture of the application.
+There are other ways to get useful information, such as running Brent Ozar's First Responder kit queries, Glenn Berry's diagnostic queries, Query Store, and more. These tend to focus on server performance. As someone working in software development, there is something to be said for the simplicity of running the application and profiling the .NET and SQL performance in one captured & filtered result set. It's a pretty quick way to immediately reduce noise and view a complete performance picture of the application.
 
 For performance profiling, Visual Studio has an option called Performance Profiler. I found my initial look at it to be positive, just really noisy.
 
-_Disclaimer: As a member of the Friends of Red Gate program, I get to try out all the cool Red Gate tools. Lucky me! This doesn&#39;t bias my reviews as I just like great tools that help me work with SQL server. This is one of them!_
+_Disclaimer: As a member of the Friends of Red Gate program, I get to try out all the cool Red Gate tools. Lucky me! This doesn't bias my reviews as I just like great tools that help me work with SQL server. This is one of them!_
 
 ## Profiling .NET App
 
@@ -24,15 +24,15 @@ At the time of this articles publishing, there is no 2017 Visual studio extensio
 
 ## Timeline & Bookmarks
 
-![](/assets/img/timeline-bookmarks.pngtimeline-bookmarks?format=original)
+![](/assets/img/timeline-bookmarks.png)
 
 During the profiling you can perform actions with the application and create bookmarks of points in time as you are performing these actions to make it easier to compare and review results later.
 
 ## Reviewing Results
 
-![Call Tree View](/assets/img/review-results.pngreview-results?format=original) Call Tree View
+![Call Tree View](/assets/img/review-results.png) Call Tree View
 
-This is based on the call tree. It shows code calls, and is a great way to be the database guy that says... "hey SQL server isn&#39;t slow, it&#39;s your code" :-)
+This is based on the call tree. It shows code calls, and is a great way to be the database guy that says... "hey SQL server isn't slow, it's your code" :-)
 
 ## Database Calls
 
@@ -42,7 +42,7 @@ The database calls are my favorite part of this tool. This integration is very p
 
 ## Exporting HTML Report
 
-![HTML Exported Report](/assets/img/ants-html-exported-report.pngants-html-exported-report?format=original) HTML Exported Report
+![HTML Exported Report](/assets/img/ants-html-exported-report.pngants-html-exported-report.png) HTML Exported Report
 
 A benefit for summarizing some action for others to consume is the ability to select the entire timeline, or narrow to a slide of time, and export the results as a HTML report.
 
@@ -85,4 +85,4 @@ Since the material is related, I thought I'd mention a few tools I've used to he
 
 If all else fails... you can always succumb to dark side and just use SQL Profiler or worse yet...SSMS activity monitor :-)
 
-![Image courtesy of Gratisography.com CC0](/assets/img/xevents-vs-profiler.jpgxevents-vs-profiler?format=original) Image courtesy of Gratisography.com CC0
+![Image courtesy of Gratisography.com CC0](/assets/img/xevents-vs-profiler.jpg) Image courtesy of Gratisography.com CC0

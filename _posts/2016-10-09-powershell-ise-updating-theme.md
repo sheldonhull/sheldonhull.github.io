@@ -3,7 +3,7 @@
 
 title:  "Powershell ISE: Updating Theme"
 date: 2016-10-09
-tags: ["development","powershell","tech","powershell","cool-tools"]
+tags: ["development","powershell","tech","cool-tools"]
 ---
 
 For all the **dark theme aficionados**, or those who just want a better theme than the default, here's a quick set of directions to update your ISE.1. Go to download a theme from [Github > PowerShell_ISE_Themes](http://bit.ly/29DNVu2)

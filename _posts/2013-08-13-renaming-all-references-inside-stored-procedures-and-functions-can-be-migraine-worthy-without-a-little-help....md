@@ -1,7 +1,7 @@
 ---
 title:  "Renaming all references inside stored procedures and functions can be migraine worthy without a little help..."
 date: 2013-08-13
-tags: ["sql-server","sql-snippet"]
+tags: ["sql-server"]
 excerpt:  "assistance to convert database references when using synonyms"
 
 ---
