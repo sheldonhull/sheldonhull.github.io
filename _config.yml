@@ -9,7 +9,7 @@ url: 'https://www.sheldonhull.com'
 baseurl: ''
 repository: sheldonhull/sheldonhull.github.io
 teaser: /assets/img/sheldon_400x400.jpg
-breadcrumbs: true
+breadcrumbs: false
 words_per_minute: 200
 comments:
   provider: disqus
