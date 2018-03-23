@@ -52,7 +52,7 @@ The resulting matches were helpful in saving me a lot of time, finding partial m
 | /blog/transaction-logging-recovery-part-2     | /blog/transaction-logging-&-recovery-(part-2) |
 | /blog/transaction-logging-&-recovery-(part-3) | /blog/transaction-logging-recovery-part-3     |
 
-I then tested out more than the fuzzy match algorith, as I had come across references to the Levenshtein algorithm when reading about string matching algorithms on Stack Overflow. I added that logic into my script, and watched paint dry while it ran.
+I then tested out another several algorithms. I had come across references to the Levenshtein algorithm when reading about string matching on Stack Overflow. I added that logic into my script, and watched paint dry while it ran. It wasn't a good fit for my basic string matching. Learning more about string matching sounds interesting though as it seems to be a common occurrence in development, and I'm all for anything that lets me write less regex :-)
 
 For my rough purposes the Fuzzy match was the best fit, as most of the title was the same, just typically missing the end, or slight variance in the delimiter. 
 
