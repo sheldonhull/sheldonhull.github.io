@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: "Cool Tools"
 excerpt: "awesome tools I've used"
 toc: true
