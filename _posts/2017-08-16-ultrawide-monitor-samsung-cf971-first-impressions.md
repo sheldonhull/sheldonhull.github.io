@@ -1,8 +1,7 @@
 ---
 title:  "Ultrawide Monitor - Samsung CF971 - First impressions"
 date: 2017-08-16
-tags: ["gear","geek","monitor","geek-cred","ramblings","tech"]
-categories: ["tech"]
+tags: ["gear","geek-cred","ramblings","tech"]
 gallery:
   - url: /assets/img/20170708+1304+2352134.jpg
     image_path: /assets/img/20170708+1304+2352134.jpg
