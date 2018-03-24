@@ -6,12 +6,12 @@ date: 2017-08-07
 tags: ["time-series","powershell","influxdb","monitoring","sql-server","cool-tools"]
 ---
 
-### InfluxDb & Grafana Series
+## Other Posts in Series
 
-*   [Running InfluxDb As A Service in Windows](https://www.sheldonhull.com/blog/running-influxdb-as-a-service-in-windows?rq=influx)
-*   [Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev](https://www.sheldonhull.com/blog/setting-up-influxdb-chronograf-and-grafana-for-the-sqlserver-dev)
-*   **_[InfluxDB And Annotations](https://www.sheldonhull.com/blog/influxdb-an-annotations)_**
-*   [Capturing Perfmon Counters With Telegraf](https://www.sheldonhull.com/blog/Capturing-Perfmon-Counters-With-Telegraf)
+*   [Running InfluxDb As A Service in Windows](running-influxdb-as-a-service-in-windows.md)
+*   [Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev](setting-up-influxdb-chronograf-and-grafana-for-the-sqlserver-dev.md)
+*   **_[InfluxDB And Annotations](influx-db-and-annotations.md)_**
+*   [Capturing Perfmon Counters With Telegraf](Capturing-Perfmon-Counters-With-Telegraf.md)
 
 
 This post assumes you've already setup InfluxDB and have Grafana running.
