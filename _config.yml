@@ -215,6 +215,7 @@ defaults:
       type: posts
     values:
       layout: single
+      toc: true
       author_profile: true
       read_time: true
       comments: true
