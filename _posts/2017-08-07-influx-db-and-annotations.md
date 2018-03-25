@@ -4,14 +4,15 @@
 title:  "InfluxDB and Annotations"
 date: 2017-08-07
 tags: ["time-series","powershell","influxdb","monitoring","sql-server","cool-tools"]
+last_modified_at: 2018-03-25
 ---
 
 ## Other Posts in Series
 
-*   [Running InfluxDb As A Service in Windows](running-influxdb-as-a-service-in-windows.md)
-*   [Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev](setting-up-influxdb-chronograf-and-grafana-for-the-sqlserver-dev.md)
-*   **_[InfluxDB And Annotations](influx-db-and-annotations.md)_**
-*   [Capturing Perfmon Counters With Telegraf](Capturing-Perfmon-Counters-With-Telegraf.md)
+*   [Running InfluxDb As A Service in Windows]({% post_url 2017-05-24-running-influx-db-as-a-service-in-windows  %})
+*   [Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev]({% post_url 2017-05-17-setting-up-influx-db-chronograf-and-grafana-for-the-sql-server-dev %})
+*   **[InfluxDB And Annotations]({% post_url 2017-08-07-influx-db-and-annotations %})**
+*   [Capturing Perfmon Counters With Telegraf]({% post_url 2017-08-08-capturing-perfmon-counters-with-telegraf %})
 
 
 This post assumes you've already setup InfluxDB and have Grafana running.
@@ -20,7 +21,7 @@ This post assumes you've already setup InfluxDB and have Grafana running.
 
 Annotations are not a special type of resource, instead it's just another metric that you query with a feature in Grafana to display on other metrics. This means the same insert Line Protocol applies to the Annotation.
 
-This post on maxchadwick.xyz greatly helped me get started: [Creating Grafana Annotations with InfluxDb ' Max Chadwick](http://bit.ly/2pgmwtH)
+This post on maxchadwick.xyz greatly helped me get started: [Creating Grafana Annotations with InfluxDb Max Chadwick](http://bit.ly/2pgmwtH)
 
 Per Max's original post it supports html as well, so you could link for example to a build, test result, or anything else you want to link to from your performance statistics.
 
@@ -35,13 +36,13 @@ My personal use case has been to ensure load testing start/end times and other s
 
 Warning: I did experience performance degradation with Grafana and many annotations on a timeline. I found just disabling the annotations kept this from occurring, so you only pull them when youd them.
 
-![](/assets/img/inserting+annotation+shows+on+graph.pnginserting+annotation+shows+on+graph?format=original)
+![](/assets/img/inserting+annotation+shows+on+graph.png)
 
 ## Adding Annotations to Grafana
 
 Now that you have the results being inserted into InfluxDB, you can query these in Grafana as annonations to overlay your graphs.
 
-![](/assets/img/Adding+Annotation+To+Grafana+to+pull+from+InfluxDB.pngAdding+Annotation+To+Grafana+to+pull+from+InfluxDB?format=original)
+![](/assets/img/Adding+Annotation+To+Grafana+to+pull+from+InfluxDB.png)
 
 ## Potential Uses
 
@@ -49,6 +50,6 @@ I could see a whole lot of uses for this!
 
 *   insert at build related activity
 *   Windows update
-*   Specific Database Related Maintenance like Ola Hallengren&#39;s index optimize or database integrity check
+*   Specific Database Related Maintenance like Ola Hallengren's index optimize or database integrity check
 
-Monitoring always loses it&#39;s value when you have a limited picture of what is happening. Triggering relevant details for stuff that might help analyze activity might be the key to immediately gaining an understanding on what is causing a spike of activity, or of better evaluating the timeline of a load test.
+Monitoring always loses it's value when you have a limited picture of what is happening. Triggering relevant details for stuff that might help analyze activity might be the key to immediately gaining an understanding on what is causing a spike of activity, or of better evaluating the timeline of a load test.

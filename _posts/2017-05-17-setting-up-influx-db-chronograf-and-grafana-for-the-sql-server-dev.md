@@ -4,19 +4,20 @@
 title:  "Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev"
 date: 2017-05-17
 tags: ["sql-server","business-intelligence","performance-tuning","tech","powershell","cool-tools"]
+last_modified_at: 2018-03-25
 ---
 
 ## Other Posts in Series
 
-*   [Running InfluxDb As A Service in Windows](running-influxdb-as-a-service-in-windows.md)
-*   **_[Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev](setting-up-influxdb-chronograf-and-grafana-for-the-sqlserver-dev.md)_**
-*   [InfluxDB And Annotations](influx-db-and-annotations.md)
-*   [Capturing Perfmon Counters With Telegraf](Capturing-Perfmon-Counters-With-Telegraf.md)
+*   [Running InfluxDb As A Service in Windows]({% post_url 2017-05-24-running-influx-db-as-a-service-in-windows  %})
+*   **[Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev]({% post_url 2017-05-17-setting-up-influx-db-chronograf-and-grafana-for-the-sql-server-dev %})**
+*   [InfluxDB And Annotations]({% post_url 2017-08-07-influx-db-and-annotations %})
+*   [Capturing Perfmon Counters With Telegraf]({% post_url 2017-08-08-capturing-perfmon-counters-with-telegraf %})
 
 
 There are some beautiful ways to visualize time series data with the tools I'm going to go over. This post is purely focused on the initial setup and saving you some time there. In a future post, I'll show how some of these tools can help you visualize your server performance in a powerful way, including taking metrics from multiple types of servers that be working with SQL Server, and combining the metrics when appropriate to give a full picture of performance.
 
-![A beautiful way to visualize performance across a variety of machines](/assets/img/grafana_visualization.pnggrafana_visualization?format=original) A beautiful way to visualize performance across a variety of machines
+![A beautiful way to visualize performance across a variety of machines](/assets/img/grafana_visualization.png) A beautiful way to visualize performance across a variety of machines
 
 It's pretty epic to combine information across a variety of sources and be able to relate the metrics to the "big picture" that individual machine monitoring might fail to shed light on.
 
@@ -40,17 +41,14 @@ Started up the local influxdb binary.
 {% endraw %}
 
 
-Initializing the new database was simple as documented:
+Initializing the new database was simple as documented: `create database statty`
 
-    create database statty
-<figure>
-  > <span>&#147;</span>Warning: InfluxDB is case sensitive. Make sure to check your case if something isn't working, such as use "DatabaseName" instead of user "databasename"<span>&#148;</span>
-
-</figure>
+InfluxDB is case sensitive. Make sure to check your case if something isn't working, such as use "DatabaseName" instead of use "databasename"
+{: .notice--warning}
 
 Also, if you get an error with access to the file, try running as admin.
 
-![](/assets/img/Influx+Command+Line+Error+on+writing+history+file.pngInflux+Command+Line+Error+on+writing+history+file?format=original)
+![](/assets/img/Influx+Command+Line+Error+on+writing+history+file.png)
 
 ## More Enviromental Variable Fun
 
@@ -61,6 +59,7 @@ SET HOME=%~dp0
 start influxd.exe
 start influx.exe
 ```
+
 An additional snippet for launching the console version via a bat file:
 
 ```batch
@@ -77,7 +76,7 @@ Once you have this running you can take the telegraf binaries and run them on an
 {% endraw %}
 
 
-Edit the conf file to add some tags, change default sampling interval and more. I'll post another article about setting up telegraf to run as a service in the future so search for more info [POSTS ON TELEGRAF](https://www.sheldonhull.com/search?q=telegraf)
+Edit the conf file to add some tags, change default sampling interval and more. I'll post another article about setting up telegraf to run as a service in the future so search for more info 
 
 You can also apply the same bat file in the startup directory such as:
 
@@ -101,7 +100,7 @@ One these metrics began to run, I ran Chronograf. This is Influx's alternative t
 
 Upon loading and opening up the instance monitor, I found immediately that I was able to get some metrics from the defaults.
 
-![](/assets/img/Defaults+-+Nice+Start.pngDefaults+-+Nice+Start?format=original)
+![](/assets/img/Defaults+-+Nice+Start.png)
 
 ## Get Grafana
 
