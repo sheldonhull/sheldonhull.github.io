@@ -2,14 +2,16 @@
 title:  "Capturing Perfmon Counters With Telegraf"
 date: 2017-08-08
 tags: ["sql-server","monitoring","grafana","influxdb","cool-tools","powershell"]
+last_modified_at: 2018-03-25
 ---
 
 ## Other Posts in Series
 
-*   [Running InfluxDb As A Service in Windows](running-influxdb-as-a-service-in-windows.md)
-*   [Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev](setting-up-influxdb-chronograf-and-grafana-for-the-sqlserver-dev.md)
-*   [InfluxDB And Annotations](influx-db-and-annotations.md)
-*   **_[Capturing Perfmon Counters With Telegraf](Capturing-Perfmon-Counters-With-Telegraf.md)_**
+*   [Running InfluxDb As A Service in Windows]({% post_url 2017-05-24-running-influx-db-as-a-service-in-windows  %})
+*   [Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev]({% post_url 2017-05-17-setting-up-influx-db-chronograf-and-grafana-for-the-sql-server-dev %})
+*   [InfluxDB And Annotations]({% post_url 2017-08-07-influx-db-and-annotations %})
+*   **[Capturing Perfmon Counters With Telegraf]({% post_url 2017-08-08-capturing-perfmon-counters-with-telegraf %})**
+
 
 ## Setting up Telegraf to Capture Metrics
 
