@@ -4,9 +4,17 @@ layout: single
 title: "About"
 excerpt: "about me"
 last_modified_at: 2018-01-10T11:22:24-05:00
+classes: wide
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/img/NightHouse.jpg
+  
+  caption: "Night Photography - Sheldon Hull"
 ---
 
-![About-Me]({{site.url}}\assets\img\about-me.jpg)
+![About-Me](/assets/img/about-me.jpg)
 ## Core Values
 I live as a follower of Christ, desiring to impact the world around with with who He is. I'm an unashamed disciple and though I've got plenty I mess up, I like this phrase that helps sum up this thought:
 
@@ -18,13 +26,15 @@ I'm passionate about worship, and worship through music.
 I've been blessed with 3 kids and a wonderful wife Sarah who has brought beauty into my world and to my life. I'm thankful for the richness of family and experiencing this journey.
 
 ## Work
+
+[Download Resume](/assets/files/material-dark.pdf){: .btn .btn--info}
+
 I specialize in working with SQL Server to help speed things up, and develop solutions focused on Sql Server. I have a passion for automation, streamlining, implementing a healthy Database Lifecycle Management (DLM) process. I've additionally dived into powershell to help automate many of the tasks for testing and deploying SQL databases, as well as some projects with C#. I've been excited to be part of the #sqlfamily and connect with various members online that have helped provide such a rich experience for the community to draw on and learn from.
 
 I'm allergic to red-tape, excessive emails, meetings for the sake of meetings, and busy work for the sake of busy work. I like to bring real value and see the company and client's work impacted for the better thanks to my efforts. Saving folks some money and time is always a win!
 
-[Resume Here](/assets/files/material-dark.pdf)
-
 ## Other Interests
+
 My passions extend beyond technology into the creative realm as well. I've enjoyed doing videography, photography, and creating music. I've been honored to serve as an associate pastor of worship for a period of time, and still engage in church community with the goal of loving like Jesus demonstrated. I'm a sucker for good post-rock music, which I think is the best type of music for coding around.
 
 
