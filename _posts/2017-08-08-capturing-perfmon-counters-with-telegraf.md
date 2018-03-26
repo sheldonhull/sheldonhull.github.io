@@ -1,19 +1,19 @@
 ---
-
-
 title:  "Capturing Perfmon Counters With Telegraf"
 date: 2017-08-08
 tags: ["sql-server","monitoring","grafana","influxdb","cool-tools","powershell"]
+last_modified_at: 2018-03-25
 ---
 
-### InfluxDb & Grafana Series
+## Other Posts in Series
 
-*   [Running InfluxDb As A Service in Windows](https://www.sheldonhull.com/blog/running-influxdb-as-a-service-in-windows?rq=influx)
-*   [Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev
-](https://www.sheldonhull.com/blog/setting-up-influxdb-chronograf-and-grafana-for-the-sqlserver-dev?rq=influx)
-*   [InfluxDB And Annotations](https://www.sheldonhull.com/blog/influxdb-an-annotations)
-*   **_[Capturing Perfmon Counters With Telegraf](https://www.sheldonhull.com/blog/Capturing-Perfmon-Counters-With-Telegraf)_**
+*   [Running InfluxDb As A Service in Windows]({% post_url 2017-05-24-running-influx-db-as-a-service-in-windows  %})
+*   [Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev]({% post_url 2017-05-17-setting-up-influx-db-chronograf-and-grafana-for-the-sql-server-dev %})
+*   [InfluxDB And Annotations]({% post_url 2017-08-07-influx-db-and-annotations %})
+*   **[Capturing Perfmon Counters With Telegraf]({% post_url 2017-08-08-capturing-perfmon-counters-with-telegraf %})**
 
+
+## Setting up Telegraf to Capture Metrics
 
 I had a lot of issues with getting the GO enviroment setup in windows, this time and previous times. For using telegraf, I'd honestly recommend just leveraging the compiled binary provided.
 
