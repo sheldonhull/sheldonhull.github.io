@@ -21,8 +21,3 @@ _Note - all licensing costs are for general reference only, look at supplier for
 
 
 
-note "My note"
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum, ligula in
-ultrices sodales, ante enim scelerisque diam, nec molestie lorem nulla sit amet dolor.
-Aenean id augue ante. Duis ut mi faucibus, pellentesque sem quis, gravida nisi. Nam cursus.
-{: .notice}
