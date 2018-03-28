@@ -3,6 +3,7 @@ layout: archive
 permalink: /blog/
 title: "Blog By Year"
 author_profile: true
+sitemap: false
 ---
 
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
