@@ -281,6 +281,10 @@ algolia:
     - /_includes
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
       - name: "layout"
         field:
           element: "hidden"
@@ -312,7 +316,7 @@ algolia:
           element: "checkbox"
           label: "published"
           help: "To ensure this can save drafts with no issues, each new post is set to false on publish to prevent it from being in feed. Have to set manually to true to allow post to generate in feed"
-          value: "false"
+          value: false
     _posts/static:
       - name: "layout"
         field:
