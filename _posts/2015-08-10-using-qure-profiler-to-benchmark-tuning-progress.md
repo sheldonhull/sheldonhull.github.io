@@ -5,6 +5,7 @@ title:  "Using Qure Profiler To Benchmark Tuning Progress"
 date: 2015-08-10
 tags: ["sql-server"]
 last_modified_at: 2018-03-24
+toc: true
 ---
 # Qure Analyzer Benchmark Testing
 

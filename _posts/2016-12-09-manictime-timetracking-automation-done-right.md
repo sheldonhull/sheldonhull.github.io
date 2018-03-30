@@ -4,6 +4,7 @@
 title:  "ManicTime - Timetracking Automation Done Right"
 date: 2016-12-09
 tags: ["development","ramblings","software","cool-tools"]
+toc: true
 ---
 
 Tracking time is always a beast. With the amount of context switching many developers do, it can be tough to remember how much time went to each project. With companies looking to track effort on sprints, hours on a client project, or (as in my case) just a dev wanting to better evaluate the productive use of time, this app fills some gaps that others don't.For instance, I've tried tools such as Toggl, and similar. I found them useful, but requiring a lot of diligence to work with. There is very little "automatic" categorization of time. Many of those tools are focused on a timer based approach that requires you to start and stop the timer.

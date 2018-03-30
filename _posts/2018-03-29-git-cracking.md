@@ -8,6 +8,7 @@ tags: ["cool-tools","tech","git"]
 last_modified_at: 2018-03-29
 date: 2018-03-29
 published: true
+toc: true
 ---
 
 {% capture notice-2 %}
@@ -23,7 +24,7 @@ published: true
 
 ## Git Some Pain
 
-Having come from a Team Foundation Server background, I found Git to be a bit confusing. The problem is primarily the big difference in a distributed version control system vs non-distributed. In addition to that complexity the terminology is not exactly intuitive. A lot of phrases like `PULL` have different results depending on what step you are in. 
+Having come from a Team Foundation Server background, I found Git to be a bit confusing. The problem is primarily the big difference in a distributed version control system vs non-distributed. In addition to that complexity the terminology is not exactly intuitive. A lot of phrases like `PULL` have different results depending on what step you are in.
 
 ### Here's Your Sign
 Here's my version of "Here's Your Sign" For Newbie Git Users That Are Coming from TFS Background
@@ -52,7 +53,7 @@ The biggest difference to wrap my head around, was that I was working with a DVC
 
 ### Cons
 
-- The wording. 
+- The wording.
 - More complicated merging and branching seem a little more complex with DVCS than non distributed like TFS, but that's just my high level impression. YMMV
 
 ## GitKraken
@@ -74,6 +75,6 @@ Overall impression is positive. I'd say it's a nice solution to help with unders
 
 ## A Free Alternative
 
-Source Tree from Atlassian is a pretty solid product as well that I've used. Unfortunatelym I've had stability issues with it lately, and it lacks the most important feature required for all good code tools... a dark theme :-)... on Windows at least as of now. No success getting dark theme traction except on Mac. -1 demerits for this omission! Overall it has promise, but it tends towards so many options it can be daunting. I'd lean towards the implementation by GitKraken being much cleaner, designed for simplicity and flexibility. 
+Source Tree from Atlassian is a pretty solid product as well that I've used. Unfortunatelym I've had stability issues with it lately, and it lacks the most important feature required for all good code tools... a dark theme :-)... on Windows at least as of now. No success getting dark theme traction except on Mac. -1 demerits for this omission! Overall it has promise, but it tends towards so many options it can be daunting. I'd lean towards the implementation by GitKraken being much cleaner, designed for simplicity and flexibility.
 
 *Disclaimer: I like to review developer software from time to time, and occcasionally recieve a copy to continue using. This does not impact my reviews whatsoever, as I only use the stuff I find helpful that might be worth sharing. Good software makes the world go round!*

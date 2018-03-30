@@ -4,6 +4,7 @@
 title:  "Regex With SQL Server - SQLSharp"
 date: 2016-08-11
 tags: ["regex","sql-server","cool-tools"]
+toc: true
 ---
 
 In the context of my developer machine, I had log files I wanted to parse through. I setup a log library to output the results on a test server to a sql table instead of text files. However, this meant that my "log viewers" that handled regex parsing weren't in the picture at this point. I wanted to parse out some columns from a section of message text, and thought about CLR as a possible tool to help this.Ideally, I wanted to feed the results for analysis easily into power bi, and avoid the need to create code to import and parse out fields. Since I knew the regex values I wanted, I thought this would be a good chance to try out some CLR functionality for the first time with SQL Server 2016 + CLR Regex parsing.

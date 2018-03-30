@@ -4,6 +4,7 @@
 title:  "Diff All Files - Reviewing Changesets Quickly"
 date: 2016-10-12
 tags: ["coding","cool-tools","sql-server"]
+toc: true
 ---
 
 # Diff all files

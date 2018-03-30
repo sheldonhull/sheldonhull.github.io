@@ -2,6 +2,7 @@
 title:  "OmniCompare: A free tool to compare SQL Instances"
 date: 2016-06-14
 tags: ["cool-tools","sql-server"]
+toc: true
 ---
 
 ## comparing instances

@@ -5,6 +5,7 @@ title:  "Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev"
 date: 2017-05-17
 tags: ["sql-server","business-intelligence","performance-tuning","tech","powershell","cool-tools"]
 last_modified_at: 2018-03-25
+toc: true
 ---
 
 ## Other Posts in Series
@@ -76,7 +77,7 @@ Once you have this running you can take the telegraf binaries and run them on an
 {% endraw %}
 
 
-Edit the conf file to add some tags, change default sampling interval and more. I'll post another article about setting up telegraf to run as a service in the future so search for more info 
+Edit the conf file to add some tags, change default sampling interval and more. I'll post another article about setting up telegraf to run as a service in the future so search for more info
 
 You can also apply the same bat file in the startup directory such as:
 

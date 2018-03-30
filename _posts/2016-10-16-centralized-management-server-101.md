@@ -4,9 +4,9 @@
 title:  "Centralized Management Server 101"
 date: 2016-10-16
 tags: ["sql-server"]
+toc: true
 ---
 
-# Registered Servers
 
 I've used Central Management Server registered servers in SSMS for primarily one purpose, saving connections. :-)  This is definitely not the intended usage. As I've explored the benefits of using this a little more, I put a few notes together to help share the concepts I came across. I was brand new to this feature in SQL server, and found some of the functionality pretty powerful, especially if you are in an environment that has a lot of servers to manage and ensure consistent configuration among all of them.
 

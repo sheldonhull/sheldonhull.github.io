@@ -4,12 +4,13 @@
 title:  "Transaction Logging & Recovery (part 3)"
 date: 2016-01-20
 tags: ["sql-server"]
+toc: true
 ---
 
 Continuation of some notes regarding the excellent content by Paul Randal in [Pluralsight: SQL Server: Logging, Recovery, and the Transaction Log](http://www.pluralsight.com/courses/sqlserver-logging).
 Please consider supporting his excellent material by using Pluralsight and subscribing to his [blog](http://www.sqlskills.com/blogs/paul/). He's contributed a vast amount to the SQL server community through [SQLSkills](https://www.sqlskills.com/sql-server-resources/) This is my absorbing of key elements that I never had worked through
 
-### Jackalopes Are Real....so are Virtual Log Files
+## Jackalopes Are Real....so are Virtual Log Files
 
 Ever seen a picture of a jackalope?
 [Image by Mark Freeman (Jackalope, Grand Canyon North Rim, Oct 07) Creative Commons License](https://www.flickr.com/photos/46357488@N00/1778904004)
