@@ -285,22 +285,27 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "blog"
+      # - name: "layout"
+      #   field:
+      #     element: "hidden"
+          # value: "blog"
       - name: "tags"
         field:
-          element: "multiselect"
+          element: "text"
           label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "sql-server"
-              value: "sql-server"
-            - name: "tech"
-              value: "tech"
-            - name: "ramblings"
-              value: "ramblings"
+          value: "[\"tech\"]"
+      # - name: "tags"
+      #   field:
+      #     element: "multiselect"
+      #     label: "Add Tags"
+      #     placeholder: "Choose Tags"
+      #     options:
+      #       - name: "sql-server"
+      #         value: "sql-server"
+      #       - name: "tech"
+      #         value: "tech"
+      #       - name: "ramblings"
+      #         value: "ramblings"
       - name: "excerpt"
         field:
           element: "text"
