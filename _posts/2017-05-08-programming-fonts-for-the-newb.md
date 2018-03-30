@@ -5,17 +5,17 @@ tags: ["workflow","readability","fonts","geek-cred","tech"]
 last_modified_at: 2018-03-30
 gallery:
     - url: /assets/img/fira-code-mono.png
-    image_path: /assets/img/fira-code-mono.png
-    alt: "fira-code-mono"
-    title: "Image of fira-code-mono"
+      image_path: /assets/img/fira-code-mono.png
+      alt: "fira-code-mono"
+      title: "Image of fira-code-mono"
     - url: /assets/img/source-code-pro.png
-    image_path: /assets/img/source-code-pro.png
-    alt: "source-code-pro"
-    title: "Image of source-code-pro"
+      image_path: /assets/img/source-code-pro.png
+      alt: "source-code-pro"
+      title: "Image of source-code-pro"
     - url: /assets/img/bitstream-vera-sans-mono.png
-    image_path: /assets/img/bitstream-vera-sans-mono.png
-    alt: "bitstream-vera-sans-mono"
-    title: "Image of bitstream-vera-sans-mono"
+      image_path: /assets/img/bitstream-vera-sans-mono.png
+      alt: "bitstream-vera-sans-mono"
+      title: "Image of bitstream-vera-sans-mono"
 ---
 
 ## the camps
@@ -32,6 +32,7 @@ Inside the font afficiando realm, you have various subcultures.
 *   Ligature Fonts changed my world
 
 ## cool resource
+
 One really cool resource for exploring these various types of fonts is [Programming Fonts - Test Drive](http://bit.ly/2pFIu6P). This is a pretty cool resource to preview various fonts and find links and resources for them.
 
 ## monospaced
