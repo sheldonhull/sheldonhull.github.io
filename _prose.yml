@@ -20,10 +20,27 @@ prose:
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "sql"
-              value: ["sql-server","tech"]
+            - name: "sql-server"
+              value: "sql-server"
+            - name: "tech"
+              value: "tech"
             - name: "ramblings"
               value: "ramblings"
+      - name: "excerpt"
+        field:
+          element: "text"
+          label: "excerpt"
+          value: ""
+      - name: "last_modified_at"
+        field:
+          element: "text"
+          label: "last_modified_at"
+          value: "CURRENT_DATETIME"
+      - name: "published"
+        field:
+          element: "Checkbox"
+          label: "published"
+          value: "false"
     _posts/static:
       - name: "layout"
         field:
