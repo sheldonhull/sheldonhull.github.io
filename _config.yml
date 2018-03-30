@@ -285,6 +285,16 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+      - name: "date"
+        field:
+          element: "text"
+          label: "date"
+          value: CURRENT_DATETIME
+      - name: "excerpt"
+        field:
+          element: "text"
+          label: "excerpt"
+          value: ""
       # - name: "layout"
       #   field:
       #     element: "hidden"
@@ -306,11 +316,6 @@ prose:
       #         value: "tech"
       #       - name: "ramblings"
       #         value: "ramblings"
-      - name: "excerpt"
-        field:
-          element: "text"
-          label: "excerpt"
-          value: ""
       - name: "last_modified_at"
         field:
           element: "text"
