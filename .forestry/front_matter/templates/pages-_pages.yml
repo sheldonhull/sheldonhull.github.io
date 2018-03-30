@@ -1,0 +1,84 @@
+---
+pages:
+- _pages/year-archive.html
+- _pages/tag-archive.html
+- _pages/posts-archive.html
+- _pages/page-archive.html
+- _pages/date-archive.html
+- _pages/collection-archive.html
+- _pages/category-archive.html
+- _pages/about.md
+- _pages/404.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: excerpt
+  label: Excerpt
+  type: text
+  hidden: false
+  default: ''
+- name: sitemap
+  label: Sitemap
+  type: boolean
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: single
+- name: last_modified_at
+  label: Last modified at
+  type: datetime
+  hidden: false
+  default: ''
+- name: classes
+  label: Classes
+  type: text
+  hidden: false
+  default: ''
+- name: header
+  label: Header
+  type: field_group
+  fields:
+  - name: overlay_color
+    label: Overlay color
+    type: text
+    hidden: false
+    default: ''
+  - name: overlay_filter
+    label: Overlay filter
+    type: text
+    hidden: false
+    default: ''
+  - name: overlay_image
+    label: Overlay image
+    type: text
+    hidden: false
+    default: ''
+  - name: caption
+    label: Caption
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: author_profile
+  label: Author profile
+  type: boolean
+  hidden: false
+  default: true
+- name: toc
+  label: Toc
+  type: boolean
+  hidden: false
+  default: ''
