@@ -266,10 +266,9 @@ algolia:
     highlightPreTag: '<em class="custom_highlight">'
     highlightPostTag: '</em>'
 
-  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
-  # span, block element options fall back to global
-
-  prose:
+# Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+# span, block element options fall back to global
+prose:
   rooturl: '_posts'
   siteurl: 'https://www.sheldonhull.com'
   #relativeLinks: 'http://prose.github.io/starter/links.jsonp'
@@ -284,7 +283,8 @@ algolia:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Title"
+          value: ""
       - name: "layout"
         field:
           element: "hidden"
