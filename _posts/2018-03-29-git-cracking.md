@@ -1,17 +1,26 @@
 ---
-layout: blog
-last_modified_at: '2018-03-29 22:58 -0500'
-published: false
 title: Git Cracking
 excerpt: >-
   Git can be an interesting learning curve if you are coming from TFS (Team
   Foundation Server). However, there are some great things about using Git if
   you can wrap you head around the terminology
-tags:
-  - cool-tools
-  - tech
-  - git
+tags: ["cool-tools","tech","git"]
+last_modified_at: 2018-03-29
+date: 2018-03-29
+published: true
 ---
+
+{% capture notice-2 %}
+
+- [GitKraken](http://bit.ly/2J6a4mW)
+- [Source Tree](http://bit.ly/2pPQeUU)
+- [Posh-Git](http://bit.ly/2pOPLm6)
+- [Cmder](http://bit.ly/2GnxzpH)
+
+{% endcapture %}
+
+<div class="premonition info"><div class="fa fa-plus"></div><div class="content"><p class="header">Resources Mentioned</p>{{ notice-2 | markdownify }}</div></div>
+
 ## Git Some Pain
 
 Having come from a Team Foundation Server background, I found Git to be a bit confusing. The problem is primarily the big difference in a distributed version control system vs non-distributed. In addition to that complexity the terminology is not exactly intuitive. A lot of phrases like `PULL` have different results depending on what step you are in. 
@@ -47,7 +56,7 @@ The biggest difference to wrap my head around, was that I was working with a DVC
 - More complicated merging and branching seem a little more complex with DVCS than non distributed like TFS, but that's just my high level impression. YMMV
 
 ## GitKraken
-	
+
 [GitKraken](http://bit.ly/2J6a4mW), a Git GUI to solve your learning woes.
 
 ### Git GUI Goodness
@@ -61,10 +70,10 @@ To be honest, their timeline view and the navigation and staging of the changes 
 
 ### Overall Impression
 
-Overall impression is positive. I'd say it's a nice solution to help with understanding and getting up and running faster than some other solutions, or using Git via command line along. While that's a worthy goal, being able to easily review changes, ammend commits, pull and merge remote changes from multiple sources, and other things, I'm not sure a newbie could do all at any time near what a little effort in GitKraken would provide. So overall, it's a win. I've used it for this blog and am pretty darn happy with it. The cost for professional if using in a work enviroment with the need for better profile handling, integration with VSTS and other services is a reasonable cost. For those just working with some Github open source repos and jekyll blogs, they have a free community version, so it's a win!
+Overall impression is positive. I'd say it's a nice solution to help with understanding and getting up and running faster than some other solutions, or using Git via command line along. While that's a worthy goal, being able to easily review changes, amend commits, pull and merge remote changes from multiple sources, and other things, I'm not sure a newbie could do all at any time near what a little effort in GitKraken would provide. So overall, it's a win. I've used it for this blog and am pretty darn happy with it. The cost for professional if using in a work environment with the need for better profile handling, integration with VSTS and other services is a reasonable cost. For those just working with some Github open source repos and Jekyll blogs, they have a free community version, so it's a win!
 
 ## A Free Alternative
 
-Source Tree from Atlassian is a pretty solid product as well that I've used. Unfortunately I've had stability issues with it lately, and it lacks the most important feature required for all good code tools... a dark theme :-) Overall it has promise, but it tends towards so many options it can be daunting. I'd lean towards the implementation by GitKraken being much cleaner, designed for simplicity and flexibility. 
+Source Tree from Atlassian is a pretty solid product as well that I've used. Unfortunatelym I've had stability issues with it lately, and it lacks the most important feature required for all good code tools... a dark theme :-)... on Windows at least as of now. No success getting dark theme traction except on Mac. -1 demerits for this omission! Overall it has promise, but it tends towards so many options it can be daunting. I'd lean towards the implementation by GitKraken being much cleaner, designed for simplicity and flexibility. 
 
 *Disclaimer: I like to review developer software from time to time, and occcasionally recieve a copy to continue using. This does not impact my reviews whatsoever, as I only use the stuff I find helpful that might be worth sharing. Good software makes the world go round!*
