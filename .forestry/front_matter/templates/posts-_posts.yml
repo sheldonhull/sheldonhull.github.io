@@ -1,0 +1,43 @@
+---
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: single
+- name: toc
+  label: Toc
+  type: boolean
+  hidden: false
+  default: true
+- name: author_profile
+  label: Author profile
+  type: boolean
+  hidden: false
+  default: true
+- name: read_time
+  label: Read time
+  type: boolean
+  hidden: false
+  default: true
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
+- name: share
+  label: Share
+  type: boolean
+  hidden: false
+  default: false
+- name: related
+  label: Related
+  type: boolean
+  hidden: false
+  default: true
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: "/blog/:title"
