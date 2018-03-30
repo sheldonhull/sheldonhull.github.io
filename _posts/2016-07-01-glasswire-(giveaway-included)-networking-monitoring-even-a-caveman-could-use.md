@@ -4,6 +4,7 @@
 title:  "Glasswire: (Giveaway Included) Networking Monitoring even a caveman could use"
 date: 2016-07-01
 tags: ["cool-tools","sql-server"]
+toc: true
 ---
 
 **Giveaway details at the bottom for those interested**Dealing with development & sql servers, I like to know what type of network traffic is happening on my machine. What is the overhead of monitoring on network bandwidth, what is communicating across servers or even externally?

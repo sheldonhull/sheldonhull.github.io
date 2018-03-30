@@ -4,6 +4,7 @@
 title:  "Monitoring SQL Server on a budget"
 date: 2015-08-18
 tags: ["sql-server"]
+toc: true
 ---
 
 ## Cheap ain't easy

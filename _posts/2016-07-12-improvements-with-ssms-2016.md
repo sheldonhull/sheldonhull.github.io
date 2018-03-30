@@ -1,10 +1,22 @@
 ---
-
-
 title:  "Improvements with SSMS 2016"
 date: 2016-07-12
 tags: ["sql-server"]
+excerpt: "Improves to SSMS (Sql Server Management Studio) continue. Use the latest version instead of using the version bundled in older versions of SQL Server Installation media to ensure the latest features are available."
+last_modified_at: 2018-03-30
 ---
+
+{% capture notice-2 %}
+
+## SSMS 2017
+
+Use SSMS 2017 when possible now. It has continued to be improved. [Current download page for SSMS 2017](http://bit.ly/2uvpSMG)
+If you want a shortcut to install, check out this post: [Update SSMS With PS1]({% post_url 2017-07-03-update-ssms-with-ps1.md %})
+{% endcapture %}
+
+<div class="premonition info"><div class="fa fa-plus"></div><div class="content"><p class="header">Updated: 2018-03-30</p>{{ notice-2 | markdownify }}</div></div>
+
+
 
 The staple of every SQL Server developer's world, SSMS has been impossible to usurp for the majority of us. However, it's also been behind the development cycle of visual studio, and didn't have continual updates. That changed recently, as I've previously posted on. SSMS (Sql Server Management Studio) now being decoupled from the SQL Server database releases.I've been enjoying some of the improvements, especially as relatest to the built in execution plan viewer. I use SQL Sentry Pro, but for a quick review, any improvements to the default viewer is a welcome addition!
 

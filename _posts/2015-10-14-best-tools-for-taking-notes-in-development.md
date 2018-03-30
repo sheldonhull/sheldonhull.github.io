@@ -2,6 +2,7 @@
 title:  "Best Tools for Taking Notes In Development"
 date: 2015-10-14
 tags: ["sql-server","cool-tools"]
+toc: true
 ---
 
 <div class="premonition info">

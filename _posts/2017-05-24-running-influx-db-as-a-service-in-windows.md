@@ -5,6 +5,7 @@ title:  "Running InfluxDB as a service in Windows"
 date: 2017-05-24
 tags: ["influxdb","powershell","configuration","tech","sql-server"]
 last_modified_at: 2018-03-25
+toc: true
 ---
 
 ## Other Posts in Series

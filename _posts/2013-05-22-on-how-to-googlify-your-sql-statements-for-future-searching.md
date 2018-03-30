@@ -4,6 +4,7 @@
 title:  "On how to Googlify your SQL statements for future searching"
 date: 2013-05-22
 tags: ["sql-server","geek-cred","cool-tools"]
+toc: true
 ---
 
 For sake of future generations, let's begin to reduce typing and reuse code we've built. I think we can all agree that TSQL statements are often repeated.
@@ -17,7 +18,7 @@ In addition to the other great features that SSMSBoost offers (which I'll write 
 3.**Tab History Logging** If you crash SSMS, close SSMS without saving tabs, or have some unsavory Windows behavior that requires SSMS to be restarted, don't fear... your tabs are saved. When restarting you can select restore tabs and begin work again. I've found this feature to be a lifesaver!
 ![ssmsBoostRecentTabs](/assets/img/ssmsBoostRecentTabs_bndhth.jpg)
 
-##Searching Your Executed and Editor History
+## Searching Your Executed and Editor History
 Instructions I recommend for setup and searching your entire sql history nearly instantly.
 
 1.  Install [SSMSBoost](http://www.ssmsboost.com/) (free community edition if you can't support with professional version)
@@ -34,7 +35,7 @@ Instructions I recommend for setup and searching your entire sql history nearly 
 Basic Settings I choose (If you aren't using [Bitstream ](http://ftp.gnome.org/pub/GNOME/sources/ttf-bitstream-vera/1.10/)font... you are missing out)
 ![DocFetcher_2_basicSettings](/assets/img/DocFetcher_2_basicSettings_unugtr.jpg)
 
-####Docfetcher Advance settings tweaks Change:
+## Docfetcher Advance settings tweaks Change:
 
     CurvyTabs = true HtmlExtensions = html;htm;xhtml;shtml;shtm;php;asp;jsp;sql InitialSorting = -8
 
