@@ -8,6 +8,8 @@ excerpt: >-
   Can't delete a directory due to some edge case in naming errors... like a
   trailing space. Here's the fix!
 ---
+
+![Removing Folder Fails]({{site.baseurl}}/assets/ConEmu64_2018-07-23_11-42-59 - Copy.png)
 It shouldn't be this hard. This is a consumate #windowsmoment
 
 If you occasionally use something like Robocopy, or other command line tool, it can be possible to create a directory with a trailing slash. For instance 
