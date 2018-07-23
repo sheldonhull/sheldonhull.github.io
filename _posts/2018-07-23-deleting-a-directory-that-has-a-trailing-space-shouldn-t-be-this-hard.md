@@ -1,6 +1,6 @@
 ---
 date: '2018-07-23 11:07 -0500'
-tags: '["tech","powershell"]'
+tags: ["tech","powershell"]
 last_modified_at: '2018-07-23 11:07 -0500'
 published: true
 title: Deleting a Directory That Has a Trailing Space Shouldn't Be This Hard
