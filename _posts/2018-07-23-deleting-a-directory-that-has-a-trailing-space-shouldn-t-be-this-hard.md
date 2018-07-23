@@ -2,7 +2,7 @@
 date: '2018-07-23 11:07 -0500'
 tags: '["tech","powershell"]'
 last_modified_at: '2018-07-23 11:07 -0500'
-published: false
+published: true
 title: Deleting a Directory That Has a Trailing Space Shouldn't Be This Hard
 excerpt: >-
   Can't delete a directory due to some edge case in naming errors... like a
