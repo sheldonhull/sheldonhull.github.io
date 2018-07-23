@@ -272,7 +272,7 @@ prose:
   rooturl: '_posts'
   siteurl: 'https://www.sheldonhull.com'
   #relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: '/assets'
+  media: '/assets/img'
   ignore:
     - index.md
     - _config.yml
