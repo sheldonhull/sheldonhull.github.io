@@ -1,9 +1,9 @@
 ---
 date: '2018-08-08 16:13 -0500'
-tags: '["tech","sql-server","powershell"]'
+tags: ["tech","sql-server","powershell"]
 last_modified_at: '2018-08-08 16:13 -0500'
 published: true
-title: 2018-08-08-ntfs-compression-and-sql-server-dont-play-well-together
+title: NTFS Compression and SQL Server Do Not Play Well Together
 excerpt: >-
   accidentally copying a database to a ntfs compressed volume can result in some
   unpleasant aftertaste. If you get the error The requested operation could not
