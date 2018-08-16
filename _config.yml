@@ -289,7 +289,7 @@ prose:
         field:
           element: "text"
           label: "date"
-          value: CURRENT_DATETIME
+          value: "CURRENT_DATETIME"
       - name: "excerpt"
         field:
           element: "text"
@@ -299,23 +299,24 @@ prose:
       #   field:
       #     element: "hidden"
           # value: "blog"
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Add Tags"
-          value: "[\"tech\"]"
       # - name: "tags"
       #   field:
-      #     element: "multiselect"
+      #     element: "text"
       #     label: "Add Tags"
-      #     placeholder: "Choose Tags"
-      #     options:
-      #       - name: "sql-server"
-      #         value: "sql-server"
-      #       - name: "tech"
-      #         value: "tech"
-      #       - name: "ramblings"
-      #         value: "ramblings"
+      #     value: "[\"tech\"]"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true
+          options:
+            - name: "sql-server"
+              value: "sql-server"
+            - name: "tech"
+              value: "tech"
+            - name: "ramblings"
+              value: "ramblings"
       - name: "last_modified_at"
         field:
           element: "text"
