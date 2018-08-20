@@ -162,9 +162,9 @@ kramdown:
 
 
 
-sass:
-  sass_dir: _sass
-  style: compressed
+# sass:
+#   sass_dir: _sass
+#   style: compressed
 
 permalink: '/:categories/:title/'
 paginate: 8
@@ -216,6 +216,7 @@ defaults:
     values:
       layout: single
       toc: true
+      toc_sticky: true
       author_profile: true
       read_time: true
       comments: true
