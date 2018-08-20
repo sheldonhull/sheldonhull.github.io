@@ -18,14 +18,15 @@ body
 highlighter-rouge, code, pre, highlight  {
     font-family: 'Fira Mono', monospace!important;
 }
-/* this keeps sidebar for table of contents sticky, at least in chrome */
-.sidebar__right {
-    position: -webkit-sticky!important;;
-    position: sticky!important;
-    top: 0;
-    float:right!important;
-
-}
+/* this keeps sidebar for table of contents sticky, at least in chrome
+Removed per theme now supports as option
+*/
+// .sidebar__right {
+//     position: -webkit-sticky!important;;
+//     position: sticky!important;
+//     top: 0;
+//     float:right!important;
+// }
 
 /*tags page*/
 /* Great Styled TagList from https: //justin.kelly.org.au/jekyll-tags-page/ */
