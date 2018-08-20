@@ -1,7 +1,7 @@
 ---
 date: '2018-08-19 23:55 -0500'
 last_modified_at: '2018-08-19 23:55 -0500'
-published: false
+published: true
 title: Dedupe Google Drive with RClone
 tags:
   - tech
