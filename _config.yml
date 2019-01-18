@@ -179,6 +179,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-algolia
   - premonition
+  - jekyll-include-cache
 
 whitelist:
   - jekyll-paginate
