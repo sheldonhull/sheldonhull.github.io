@@ -3,6 +3,7 @@ layout: default
 toc: false
 comments: true
 ---
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 <!-- <link rel="stylesheet" href="/assets/css/premonition.css"/> -->
 
@@ -95,3 +96,16 @@ comments: true
     </div>
   {% endif %}
 </div>
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>

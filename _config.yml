@@ -139,7 +139,8 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: |+
-
+head_scripts:
+  - https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js
 incremental: false
 kramdown:
   input: GFM
