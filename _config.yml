@@ -139,7 +139,8 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: |+
-
+head_scripts:
+  - https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js
 incremental: false
 kramdown:
   input: GFM
@@ -159,12 +160,9 @@ kramdown:
     block:
       line_numbers: true
 
-
-
-
-sass:
-  sass_dir: _sass
-  style: compressed
+# sass:
+#   sass_dir: _sass
+#   style: compressed
 
 permalink: '/:categories/:title/'
 paginate: 8
@@ -181,6 +179,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-algolia
   - premonition
+  - jekyll-include-cache
 
 whitelist:
   - jekyll-paginate
@@ -188,6 +187,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 category_archive:
   type: jekyll-archives
   path: /categories/
@@ -216,6 +216,7 @@ defaults:
     values:
       layout: single
       toc: true
+      toc_sticky: true
       author_profile: true
       read_time: true
       comments: true
@@ -272,7 +273,7 @@ prose:
   rooturl: '_posts'
   siteurl: 'https://www.sheldonhull.com'
   #relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: '/assets'
+  media: '/assets/img'
   ignore:
     - index.md
     - _config.yml
@@ -289,7 +290,7 @@ prose:
         field:
           element: "text"
           label: "date"
-          value: CURRENT_DATETIME
+          value: "CURRENT_DATETIME"
       - name: "excerpt"
         field:
           element: "text"
@@ -299,23 +300,24 @@ prose:
       #   field:
       #     element: "hidden"
           # value: "blog"
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Add Tags"
-          value: "[\"tech\"]"
       # - name: "tags"
       #   field:
-      #     element: "multiselect"
+      #     element: "text"
       #     label: "Add Tags"
-      #     placeholder: "Choose Tags"
-      #     options:
-      #       - name: "sql-server"
-      #         value: "sql-server"
-      #       - name: "tech"
-      #         value: "tech"
-      #       - name: "ramblings"
-      #         value: "ramblings"
+      #     value: "[\"tech\"]"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true
+          options:
+            - name: "sql-server"
+              value: "sql-server"
+            - name: "tech"
+              value: "tech"
+            - name: "ramblings"
+              value: "ramblings"
       - name: "last_modified_at"
         field:
           element: "text"
