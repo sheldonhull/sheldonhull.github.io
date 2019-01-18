@@ -37,7 +37,7 @@
             }
         });
         CMS.registerPreviewTemplate("posts", PostPreview);
-        CMS.registerPreviewStyle("/admin.css");
+        CMS.registerPreviewStyle("cms.css");
         CMS.registerEditorComponent({
             id: "youtube",
             label: "Youtube",
@@ -50,9 +50,9 @@
                 };
             },
             toBlock: function (obj) {
-                return '{% raw %}'
-                        + '<iframe src="htt  <iframe src="https://www.youtube.com/embed/' + obj.id + '?wmode=opaque&enablejsapi=1" height="480" width="640" scrolling="no" frameborder="0" allowfullscreen="yes"></iframe>'
-                        + '{% endraw %}';
+                return ('{% raw %}'
+                        + '<iframe src="https://www.youtube.com/embed/' + obj.id + '?wmode=opaque&enablejsapi=1" height="480" width="640" scrolling="no" frameborder="0" allowfullscreen="yes"></iframe>'
+                        + '{% endraw %}');
             },
             toPreview: function (obj) {
                 return (
