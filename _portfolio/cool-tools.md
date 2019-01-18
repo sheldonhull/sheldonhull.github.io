@@ -29,4 +29,4 @@ _Note - all licensing costs are for general reference only, look at supplier for
 | Name                           | Description                                                  | Cost |
 | ------------------------------ | ------------------------------------------------------------ | ---- |
 | [Cmder](http://bit.ly/2GnxzpH) | a much better command prompt, with support for PowerShell, bash, git, and more. | $0   |
-
+| [TailBlazer](http://bit.ly/2lcxn3I) | A nice simple log viewer supporting streaming logs and simple highlight/match rules. A nice find. | $0   |

@@ -18,14 +18,6 @@ body
 highlighter-rouge, code, pre, highlight  {
     font-family: 'Fira Mono', monospace!important;
 }
-/* this keeps sidebar for table of contents sticky, at least in chrome */
-.sidebar__right {
-    position: -webkit-sticky!important;;
-    position: sticky!important;
-    top: 0;
-    float:right!important;
-
-}
 
 /*tags page*/
 /* Great Styled TagList from https: //justin.kelly.org.au/jekyll-tags-page/ */
@@ -188,6 +180,6 @@ body .gist .gist-meta {
 .custom_highlight {
     color:#619bac;
 }
-@import "premonition"; /* main partials */
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";  /* skin */
 @import "minimal-mistakes"; /* main partials */
