@@ -58,6 +58,26 @@
           return ('<img src="http://img.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="Youtube Video"/>');
         }
       });
+
+      // RAW INSERT CONTENT
+      CMS.registerEditorComponent({
+        id: "raw",
+        label: "raw",
+        icon: 'code',
+        fields: [
+          {
+            name: 'id',
+            label: 'raw content inside'
+          }
+        ],
+
+        toBlock: function (obj) {
+          return ('<br>{% raw %}<br>' + obj + '<br>{% endraw %}<br>');
+        },
+        toPreview: function (obj) {
+          return (obj.id);
+        }
+      });
     </script>
   </body>
 
