@@ -7,12 +7,8 @@ tags: ["powershell","sql-server","automation","tech"]
 
 ---
 
-<div class="premonition info">
-<div class="fa fa-plus"></div>
-<div class="content">
-<p class="header">Updated: 2018-03-19</p>
-I don't use these much, if any now. Check out dbatools which is a much better module with a full range of features to save you a ton of time.
-</div></div>
+> info "Updated: 2018-03-19"
+> I don't use these much, if any now. Check out dbatools which is a much better module with a full range of features to save you a ton of time.
 
 # simple setup
 
