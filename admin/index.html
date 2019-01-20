@@ -70,9 +70,12 @@
             label: 'raw content inside'
           }
         ],
-
+        pattern: /^{{<\s?raw (\S+)\s?>}}/,
+        fromBlock: function (match) {
+          return { id: match[1] };
+        },
         toBlock: function (obj) {
-          return ('<br>{% raw %}<br>' + obj + '<br>{% endraw %}<br>');
+          return ('{% raw %} ' + obj.id + '{% endraw %}');
         },
         toPreview: function (obj) {
           return (obj.id);
