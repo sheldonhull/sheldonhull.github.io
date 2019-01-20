@@ -7,12 +7,8 @@ tags: ["powershell","sql-server"]
 last_modified_at: 2017-01-25
 excerpt:  "Review of using Minionware sql maintenance solution"
 ---
-<div class="premonition info">
-<div class="fa fa-plus"></div>
-<div class="content">
-<p class="header">Updated 2017-01-25</p>
-While I think the minionware solution is pretty awesome, I think it takes more work for the value, and can be a bit confusing to correctly setup, vs the Ola Hallengren solution, esp since you can install this quickly with dbatools now. I'd lean towards Ola Hallengren for simple implementations, and consider MinionWare's option if you are looking at the their flexibility in the table based configuration. The learning curve seems higher to me, but more for those looking to tweak options a lot. Both are great solutions, just be aware MinionWare will require a little more digging to leverage it fully.
-</div></div>
+> info "Updated 2017-01-25"
+> While I think the minionware solution is pretty awesome, I think it takes more work for the value, and can be a bit confusing to correctly setup, vs the Ola Hallengren solution, esp since you can install this quickly with dbatools now. I'd lean towards Ola Hallengren for simple implementations, and consider MinionWare's option if you are looking at the their flexibility in the table based configuration. The learning curve seems higher to me, but more for those looking to tweak options a lot. Both are great solutions, just be aware MinionWare will require a little more digging to leverage it fully.
 
 
 Here's my personal tweaked settings for deploying [Minionware's fantastic Reindex & Backup jobs.](http://bit.ly/2e8aE8g) In the development environment, I wanted to have some scheduled jobs running to provide a safety net, as well ensure updated statistics, but there were a few default settings I wanted to adjust. In particular, I tweaked the default fill factor back to 0/100. I also installed all the objects to a new "minion" database instead of in master, as I'm beginning to be a fan of isolating these type of maintenance jobs with logging to their own isolated database to easy portability. I also adjusted the default retain days on backups to 30.

@@ -7,5 +7,7 @@
 			"path": "C:\\GIT\\devhints-engine"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"search.usePCRE2": true
+	}
 }
