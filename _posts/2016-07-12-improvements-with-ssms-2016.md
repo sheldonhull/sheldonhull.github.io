@@ -14,7 +14,8 @@ Use SSMS 2017 when possible now. It has continued to be improved. [Current downl
 If you want a shortcut to install, check out this post: [Update SSMS With PS1]({% post_url 2017-07-03-update-ssms-with-ps1 %})
 {% endcapture %}
 
-<div class="premonition info"><div class="fa fa-plus"></div><div class="content"><p class="header">Updated: 2018-03-30</p>{{ notice-2 | markdownify }}</div></div>
+> info "Updated: 2018-03-30"
+> </p>{{ notice-2 | markdownify }}</div></div>
 
 
 

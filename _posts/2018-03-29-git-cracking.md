@@ -20,7 +20,8 @@ toc: true
 
 {% endcapture %}
 
-<div class="premonition info"><div class="fa fa-plus"></div><div class="content"><p class="header">Resources Mentioned</p>{{ notice-2 | markdownify }}</div></div>
+> info "Resources Mentioned"
+> </p>{{ notice-2 | markdownify }}</div></div>
 
 ## Git Some Pain
 
