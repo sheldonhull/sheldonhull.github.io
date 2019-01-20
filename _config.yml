@@ -133,16 +133,16 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: utf-8
-markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: |+
+excerpt_separator: "\n\n"
 footer_scripts:
   - /assets/js/netlifycms.js  # for netlify cms
 head_scripts:
-#  - https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js
+  - https://identity.netlify.com/v1/netlify-identity-widget.js
 incremental: false
 kramdown:
   input: GFM
