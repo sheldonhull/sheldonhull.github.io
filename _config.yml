@@ -139,7 +139,9 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: |+
-#head_scripts:
+footer_scripts:
+  - /assets/js/netlifycms.js  # for netlify cms
+head_scripts:
 #  - https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js
 incremental: false
 kramdown:
