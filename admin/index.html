@@ -72,13 +72,56 @@
         ],
         pattern: /^{{<\s?raw (\S+)\s?>}}/,
         fromBlock: function (match) {
-          return { id: match[1] };
+          return {id: match[1]};
         },
         toBlock: function (obj) {
           return ('{% raw %} ' + obj.id + '{% endraw %}');
         },
         toPreview: function (obj) {
           return (obj.id);
+        }
+      });
+    </script>
+
+    <!-- Markdown Horizontal Rule --https://github.com/netlify/netlify-cms/issues/1378 -->
+    <script>
+      CMS.registerEditorComponent({
+        id: 'separator', label: '---',
+        // A bogus field so that the component doesn't look weird when rendered:
+        fields: [
+          {
+            label: 'Separator',
+            widget: 'select',
+            options: ['---'],
+            default: '---'
+          }
+        ],
+        // Never match anything so that the separator will be recognized as a horizontal rule when the document is reloaded:
+        pattern: /.^/,
+        toBlock(obj) {
+          return '---';
+        },
+        toPreview(obj) {
+          return '<hr>';
+        }
+      });
+    </script>
+
+    <script>
+      CMS.registerEditorComponent({
+        id: 'other', label: 'other',
+        // A bogus field so that the component doesn't look weird when rendered:
+        fields: [
+          {
+            label: 'tags',
+            widget: 'select',
+            options: ['---','{% raw %} {% endraw %}','> info "Title"\n> TextHere']
+          }
+        ],
+        // Never match anything so that the separator will be recognized as a horizontal rule when the document is reloaded:
+        pattern: /.^/,
+        toBlock(obj) {
+          return obj.other;
         }
       });
     </script>

@@ -9,19 +9,11 @@ toc: true
 
 # Diff all files
 
-<div class="premonition info">
-<div class="fa fa-plus"></div>
-<div class="content">
-<p class="header">Updated: 2017-07-14</p>
-Still find this incredibly awesome! Developer just updated for Visual Studio 2017 after a lot of hard work. Github repo here for any issues. Big thanks to DeadlyDog for this great tool and putting in the effort to update for VS2017. [deadlydog/VS.DiffAllFiles: Visual Studio Extension to make comparing files before and after committing them to Git and TFS faster and easier](http://bit.ly/2vkXGI9)
-</div></div>
+> info "Updated: 2017-07-14"
+> Still find this incredibly awesome! Developer just updated for Visual Studio 2017 after a lot of hard work. Github repo here for any issues. Big thanks to DeadlyDog for this great tool and putting in the effort to update for VS2017. [deadlydog/VS.DiffAllFiles: Visual Studio Extension to make comparing files before and after committing them to Git and TFS faster and easier](http://bit.ly/2vkXGI9)
 
-<div class="premonition info">
-<div class="fa fa-plus"></div>
-<div class="content">
-<p class="header">Updated: 2016-01-25</p>
-I started using the option to compare a single file at a time, since it picks up the syntax highlighting then. The other way (merge files into one) can't handle syntax highlighting with the various files types all mixed into the same window. Diff All Files extension handles this beautifully with proceeding one by one and automatically opening the next file to compare or allowing you to hit next to close and reopen with the next file to compare. I still enjoy using this due to the "context" lines that reduce the noise to just the actual section being changed.
-</div></div>
+> info "Updated: 2016-01-25"
+> I started using the option to compare a single file at a time, since it picks up the syntax highlighting then. The other way (merge files into one) can't handle syntax highlighting with the various files types all mixed into the same window. Diff All Files extension handles this beautifully with proceeding one by one and automatically opening the next file to compare or allowing you to hit next to close and reopen with the next file to compare. I still enjoy using this due to the "context" lines that reduce the noise to just the actual section being changed.
 
 If you need to do code comparison on a lot of files in Visual Studio, I ran across an extension [Diff All Files](http://bit.ly/29nXEbe) that is really helpful for merging down the individual file changes into more consumable format.
 
