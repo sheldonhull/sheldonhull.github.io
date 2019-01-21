@@ -190,6 +190,7 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - premonition
 category_archive:
   type: jekyll-archives
   path: /categories/
