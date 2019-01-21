@@ -29,7 +29,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "toc", name: "toc", widget: "boolean", default: true}
       - label: "Tags"
         name: "tags"
-        widget: "list"
+        widget: "select"
         default: "tech"
         options: ["development","sql-server","tech","ramblings",powershell,"cool-tools","geek-cred","troubleshooting","performance-tuning","deep-dive","AWS","devops","redgate","tfs","photography","database-lifecycle","music","automation","follower-of-Jesus","worship","videography"]
         multiple: true
