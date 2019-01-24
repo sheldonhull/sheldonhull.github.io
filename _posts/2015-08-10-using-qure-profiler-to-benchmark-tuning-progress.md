@@ -7,17 +7,13 @@ tags: ["sql-server"]
 last_modified_at: 2018-03-24
 toc: true
 ---
+
 # Qure Analyzer Benchmark Testing
 
-{% capture notice-2 %}
-
-Wouldn't recommend tool at this time. Development seemed to cease, resulting in me not being able to use with later versions of SQL Server. When I came back recently to check on it, the app was sold and it was with a new company. Didn't see to have progressed much based on a quick look and not really interested in it at this point. Instead, other solutions like the new DEA (Database Experimentation Assistant from Microsoft) would be where I'd spend more effort.
-{% endcapture %}
+> info "Update"
+> Wouldn't recommend tool at this time. Development seemed to cease, resulting in me not being able to use with later versions of SQL Server. When I came back recently to check on it, the app was sold and it was with a new company. Didn't see to have progressed much based on a quick look and not really interested in it at this point. Instead, other solutions like the new DEA (Database Experimentation Assistant from Microsoft) would be where I'd spend more effort.
 
 > warning "Updated: 2018-03-18"
-> </p>{{ notice-2 | markdownify }}</div></div>
-
-
 
 ## the problem of monster views
 

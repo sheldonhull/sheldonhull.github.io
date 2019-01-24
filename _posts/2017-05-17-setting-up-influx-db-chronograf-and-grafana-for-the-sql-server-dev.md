@@ -29,14 +29,13 @@ I started by running this quick powershell script to download the stable toolkit
  <script src="https://gist.github.com/sheldonhull/5fa33704e2599e3ddb46a8299ad3bafe.js"></script>
 {% endraw %}
 
-
 Once extracted, I moved the influx extracted subfolder into the InfluxDB folder to keep it clean. Now all the binaries rested in `C:\Influx\InfluxDB` folder with no nesting folders.
-
-I referenced the documentation for getting started with InfluxDB located [here][0] (note that this is for version 0.9 so the url will get updated later on their site.
+I referenced the documentation for getting started with InfluxDB.
 
 ## Setup Local InfluxDb
 
 Started up the local influxdb binary.
+
 {% raw %}
  <script src="https://gist.github.com/sheldonhull/6f4e11d60244af00edac438cb9ae6ea5.js"></script>
 {% endraw %}
@@ -44,12 +43,12 @@ Started up the local influxdb binary.
 
 Initializing the new database was simple as documented: `create database statty`
 
-InfluxDB is case sensitive. Make sure to check your case if something isn't working, such as use "DatabaseName" instead of use "databasename"
-{: .notice--warning}
+> warning "Case Sensitivity"
+> InfluxDB is case sensitive. Make sure to check your case if something isn't working, such as use "DatabaseName" instead of use "databasename"
 
 Also, if you get an error with access to the file, try running as admin.
 
-![](/assets/img/Influx+Command+Line+Error+on+writing+history+file.png)
+![Influx+Command+Line+Error+on+writing+history+file](/assets/img/Influx+Command+Line+Error+on+writing+history+file.png)
 
 ## More Enviromental Variable Fun
 
