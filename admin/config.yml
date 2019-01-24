@@ -1,12 +1,13 @@
 backend:
   name: git-gateway
-  branch: dev # Branch to update (master by default)
+  branch: master # Branch to update (master by default). It will use the publish command to push to this branch
   squash_merges: true
 
-publish_mode: editorial_workflow
+display_url: https://www.sheldonhull.com
 media_folder: "assets/img" # Folder where user uploaded files should go
 logo_url: https://d33wubrfki0l68.cloudfront.net/21446a9fe6768fbc72d304626343179b74759ac8/95052/assets/img/sheldon_400x400.jpg
 
+publish_mode: editorial_workflow
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
