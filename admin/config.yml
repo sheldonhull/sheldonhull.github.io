@@ -37,8 +37,8 @@ collections: # A list of collections the CMS should be able to edit
         required: true
       - {label: "typora-root-url", name: "typora-root-url", widget: "hidden", text: "..\\assets\\img"}
       - {label: "typora-copy-images-to", name: "typora-copy-images-to", widget: "hidden", text: "..\\assets\\img"}
-      - {label: "Last Modified Date", name: "last_modified_at", widget: "hidden", default: "",format: "YYYY-MM-DD hh:mm:ss"}
-      - {label: "Publish Date", name: "date", widget: "hidden", format: "YYYY-MM-DD hh:mm:ss",required: false}
+      - {label: "Last Modified Date", name: "last_modified_at", widget: "datetime", default: "",format: "YYYY-MM-DD hh:mm:ss"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss",required: false}
      # - {label: "Published", name: "published", widget: "boolean", default: false}
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss",required: false}
