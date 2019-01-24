@@ -11,17 +11,11 @@ published: true
 toc: true
 ---
 
-{% capture notice-2 %}
-
-- [GitKraken](http://bit.ly/2J6a4mW)
-- [Source Tree](http://bit.ly/2pPQeUU)
-- [Posh-Git](http://bit.ly/2pOPLm6)
-- [Cmder](http://bit.ly/2GnxzpH)
-
-{% endcapture %}
-
-> info "Resources Mentioned"
-> </p>{{ notice-2 | markdownify }}</div></div>
+> info "Resources"
+> - [GitKraken](http://bit.ly/2J6a4mW)
+> - [Source Tree](http://bit.ly/2pPQeUU)
+> - [Posh-Git](http://bit.ly/2pOPLm6)
+> - [Cmder](http://bit.ly/2GnxzpH)
 
 ## Git Some Pain
 
