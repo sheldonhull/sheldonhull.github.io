@@ -3,7 +3,7 @@
 
 title:  "Install ReadyRoll via Command Line"
 date: 2016-08-18
-tags: ["cool-tool","readyroll","redgate","sql-server","cool-tools"]
+tags: ["cool-tool","redgate","sql-server"]
 ---
 
 #### command line install options

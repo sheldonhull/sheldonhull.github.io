@@ -3,7 +3,7 @@
 
 title:  "ManicTime - Timetracking Automation Done Right"
 date: 2016-12-09
-tags: ["development","ramblings","software","cool-tools"]
+tags: ["development","ramblings","cool-tools"]
 toc: true
 ---
 

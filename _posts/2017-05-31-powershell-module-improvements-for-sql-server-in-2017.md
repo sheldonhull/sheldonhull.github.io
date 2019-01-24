@@ -3,7 +3,7 @@
 
 title:  "Powershell Module Improvements for SQL Server in 2017"
 date: 2017-05-31
-tags: ["powershell","sql-server","automation","tech"]
+tags: ["powershell","sql-server","tech"]
 
 ---
 

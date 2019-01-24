@@ -1,7 +1,7 @@
 ---
 title: "SQL Server Database Experimentation Assistant (DEA)"
-date: 
-tag: ["sql-server","sql-performance"]
+date:
+tags: ["sql-server"]
 typora-root-url: ..\assets\img
 typora-copy-images-to: ..\assets\img
 published: false
@@ -15,7 +15,7 @@ Added the DRCReplay.exe and the controller services by pulling up the feature se
 
 ![1516994454775](/1516994454775.png)
 
-Pointed the controller directory to a new directory I created 
+Pointed the controller directory to a new directory I created
 
 ```powershell
 [io.directory]::CreateDirectory('X:\Microsoft SQL Server\DReplayClient\WorkingDir')
@@ -28,7 +28,7 @@ Pointed the controller directory to a new directory I created
 
 ### Initializing Test
 
-Started with backup of the database before executing the activity I wanted to trace. 
+Started with backup of the database before executing the activity I wanted to trace.
 
 ```powershell
 dbatools\backup-dbadatabase -sqlinstance localhost -database $Dbname -CopyOnly -CompressBackup
@@ -47,4 +47,3 @@ restore-dbadatabase -SqlInstance localhost -Path "<BackupFilePath>" -DatabaseNam
 After this restore, initiating the replay was achieved by going to the replay tab.
 
 ![1516995297608](/1516995297608.png)
-

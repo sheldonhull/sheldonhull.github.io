@@ -1,7 +1,7 @@
 ---
 title:  "Delight in the Little Moments"
 date: 2017-11-10
-tags: ["ramblings","videography","family","follower-of-Jesus","ramblings"]
+tags: ["ramblings","videography","family","follower-of-Jesus"]
 categories: ["family"]
 ---
 

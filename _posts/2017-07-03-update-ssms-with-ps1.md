@@ -1,7 +1,7 @@
 ---
 title:  "Update SSMS With PS1"
 date: 2017-07-03
-tags: ["sql-server","sql-management","setup","automation","powershell","cool-tools","tech"]
+tags: ["sql-server","powershell","cool-tools","tech"]
 last_modified_at: 2018-03-29
 excerpt: "Installing and Updating SSMS with a simple PowerShell script can be a nice little timesaver..."
 ---

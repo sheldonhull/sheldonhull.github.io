@@ -3,7 +3,7 @@
 
 title:  "Syncovery & Arq - Syncing & Backup"
 date: 2016-10-09
-tags: ["ramblings","software","cool-tools","ramblings"]
+tags: ["cool-tools","ramblings"]
 ---
 
 # Syncovery & Arq 5I've tried a lot of file sync/backup utilities.

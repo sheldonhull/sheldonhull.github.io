@@ -3,7 +3,7 @@
 
 title:  "Google Search Only Results from the last year"
 date: 2016-04-27
-tags: ["ramblings","tech","ramblings","geek-cred"]
+tags: ["ramblings","tech"]
 ---
 
 Tech changes quick. Reading google postings from something in 2009 is not my first choice.I found an option after digging through some google discussion posts on how to setup the default search in chrome (also applies to other browsers) to automatically apply the advanced filter option for "results in last year".

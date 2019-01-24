@@ -3,7 +3,7 @@
 
 title:  "Pizzicato Pizza"
 date: 2016-10-29
-tags: ["music","ramblings","music","ramblings"]
+tags: ["music","ramblings"]
 ---
 
 Had a blast making this song. Unfortunately, creating video of slow motion pizza cutting was going to be a bit awkward to do, as I didn't feel like asking a pizza place to let me stand behind the counter and video pizza assembly. :-)Best listened to with headphones, not a phone speaker :-)
