@@ -3,7 +3,7 @@
 
 title:  "On how to Googlify your SQL statements for future searching"
 date: 2013-05-22
-tags: ["sql-server","geek-cred","cool-tools"]
+tags: ["sql-server","cool-tools"]
 toc: true
 ---
 

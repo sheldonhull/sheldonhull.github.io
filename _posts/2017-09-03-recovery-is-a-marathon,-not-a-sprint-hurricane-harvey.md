@@ -3,7 +3,7 @@
 
 title:  "Recovery is a Marathon, Not a Sprint - Hurricane Harvey"
 date: 2017-09-03
-tags: ["ramblings","flood","community","ramblings","follower-of-Jesus"]
+tags: ["ramblings","flood","follower-of-Jesus"]
 ---
 
 ![](/assets/img/Flood+impact.jpgFlood+impact?format=original)

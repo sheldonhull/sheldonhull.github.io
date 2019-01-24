@@ -3,7 +3,7 @@
 
 title:  "A Waterlogged Texan Reporting In from Northpoint Tomball"
 date: 2017-08-29
-tags: ["ramblings","family","follower-of-Jesus","ramblings"]
+tags: ["ramblings","family","follower-of-Jesus"]
 ---
 
 ![The view from my driveway. I was seriously blessed, as many others were not as high](/assets/img/View+from+My+Driveway.jpg) The view from my driveway. I was seriously blessed, as many others were not as high

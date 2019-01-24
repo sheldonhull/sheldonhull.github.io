@@ -1,7 +1,7 @@
 ---
 title:  "TFS Custom Task - Service Actions (for TFS 2015 Update 2.1 or before)"
 date: 2017-03-07
-tags: ["tfs","automation","build-tasks","powershell","tech"]
+tags: ["tfs","build-tasks","powershell","tech"]
 ---
 
 Apparently, boolean values for custom VSTS tasks for versions prior to TFS 2015 Update 3) require some special handling as they don't pass the checkbox values as actual powershell `$true` or `$false`. Instead the task passes this information along as `true` or `false`. To properly handle this you'll need to pass in the value as a `string` then convert to `boolean`.

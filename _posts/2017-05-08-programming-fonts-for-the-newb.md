@@ -1,7 +1,7 @@
 ---
 title:  "Programming Fonts For The Newb"
 date: 2017-05-08
-tags: ["workflow","readability","fonts","geek-cred","tech"]
+tags: ["tech"]
 last_modified_at: 2018-03-30
 gallery:
     - url: /assets/img/fira-code-mono.png

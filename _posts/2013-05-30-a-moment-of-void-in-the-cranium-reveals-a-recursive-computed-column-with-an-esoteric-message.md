@@ -3,7 +3,7 @@
 
 title:  "A moment of void in the cranium reveals a recursive computed column with an esoteric message"
 date: 2013-05-30
-tags: ["sql-server","troubleshooting"]
+tags: ["sql-server"]
 ---
 
 `Msg 402, Level 16, State 1, Line 67 The data types varchar and void type are incompatible in the add operator.`

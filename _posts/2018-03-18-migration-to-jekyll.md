@@ -1,7 +1,7 @@
 ---
 title:  "Migration To Jekyll"
 date: 2018-03-19
-tags: ["tech","jekyll","website"]
+tags: ["tech","jekyll"]
 toc: true
 ---
 

@@ -3,7 +3,7 @@
 
 title:  "DAW Dive 02 - BFD3 - Drumming for the Rest of Us"
 date: 2016-10-11
-tags: ["daw","music","ramblings","software","music","cool-tools"]
+tags: ["daw","music","ramblings","cool-tools"]
 ---
 
 Creating tracks at home can be very intensive in time, so I'm always looking for a better way to bring a larger sound to a track with less effort. One of the big gaps for me has been the drum parts. I've evaluated a few options, and finally dived into [BFD3 ](http://bit.ly/2dHCt87)for this latest project that is a post-rock style track. This was my first time diving into BFD3 for a full song, so I had a bit to learn.

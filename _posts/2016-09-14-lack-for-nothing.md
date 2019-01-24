@@ -1,7 +1,7 @@
 ---
 title:  "Lack for Nothing"
 date: 2016-09-14
-tags: ["music","ramblings","worship","music","ramblings","follower-of-Jesus"]
+tags: ["music","ramblings","worship","follower-of-Jesus"]
 ---
 
 The message of this song is one that that has been driving itself home as more and more important to me.

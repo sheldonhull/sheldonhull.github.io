@@ -3,7 +3,7 @@
 
 title:  "Automating SSMS 2016 Updates & Install"
 date: 2016-04-19
-tags: ["automation","cool-tools","sql-server","geek-cred"]
+tags: ["automation","cool-tools","sql-server"]
 excerpt:  "simplify your ssms install"
 
 ---
