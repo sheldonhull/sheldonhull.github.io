@@ -1,0 +1,3 @@
+2.4
+# https://community.algolia.com/jekyll-algolia/netlify.html
+# By default Netlify uses Ruby v2.1.2. This version is not compatible with the jekyll-algolia.
