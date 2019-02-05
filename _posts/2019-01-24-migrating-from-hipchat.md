@@ -38,6 +38,27 @@ It's painful. Hipchat's going into the great beyond so don't expect support for 
 4. To get the raw HTML easily, simply try this Chrome extension for selecting the table and copying the raw html of the table. [CopyTables](http://bit.ly/2S1XwRn)
 5. Open the room listing in Hipchat. Using the extension select `Rows` as your selection criteria and then select `Next Table`. Copy the Raw html to an empty doc. Go to the next page (I had 3 pages to go through) and copy each full table contents to append to the raw html in your doc.
 6. Once you have obtained all the html rows, then run the following script to parse out the html content into a `[pscustomobject[]]` collection to work with in your script.
+```powershell
+[reflection.assembly]::loadwithpartialname('System.Web')
+$HtmlRaw = Get-Content -Path '.\TableRowRawHtml.html'
+$Matched = Select-String -InputObject $HtmlRaw -Pattern '((?<=rooms/show/)\d*(?="))(.*?\n*?.*?)(?<=[>])(.*?(?=<))' -AllMatches | Select-Object -ExpandProperty Matches
+
+Write-PSFMessage -Level Important -Message "Total Match Count: $(@($Matched).Count)"
+
+[pscustomobject[]]$RoomListing = $Matched | ForEach-Object -Process {
+    $m = $_.Groups
+    [pscustomobject]@{
+            RoomId           = $m[1].Value
+            OriginalRoomName = [system.web.httputility]::HtmlDecode($m[3].Value)
+        }
+}
+
+Write-PSFMessage -Level Important -Message "Total Rooms Listed: $(@($RoomListing).Count)"
+
+```
+
+Now you'll at least have a listing of room id's and names to work with, even if it took a while to get to it. There are other ways to get the data, such as expanding the `column-format=999` but this timed out on me and this ended actually being the quickest way to proceed.
+
 
 ## Using CLI
 
