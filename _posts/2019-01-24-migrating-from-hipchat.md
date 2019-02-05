@@ -1,15 +1,17 @@
 ---
+title: Migrating From Hipchat
+last_modified_at: '2019-02-05 03:55:00'
+date: '2019-02-05 01:09:43'
 excerpt: >-
   Migrating from hipchat to slack can be a little painful if you have some  
   issues similar to mine to cleanup. Maybe this will help save you some time.
-layout: post
-title: Migrating From Hipchat
-toc: true
 tags:
   - tech
   - powershell
   - development
-last_modified_at: ''
+toc: true
+typora-root-url: ..\assets\img
+typora-copy-images-to: ..\assets\img
 ---
 # Problems
 
@@ -36,3 +38,21 @@ It's painful. Hipchat's going into the great beyond so don't expect support for 
 4. To get the raw HTML easily, simply try this Chrome extension for selecting the table and copying the raw html of the table. [CopyTables](http://bit.ly/2S1XwRn)
 5. Open the room listing in Hipchat. Using the extension select `Rows` as your selection criteria and then select `Next Table`. Copy the Raw html to an empty doc. Go to the next page (I had 3 pages to go through) and copy each full table contents to append to the raw html in your doc.
 6. Once you have obtained all the html rows, then run the following script to parse out the html content into a `[pscustomobject[]]` collection to work with in your script.
+
+## Using CLI
+
+To get started, cache your credentials using the fantastic BetterCredentials module. To install you'll need to run `Install-Module BetterCredentials -Scope CurrentUser -AllowClobber -Force`
+
+Then set your cached credentials so we don't need to hard code them into scripts. This will cache it in your Windows Credential manager.
+
+```powershell
+$cred = @{
+    credential   = ([pscredential]::new('myHipchatEmail' , ("APITokenHere" | ConvertTo-SecureString -AsPlainText -Force) ) )
+    type         = 'generic'
+    Persistence  = 'localcomputer'
+    Target       = 'hipchatapi'
+    description  = 'BetterCredentials cached credential for hipchat api'
+}
+BetterCredentials\Set-Credential @cred
+```
+
