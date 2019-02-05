@@ -77,3 +77,31 @@ $cred = @{
 BetterCredentials\Set-Credential @cred
 ```
 
+Initialize the working directory and default parameters for the CLI so you can easily run other commands without having to redo this over and over. 
+
+```powershell
+#----------------------------------------------------------------------------#
+#                 set location for the java cli environment                  #
+#----------------------------------------------------------------------------#
+$Dir = Join-Path 'C:\PathToCli' 'atlassian-cli-8.1.0-distribution\atlassian-cli-8.1.0'
+Set-Location $Dir
+$Url = 'https://TACOS.hipchat.com'
+
+#----------------------------------------------------------------------------#
+#              configure default arguments for calling java cli              #
+#----------------------------------------------------------------------------#
+$JavaCommand = "java -jar $(Join-Path $dir 'lib/hipchat-cli-8.1.0.jar') --server $url --token $Password --autoWait --quiet"
+```
+
+Now you can issue some simple commands to start manipulating the CLI. 
+
+```powershell
+
+#----------------------------------------------------------------------------#
+#          Get Entire Room Listing -- Including Archived & Private           #
+#----------------------------------------------------------------------------#
+$Action = '--action getRoomList --includePrivate --includeArchived --outputFormat 1'
+$result = Invoke-Expression -command "$JavaCommand $Action"
+$RoomList = $result | ConvertFrom-CSV
+$RoomList | Export-CliXml -Path (Join-Path $ScriptsDir 'CurrentRoomList.xml') -Encoding UTF8 -Force #just so we have a copy saved to review
+```
