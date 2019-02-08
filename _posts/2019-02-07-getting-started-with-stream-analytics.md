@@ -31,6 +31,8 @@ I don't think this would have been a feasible learning process without having ru
 
 ## New Stream Analytics Project
 ## Setup test data
+Grab some blob exports from your Azure storage and sample a few of the earliest and the latest of your json, placing into a single json file. Put this in your solution folder called inputs through Windows Explorer. After you've done this, right click on the input file contained in your project and select `Add Local Input`. This local input is what you'll use to debug and test without having to wait for the cloud job. You'll be able to preview the content in Visual Studio just like when you run SQL Queries and review the results in the grid. 
+
 ## Design SQL Schema
 ## Stream Analytics Query
 ## Debugging
