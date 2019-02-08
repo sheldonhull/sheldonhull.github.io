@@ -35,6 +35,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false
         tagname: ''
       - {label: "toc", name: "toc", widget: "boolean", default: true}
+      - {label: "published", name: "published", widget: "boolean", default: true}
 
     # MAIN AUTHORING AREA
       - {label: "Body", name: "body", widget: "markdown", required: true}
