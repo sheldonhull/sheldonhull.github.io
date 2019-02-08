@@ -1,19 +1,25 @@
 ---
-title: "SQL Server Database Experimentation Assistant (DEA)"
-date:
-tags: ["sql-server"]
+title: SQL Server Database Experimentation Assistant - How to Run a Capture
+last_modified_at: '2019-02-08 00:07:21'
+date: '2019-02-08 00:07:21'
+excerpt: >-
+  Just a quick look at the very beginning of setting up SQL Server Database
+  Experimentation Assistant
+tags:
+  - sql-server
+  - tech
+  - performance-tuning
+toc: true
 typora-root-url: ..\assets\img
 typora-copy-images-to: ..\assets\img
-published: false
 ---
+Very basic look at the setup as I couldn't find much documentation on this when I last tried this out in 2018. Maybe it will help you get started a little more quickly. I've not had a chance to leverage the actual comparisons across a large workload. When I originally wrote up the basics on this last year I found my needs required more customized load testing approaches. 
 
-# SQL Server Database Experimentation Assistant (DEA)
-
-
+# Adding The Feature
 
 Added the DRCReplay.exe and the controller services by pulling up the feature setup and adding existing features to existing SQL instance installed.
 
-![1516994454775](/1516994454775.png)
+![Add Feature](/assets/img/1516994454775.png)
 
 Pointed the controller directory to a new directory I created
 
@@ -22,11 +28,7 @@ Pointed the controller directory to a new directory I created
 [io.directory]::CreateDirectory('X:\Microsoft SQL Server\DReplayClient\ResultDir')
 ```
 
-
-
-
-
-### Initializing Test
+# Initializing Test
 
 Started with backup of the database before executing the activity I wanted to trace.
 
@@ -36,7 +38,7 @@ dbatools\backup-dbadatabase -sqlinstance localhost -database $Dbname -CopyOnly -
 
 Initialized application application activity, and then recorded in DEA. The result was now in the capture section.
 
-![1516995207757](/1516995207757.png)
+![DEA Captures](/assets/img/1516995207757.png)
 
 Restoring after trace was recorded in DEA was simple with the following command from Dbatools
 
@@ -46,4 +48,5 @@ restore-dbadatabase -SqlInstance localhost -Path "<BackupFilePath>" -DatabaseNam
 
 After this restore, initiating the replay was achieved by going to the replay tab.
 
-![1516995297608](/1516995297608.png)
+![DEA Replay](/assets/img/1516995297608.png)
+
