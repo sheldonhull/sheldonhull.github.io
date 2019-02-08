@@ -12,8 +12,9 @@ tags:
 toc: true
 typora-root-url: ..\assets\img
 typora-copy-images-to: ..\assets\img
+published:true
 ---
-Very basic look at the setup as I couldn't find much documentation on this when I last tried this out in 2018. Maybe it will help you get started a little more quickly. I've not had a chance to leverage the actual comparisons across a large workload. When I originally wrote up the basics on this last year I found my needs required more customized load testing approaches. 
+Very basic look at the setup as I couldn't find much documentation on this when I last tried this out in 2018. Maybe it will help you get started a little more quickly. I've not had a chance to leverage the actual comparisons across a large workload. When I originally wrote up the basics on this last year I found my needs required more customized load testing approaches.
 
 # Adding The Feature
 
@@ -49,4 +50,3 @@ restore-dbadatabase -SqlInstance localhost -Path "<BackupFilePath>" -DatabaseNam
 After this restore, initiating the replay was achieved by going to the replay tab.
 
 ![DEA Replay](/assets/img/1516995297608.png)
-
