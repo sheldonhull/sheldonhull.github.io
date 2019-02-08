@@ -9,14 +9,14 @@ tags:
   - sql-server
   - tech
   - performance-tuning
-toc: true
+toc: false
 typora-root-url: ..\assets\img
 typora-copy-images-to: ..\assets\img
-published: true
 ---
+# DEA
 Very basic look at the setup as I couldn't find much documentation on this when I last tried this out in 2018. Maybe it will help you get started a little more quickly. I've not had a chance to leverage the actual comparisons across a large workload. When I originally wrote up the basics on this last year I found my needs required more customized load testing approaches.
 
-# Adding The Feature
+## Adding The Feature
 
 Added the DRCReplay.exe and the controller services by pulling up the feature setup and adding existing features to existing SQL instance installed.
 
@@ -29,7 +29,7 @@ Pointed the controller directory to a new directory I created
 [io.directory]::CreateDirectory('X:\Microsoft SQL Server\DReplayClient\ResultDir')
 ```
 
-# Initializing Test
+## Initializing Test
 
 Started with backup of the database before executing the activity I wanted to trace.
 
