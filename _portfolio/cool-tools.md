@@ -4,6 +4,7 @@ title: "Cool Tools"
 excerpt: "awesome tools I've used"
 toc: true
 permalink: /cool-tools/
+last_modified_at:
 ---
 
 ## SQL Server Development & Performance Tuning

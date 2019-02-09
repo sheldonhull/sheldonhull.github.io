@@ -1,8 +1,9 @@
 ---
 title:  "Migration To Jekyll"
-date: 2018-03-19
+last_modified_at: 2019-02-09 22:44:18 +0000
 tags: ["tech","jekyll"]
 toc: true
+last_modified_at:
 ---
 
 I've been in the process of migrating my site to it's final home (as far as my inner geek can be satisfied staying with one platform)... Jekyll.

@@ -1,9 +1,8 @@
 ---
-
-
 title:  "Install ReadyRoll via Command Line"
-date: 2016-08-18
+last_modified_at: 2019-02-09 22:44:17 +0000
 tags: ["cool-tool","redgate","sql-server"]
+last_modified_at:
 ---
 
 #### command line install options
