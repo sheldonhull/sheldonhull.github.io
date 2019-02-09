@@ -3,7 +3,7 @@ title:  "Transaction Logging & Recovery (101)"
 date: 2016-01-05
 tags: ["sql-server"]
 toc: true
-
+last_modified_at: 2019-02-09 22:47:54 +0000
 ---
 
 Logging & Recovery Notes from SQL Server Logging, Recovery, and the Transaction Log (pluralsight) Paul Randal
