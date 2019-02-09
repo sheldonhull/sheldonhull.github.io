@@ -10,13 +10,18 @@ tags:
   - development
   - tech
 toc: true
+published: true
 typora-root-url: ..\assets\img
 typora-copy-images-to: ..\assets\img
 ---
 # The Scenario
+
 Application insights is integrated into your application and is sending the results to Azure. In my case, it was blob storage. This can compromise your entire insights history. 
 
+Application Insights has some nice options to visualize data, grafana included among them. However, the data retention as of this time is still set to 90 days. This means historical reporting is limited, and you'll need to utilize `Continous Export` in the Application Insights settings to stream out the content into blob storage to 
+
 # The process
+
 1. Install Visual Studio Azure Plugin
 2. Initialize a new Stream Analytics project in Visual Studio
 3. Import some test data
@@ -27,20 +32,49 @@ Application insights is integrated into your application and is sending the resu
 8. Configure Grafana or PowerBI to connect to your data and make management happy with pretty graphs.
 
 ## Install Visual Studio Azure Plugin
+
 I don't think this would have been a feasible learning process without having run this through VS. Learning the ropes through the web interface can be helpful, but if you are exploring the data parsing you need a way to debug and test the results without waiting minutes to simply have a job start. In addition, you need a way to see the parsed results from test data to ensure you are happy with the results. 
 
 ## New Stream Analytics Project
+
+![stream analtyics project](/assets/img/2019-02-08_18-04-50-stream-analytics-project.png "Stream Analytics In Visual Studio 2017")
+
 ## Setup test data
+
 Grab some blob exports from your Azure storage and sample a few of the earliest and the latest of your json, placing into a single json file. Put this in your solution folder called inputs through Windows Explorer. After you've done this, right click on the input file contained in your project and select `Add Local Input`. This local input is what you'll use to debug and test without having to wait for the cloud job. You'll be able to preview the content in Visual Studio just like when you run SQL Queries and review the results in the grid. 
 
 ## Design SQL Schema
+
+> warning "Design Considerations"
+> Pay attention to the limits and also to the fact you aren't writing pure T-SQL in the `asql` file. It's a much more limited analytics syntax that requires you to simplify some things you might do in TSQL. 
+
+Unique constraints create an index. If you use a unique constraint, you need to be aware of the following info to avoid errors. 
+
+> When you configure Azure SQL database as output to a Stream Analytics job, it bulk inserts records into the destination table. In general, Azure stream analytics guarantees at least once delivery to the output sink, one can still achieve exactly-once delivery to SQL output when SQL table has a unique constraint defined.
+> Once unique key constraints are set up on the SQL table, and there are duplicate records being inserted into SQL table, Azure Stream Analytics removes the duplicate record.
+[Common issues in Stream Analytics and steps to troubleshoot
+](http://bit.ly/2Bugzh0) 
+
+Using the warning above, create any unique constraints with the following syntax to avoid issues.
+
+```sql
+create table dbo.Example (
+...
+,constraint uq_TableName_internal_id_dimension_name
+          unique ( internal_id, dimension_name ) with (IGNORE_DUP_KEY  = on)
+```
+
+
 ## Stream Analytics Query
+
 ## Debugging
+
 ## Submit job to Azure
 
 ## Backfilling Historical Data
+
 When you start the job, the default start job date can be changed. Use custom date and then provide it the oldest data of your data. For me this correctly initialized the historical import, resulting in a long running job that populated all the historical data from 2017 and on.
 
 ## Configure Grafana or PowerBI
-Initially I started with Power BI. However, I found out that Grafana 5.1 > has data source plugins for Azure and Application insights, along with dashboard to get you started. I've written on Grafana and InfluxDB in the past and am huge fan of Grafana. I'd highly suggest you explore that, as it's free, while publishing to a workspace with PowerBI can require a subscription, that might not be included in your current MSDN or Office 365 membership. YMMV. 
 
+Initially I started with Power BI. However, I found out that Grafana 5.1 > has data source plugins for Azure and Application insights, along with dashboard to get you started. I've written on Grafana and InfluxDB in the past and am huge fan of Grafana. I'd highly suggest you explore that, as it's free, while publishing to a workspace with PowerBI can require a subscription, that might not be included in your current MSDN or Office 365 membership. YMMV.
