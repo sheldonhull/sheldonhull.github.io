@@ -1,10 +1,9 @@
 ---
-
-
 title:  "Transaction Logging & Recovery (101)"
 date: 2016-01-05
 tags: ["sql-server"]
 toc: true
+
 ---
 
 Logging & Recovery Notes from SQL Server Logging, Recovery, and the Transaction Log (pluralsight) Paul Randal
