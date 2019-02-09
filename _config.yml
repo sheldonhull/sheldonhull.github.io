@@ -139,9 +139,12 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-footer_scripts:
-  - /assets/js/netlifycms.js  # for netlify cms
+# Note: If you assign footer_scripts the theme's /assets/js/main.min.js file will be deactivated.
+# This script includes jQuery and various other plugins that you'll need to find replacements for and include separately.
+#footer_scripts:
+
 head_scripts:
+  - /assets/js/netlifycms.js  # for netlify cms
   - https://identity.netlify.com/v1/netlify-identity-widget.js
 incremental: false
 kramdown:
@@ -162,9 +165,12 @@ kramdown:
     block:
       line_numbers: true
 
-# sass:
-#   sass_dir: _sass
-#   style: compressed
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
 
 permalink: '/:categories/:title/'
 paginate: 8
