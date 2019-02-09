@@ -1,10 +1,9 @@
 ---
-
-
 title:  "Exploring SQL Server With Powershell And SMO Basics"
 date: 2017-08-09
 tags: ["sql-server","powershell","smo","tech"]
 categories: ["sql-server","powershell"]
+last_modified_at: 2019-02-09
 ---
 
 # SqlServer Powershell Cmdlets 2017 - Initialize Look
