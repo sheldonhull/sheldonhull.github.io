@@ -16,7 +16,7 @@ ReadyRoll was recently acquired by Redgate, so the installer options may change 
 
 #### autoupdating via Ketarin
 
-I personally use Ketarin to help me manage automatically updating apps like SQL Server Management Studio. I've uploaded a public entry for ReadyRoll to automate download and install of the latest ReadyRoll version when available. For more detail on how to use Ketarin see my earlier post on [Automating SSMS Upgrades](http://sheldonhull.com/automating-ssms-2016-updates-install/)
+I personally use Ketarin to help me manage automatically updating apps like SQL Server Management Studio. I've uploaded a public entry for ReadyRoll to automate download and install of the latest ReadyRoll version when available. For more detail on how to use Ketarin see my earlier post on [Automating SSMS Upgrades]({% post_url automating-ssms-2016-updates-install %})
 
 ### command line options
 

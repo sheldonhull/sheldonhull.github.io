@@ -3,7 +3,7 @@
 
 title:  "Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev"
 date: 2017-05-17
-tags: ["sql-server","business-intelligence","performance-tuning","tech","powershell","cool-tools"]
+tags: ["sql-server","influxdb","performance-tuning","tech","powershell","cool-tools"]
 last_modified_at: 2018-03-25
 toc: true
 ---

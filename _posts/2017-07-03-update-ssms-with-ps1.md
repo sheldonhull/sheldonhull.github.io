@@ -11,7 +11,7 @@ excerpt: "Installing and Updating SSMS with a simple PowerShell script can be a 
 > Also, for less overhead, investigate SQL Operations Studio instead of SSMS for those situations you need to run some queries on a machine. Less overhead, size, and complexity for some nice basic SQL Server management functionality (even if it is missing my precious SQL Prompt)
 
 
-With how many updates are coming out I threw together a script to parse the latest version from the webpage, and then provide a silent update and install if the installed version is out of date with the available version. To adapt for future changes, the script is easy to update. Right now it's coded to check for version 17 (SSMS 2017). I personally use Ketarin, which I wrote about before if you want a more robust solution here: [Automating SSMS 2016 Updates & Install](https://www.sheldonhull.com/blog/automating-ssms-2016-updates-install)
+With how many updates are coming out I threw together a script to parse the latest version from the webpage, and then provide a silent update and install if the installed version is out of date with the available version. To adapt for future changes, the script is easy to update. Right now it's coded to check for version 17 (SSMS 2017). I personally use Ketarin, which I wrote about before if you want a more robust solution here: [Automating SSMS 2016 Updates & Install]({% post_url automating-ssms-2016-updates-install %})
 
 The bat file is a simple way for someone to execute as admin.
 
