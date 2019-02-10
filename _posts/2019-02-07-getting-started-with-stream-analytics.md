@@ -37,7 +37,7 @@ I don't think this would have been a feasible learning process without having ru
 
 ## New Stream Analytics Project
 
-![stream analtyics project](/assets/img/2019-02-08_18-04-50-stream-analytics-project.png "Stream Analytics In Visual Studio 2017")
+![stream analytics project](/assets/img/2019-02-08_18-04-50-stream-analytics-project.png "Stream Analytics In Visual Studio 2017")
 
 ## Setup test data
 
