@@ -48,7 +48,7 @@ Grab some blob exports from your Azure storage and sample a few of the earliest 
 Unique constraints create an index. If you use a unique constraint, you need to be aware of the following info to avoid errors. 
 
 > When you configure Azure SQL database as output to a Stream Analytics job, it bulk inserts records into the destination table. In general, Azure stream analytics guarantees at least once delivery to the output sink, one can still achieve exactly-once delivery to SQL output when SQL table has a unique constraint defined.
-> Once unique key constraints are set up on the SQL table, and there are duplicate records being inserted into SQL table, Azure Stream Analytics removes the duplicate record.
+Once unique key constraints are set up on the SQL table, and there are duplicate records being inserted into SQL table, Azure Stream Analytics removes the duplicate record.
 [Common issues in Stream Analytics and steps to troubleshoot
 ](http://bit.ly/2Bugzh0) 
 
