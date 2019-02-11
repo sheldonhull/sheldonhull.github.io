@@ -18,7 +18,7 @@ typora-copy-images-to: ..\assets\img
 
 Application insights is integrated into your application and is sending the results to Azure. In my case, it was blob storage. This can compromise your entire insights history. 
 
-Application Insights has some nice options to visualize data, grafana included among them. However, the data retention as of this time is still set to 90 days. This means historical reporting is limited, and you'll need to utilize `Continous Export` in the Application Insights settings to stream out the content into blob storage to 
+Application Insights has some nice options to visualize data, Grafana included among them. However, the data retention as of this time is still set to 90 days. This means historical reporting is limited, and you'll need to utilize `Continous Export` in the Application Insights settings to stream out the content into blob storage to 
 
 # The process
 
@@ -45,9 +45,6 @@ Grab some blob exports from your Azure storage and sample a few of the earliest 
 
 ## Design SQL Schema
 
-> warning "Design Considerations"
-> Pay attention to the limits and also to the fact you aren't writing pure T-SQL in the `asql` file. It's a much more limited analytics syntax that requires you to simplify some things you might do in TSQL. 
-
 Unique constraints create an index. If you use a unique constraint, you need to be aware of the following info to avoid errors. 
 
 > When you configure Azure SQL database as output to a Stream Analytics job, it bulk inserts records into the destination table. In general, Azure stream analytics guarantees at least once delivery to the output sink, one can still achieve exactly-once delivery to SQL output when SQL table has a unique constraint defined.
@@ -65,7 +62,11 @@ create table dbo.Example (
 ```
 
 
+
 ## Stream Analytics Query
+
+> warning "Design Considerations"
+> Pay attention to the limits and also to the fact you aren't writing pure T-SQL in the `asql` file. It's a much more limited analytics syntax that requires you to simplify some things you might do in TSQL. It does not support all TSQL features. [Stream Analytics Query Language Reference](https://docs.microsoft.com/en-us/stream-analytics-query/stream-analytics-query-language-reference)
 
 ## Debugging
 
