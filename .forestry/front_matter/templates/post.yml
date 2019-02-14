@@ -1,8 +1,8 @@
 ---
 hide_body: false
 
-pages:
-- _posts/
+# pages:
+# - _posts/
 
 fields:
 - name: 'title'
