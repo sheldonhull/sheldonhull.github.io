@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: "/sudo"
+admin_path:
 
 # forestry config front matter config
 front_matter_path: '/front_matter/templates'
@@ -12,7 +12,7 @@ file_template: ":year:-:month:-:day:-:filename:"
 
 #  forestry config for uploading images and files
 upload_dir: '/assets/img'
-
+public_path: '/assets/img'
 
 #sections of pages
 sections:
@@ -27,6 +27,13 @@ sections:
 - type: jekyll-portfolio
   label: Portfolio
   create: all
+- type: directory
+  path: ''
+  label: pages
+  create: all
+  match: "*.md"
+  exclude: "*README.md"
+  new_doc_ext: md
 
 
 
