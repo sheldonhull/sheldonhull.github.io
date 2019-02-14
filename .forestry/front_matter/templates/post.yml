@@ -4,17 +4,22 @@ hide_body: false
 is_partial: false
 fields:
 - name: title
+  label: title
   type: text
 - name: date
+  label: date
   type: datetime
   default: ''
 - name: last_modified_at
+  label: last_modified_at
   type: datetime
   default: ''
 - name: body
+  label: body
   type: textarea
   default: ''
 - name: excerpt
+  label: excerpt
   type: text
   default: ''
 - type: tag_list
@@ -23,19 +28,24 @@ fields:
   default:
   - tech
 - name: image
+  label: image
   type: image_gallery
   default: ''
 - name: toc
+  label: toc
   type: boolean
   default: false
 - name: published
+  label: published
   type: boolean
   default: false
 - name: typora-root-url
+  label: typora-root-url
   type: text
   hidden: true
   default: "..\\assets\\img"
 - name: typora-copy-images-to
+  label: typora-copy-images-to
   type: text
   hidden: true
   default: "..\\assets\\img"
