@@ -1,0 +1,37 @@
+---
+hide_body: false
+
+pages:
+- _posts/
+
+fields:
+- name: 'title'
+  type: text
+- name: 'date'
+  type: datetime
+- name: 'last_modified_at'
+  type: datetime
+- name: 'body'
+  type: textarea
+- name: 'excerpt'
+  type: text
+- type: tag_list
+  name: tags
+  label: Tags
+  default:
+  - tech
+- name: 'image'
+  type: image_gallery
+- name: 'toc'
+  type: boolean
+- name: 'published'
+  type: boolean
+
+# hidden
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: post
+  config:
+    required: true

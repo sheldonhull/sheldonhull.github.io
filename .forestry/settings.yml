@@ -1,0 +1,40 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: "/sudo"
+
+# forestry config front matter config
+front_matter_path: '/front_matter/templates'
+
+# forestry config File naming
+use_front_matter_path: true
+file_template: ":year:-:month:-:day:-:filename:"
+
+#  forestry config for uploading images and files
+upload_dir: '/assets/img'
+
+
+#sections of pages
+sections:
+- type: jekyll-pages
+  label: Pages
+  create: all
+- type: jekyll-posts
+  label: Posts
+  create: all
+  templates:
+  - posts
+- type: jekyll-portfolio
+  label: Portfolio
+  create: all
+
+
+
+
+# authorizing image path for writing
+frontmatter_file_url_template: "{{ site.url }}{{ site.baseurl }}/assets/img"
+body_file_url_template: "{{ site.url }}{{ site.baseurl }}/assets/img"
+
+
+# event webhook
+#webhook_url: https://api.netlify.com/build_hooks/5ab28b487b6ee83f6119e06b
