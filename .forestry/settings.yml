@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: _portfolio
+  label: portfolio
+  create: documents
+  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
