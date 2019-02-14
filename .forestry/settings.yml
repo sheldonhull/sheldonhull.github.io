@@ -1,20 +1,8 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path:
-
-# forestry config front matter config
-front_matter_path: '/front_matter/templates'
-
-# forestry config File naming
-use_front_matter_path: true
-file_template: ":year:-:month:-:day:-:filename:"
-
-#  forestry config for uploading images and files
-upload_dir: '/assets/img'
-public_path: '/assets/img'
-
-#sections of pages
+admin_path: 
+webhook_url: 
 sections:
 - type: jekyll-pages
   label: Pages
@@ -24,24 +12,18 @@ sections:
   create: all
   templates:
   - post
-- type: jekyll-portfolio
-  label: Portfolio
-  create: all
-- type: directory
-  path: ''
-  label: pages
-  create: all
-  match: "*.md"
-  exclude: "*README.md"
-  new_doc_ext: md
-
-
-
-
-# authorizing image path for writing
-frontmatter_file_url_template: "{{ site.url }}{{ site.baseurl }}/assets/img"
-body_file_url_template: "{{ site.url }}{{ site.baseurl }}/assets/img"
-
-
-# event webhook
-#webhook_url: https://api.netlify.com/build_hooks/5ab28b487b6ee83f6119e06b
+upload_dir: assets/img
+public_path: "{{ site.url }}{{ site.baseurl }}/assets/img"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":year:-:month:-:day:-:filename:"
+build:
+  preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
+    -V
+  publish_command: bundle exec jekyll build -d _site
+  preview_env:
+  - JEKYLL_ENV=dev
+  publish_env:
+  - JEKYLL_ENV=production
+  preview_output_directory: _site
+  output_directory: _site
