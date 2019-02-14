@@ -1,5 +1,6 @@
 ---
 hide_body: false
+is_partial: false
 
 # pages:
 # - _posts/
@@ -9,12 +10,17 @@ fields:
   type: text
 - name: 'date'
   type: datetime
+  default: ''
 - name: 'last_modified_at'
   type: datetime
+  default: ''
 - name: 'body'
   type: textarea
+  default: ''
 - name: 'excerpt'
   type: text
+  default: ''
+
 - type: tag_list
   name: tags
   label: Tags
@@ -24,10 +30,21 @@ fields:
   type: image_gallery
 - name: 'toc'
   type: boolean
+  default: false
 - name: 'published'
   type: boolean
+  default: false
+
 
 # hidden
+- name: typora-root-url
+  type: text
+  hidden: true
+  default: "..\\assets\\img"
+- name: typora-copy-images-to
+  type: text
+  hidden: true
+  default: "..\\assets\\img"
 - type: text
   name: layout
   label: Layout
