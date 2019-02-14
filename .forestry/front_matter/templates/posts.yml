@@ -2,4 +2,54 @@
 label: posts
 hide_body: false
 is_partial: false
-fields: []
+# pages:
+# - _posts/
+
+fields:
+- name: 'title'
+  type: text
+- name: 'date'
+  type: datetime
+  default: ''
+- name: 'last_modified_at'
+  type: datetime
+  default: ''
+- name: 'body'
+  type: textarea
+  default: ''
+- name: 'excerpt'
+  type: text
+  default: ''
+
+- type: tag_list
+  name: tags
+  label: Tags
+  default:
+  - tech
+- name: 'image'
+  type: image_gallery
+  default: ''
+- name: 'toc'
+  type: boolean
+  default: false
+- name: 'published'
+  type: boolean
+  default: false
+
+
+# hidden
+- name: typora-root-url
+  type: text
+  hidden: true
+  default: "..\\assets\\img"
+- name: typora-copy-images-to
+  type: text
+  hidden: true
+  default: "..\\assets\\img"
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: post
+  config:
+    required: true
