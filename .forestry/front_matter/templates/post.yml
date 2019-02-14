@@ -28,6 +28,7 @@ fields:
   - tech
 - name: 'image'
   type: image_gallery
+  default: ''
 - name: 'toc'
   type: boolean
   default: false
