@@ -14,7 +14,7 @@ sections:
   label: portfolio
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: jekyll-pages
   label: Pages
   create: all
