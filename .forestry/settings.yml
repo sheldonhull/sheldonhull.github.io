@@ -23,7 +23,7 @@ sections:
   label: Posts
   create: all
   templates:
-  - posts
+  - post
 - type: jekyll-portfolio
   label: Portfolio
   create: all
