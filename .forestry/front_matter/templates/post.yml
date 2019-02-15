@@ -31,10 +31,6 @@ fields:
   label: toc
   type: boolean
   default: false
-- name: published
-  label: published
-  type: boolean
-  default: false
 - name: typora-root-url
   label: typora-root-url
   type: text
