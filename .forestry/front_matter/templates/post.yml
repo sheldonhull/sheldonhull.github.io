@@ -14,10 +14,6 @@ fields:
   label: last_modified_at
   type: datetime
   default: ''
-- name: body
-  label: body
-  type: textarea
-  default: ''
 - name: excerpt
   label: excerpt
   type: text
