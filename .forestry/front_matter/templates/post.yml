@@ -45,12 +45,5 @@ fields:
   type: text
   hidden: true
   default: "..\\assets\\img"
-- type: text
-  name: layout
-  label: Layout
-  hidden: true
-  default: post
-  config:
-    required: true
 pages:
 - _posts/forestry-io-testing.md
