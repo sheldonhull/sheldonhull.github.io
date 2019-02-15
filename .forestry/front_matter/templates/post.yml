@@ -52,3 +52,5 @@ fields:
   default: post
   config:
     required: true
+pages:
+- _posts/forestry-io-testing.md
