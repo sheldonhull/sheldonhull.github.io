@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Stream Analytics
-last_modified_at: '2019-02-07 19:53:28'
 date: '2019-02-07 19:53:00'
+last_modified_at: '2019-02-07 19:53:28'
 excerpt: >-
   If you are a newbie to the world of streaming analytics and need to get moving
   on parsing some Application Insights this is for you.
@@ -14,11 +14,17 @@ published: true
 typora-root-url: ..\assets\img
 typora-copy-images-to: ..\assets\img
 ---
+# Resources
+- If you want a schema reference for the json Application Insights produces // [Azure Application Insights Data Model | Microsoft Docs
+](http://bit.ly/2S3kFlD)
+- If you want to visualize last 90 days of App Insight Data with Grafana // [Monitor Azure services and applications using Grafana | Microsoft Docs
+](http://bit.ly/2S1Kkv9)
+
 # The Scenario
 
 Application insights is integrated into your application and is sending the results to Azure. In my case, it was blob storage. This can compromise your entire insights history. 
 
-Application Insights has some nice options to visualize data, Grafana included among them. However, the data retention as of this time is still set to 90 days. This means historical reporting is limited, and you'll need to utilize `Continous Export` in the Application Insights settings to stream out the content into blob storage to 
+Application Insights has some nice options to visualize data, Grafana included among them. However, the data retention as of this time is still set to 90 days. This means historical reporting is limited, and you'll need to utilize `Continuous Export` in the Application Insights settings to stream out the content into blob storage to 
 
 # The process
 
