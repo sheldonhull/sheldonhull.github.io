@@ -1,6 +1,4 @@
 ﻿---
-
-
 title:  "Native SSMS a second class citizen no longer..."
 date: 2013-04-22
 tags: ["sql-server","cool-tools"]
