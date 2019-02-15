@@ -1,8 +1,12 @@
-﻿---
-title:  "Native SSMS a second class citizen no longer..."
-date: 2013-04-22
-tags: ["sql-server","cool-tools"]
+---
+title: Native SSMS a second class citizen no longer...
+date: '2013-04-21'
+tags:
+  - sql-server
+  - cool-tools
 toc: true
+published: true
+last_modified_at: '2013-04-21'
 ---
 
 Intellisense can be a boon to adding quick development. Quick hints on scope specific variables, syntax suggestions, function descriptions and more provide a valuable tool to productive coding.Coding in SQL Server Management Studio (SSMS) has greatly improved over the version releases, but it still lags behind the power of Visual Studio's intellisense, template insertions with "fill in the blank" functionality .
