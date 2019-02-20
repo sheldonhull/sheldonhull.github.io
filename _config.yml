@@ -9,7 +9,7 @@ url: 'https://www.sheldonhull.com'
 baseurl: ''
 repository: sheldonhull/sheldonhull.github.io
 teaser: /assets/img/sheldon_400x400.jpg
-breadcrumbs: false
+breadcrumbs: true
 words_per_minute: 200
 comments:
   provider: disqus
@@ -170,6 +170,17 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 
 permalink: '/:categories/:title/'

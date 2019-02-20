@@ -4,6 +4,11 @@
 
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono|Source+Sans+Pro');
+/* main partials */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";  /* skin */
+
+@import "minimal-mistakes"; /* main partials */
+
 body
 {
     -webkit-font-smoothing: antialiased;
@@ -181,73 +186,159 @@ body .gist .gist-meta {
     color:#619bac;
 }
 
-
 // PREMONITION
 .premonition {
-  $default-color: #5bc0de;
-  $default-light-color: #e3edf2;
-  $info-color: #50af51;
-  $info-light-color: #f3f8f3;
-  $warning-color: #f0ad4e;
-  $warning-light-color: #fcf8f2;
-  $error-color: #d9534f;
-  $error-light-color: #fdf7f7;
-  $content-color: rgba(0,0,0,0.5);
+    $default-color: #5bc0de;
+    $default-light-color: #e3edf2;
+    $info-color: #50af51;
+    $info-light-color: #f3f8f3;
+    $warning-color: #f0ad4e;
+    $warning-light-color: #fcf8f2;
+    $error-color: #d9534f;
+    $error-light-color: #fdf7f7;
+    $content-color: rgba(0,0,0,0.5);
 
-  display: grid;
-  grid-template-columns: 43px auto;
-  padding-top: 13px;
-  padding-bottom: 6px;
-  margin: 30px 0 30px 0;
-  background-color: $default-light-color;
-  border-left: 4px solid $default-color;
-  color: $default-color;
-
-  code {
-    background-color: #fff;
+    display: grid;
+    grid-template-columns: 43px auto;
+    padding-top: 13px;
+    padding-bottom: 6px;
+    margin: 30px 0 30px 0;
+    background-color: $default-light-color;
+    border-left: 4px solid $default-color;
     color: $default-color;
+
+    code {
+      background-color: #fff;
+      color: $default-color;
+    }
+
+    .header {
+      font-weight: 700;
+      font-size: 15px;
+      color: $default-color;
+    }
+
+    .fa {
+      font-size: 18px;
+      opacity: .3;
+      padding-top: 2px;
+      padding-left: 20px;
+    }
+
+    .content {
+      color: $content-color;
+      padding-right: 40px;
+    }
+
+    @mixin box-type($c, $lc) {
+      background-color: $lc;
+      color: $c;
+      border-color: $c;
+
+      a {
+        color: $c;
+        text-decoration: underline;
+      }
+      code {
+        color: $c;
+      }
+      .header {
+        color: $c;
+      }
+    }
+
+    &.info { @include box-type($info-color, $info-light-color); }
+    &.warning { @include box-type($warning-color, $warning-light-color); }
+    &.error { @include box-type($error-color, $error-light-color); }
+  }
+// PREMONITION END
+.premonition {
+    display: grid;
+    grid-template-columns: 43px auto;
+    padding-top: 13px;
+    padding-bottom: 6px;
+    margin: 30px 0 30px 0;
+    background-color: #e3edf2;
+    border-left: 4px solid #5bc0de;
+    color: #5bc0de;
   }
 
-  .header {
+  .premonition code {
+    background-color: #fff;
+    color: #5bc0de;
+  }
+
+  .premonition .header {
     font-weight: 700;
     font-size: 15px;
-    color: $default-color;
+    color: #5bc0de;
   }
 
-  .fa {
+  .premonition .fa {
     font-size: 18px;
     opacity: .3;
     padding-top: 2px;
     padding-left: 20px;
   }
 
-  .content {
-    color: $content-color;
+  .premonition .content {
+    color: rgba(0, 0, 0, 0.5);
     padding-right: 40px;
   }
 
-  @mixin box-type($c, $lc) {
-    background-color: $lc;
-    color: $c;
-    border-color: $c;
-
-    a {
-      color: $c;
-      text-decoration: underline;
-    }
-    code {
-      color: $c;
-    }
-    .header {
-      color: $c;
-    }
+  .premonition.info {
+    background-color: #f3f8f3;
+    color: #50af51;
+    border-color: #50af51;
   }
 
-  &.info { @include box-type($info-color, $info-light-color); }
-  &.warning { @include box-type($warning-color, $warning-light-color); }
-  &.error { @include box-type($error-color, $error-light-color); }
-}
+  .premonition.info a {
+    color: #50af51;
+    text-decoration: underline;
+  }
 
+  .premonition.info code {
+    color: #50af51;
+  }
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";  /* skin */
-@import "minimal-mistakes"; /* main partials */
+  .premonition.info .header {
+    color: #50af51;
+  }
+
+  .premonition.warning {
+    background-color: #fcf8f2;
+    color: #f0ad4e;
+    border-color: #f0ad4e;
+  }
+
+  .premonition.warning a {
+    color: #f0ad4e;
+    text-decoration: underline;
+  }
+
+  .premonition.warning code {
+    color: #f0ad4e;
+  }
+
+  .premonition.warning .header {
+    color: #f0ad4e;
+  }
+
+  .premonition.error {
+    background-color: #fdf7f7;
+    color: #d9534f;
+    border-color: #d9534f;
+  }
+
+  .premonition.error a {
+    color: #d9534f;
+    text-decoration: underline;
+  }
+
+  .premonition.error code {
+    color: #d9534f;
+  }
+
+  .premonition.error .header {
+    color: #d9534f;
+  }
