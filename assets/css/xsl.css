@@ -1,6 +1,6 @@
-body {
+/* body {
 	background-color:#FFF;
-	font-family:Verdana, Arial, SunSans-Regular, Sans-Serif; 
+	font-family:Verdana, Arial, SunSans-Regular, Sans-Serif;
 	font-size:small;
 	line-height:1.4em;
 	margin:0;
@@ -18,7 +18,7 @@ a:hover {
 	background-color:#4483C7;
 	padding:0.2em 0.4em 0.4em;
 	color:#FFF;
-	font-family:"Trebuchet MS", Verdana, Arial, SunSans-Regular, Sans-Serif; 
+	font-family:"Trebuchet MS", Verdana, Arial, SunSans-Regular, Sans-Serif;
 	font-size:240%;
 }
 #logo a:link, #logo a:visited {
@@ -72,7 +72,7 @@ a:hover {
 	padding-bottom:0.2em;
 }
 .Snippet dl dt {
-	border-bottom: 1px solid #EEE;	
+	border-bottom: 1px solid #EEE;
 	font-size:86%;
 	line-height:145%;
 	margin-bottom:0.6em;
@@ -87,4 +87,4 @@ a:hover {
 	font-size:80%;
 	padding:0 1em;
 	text-align:center
-}
+} */

@@ -81,7 +81,7 @@ author:
   gitlab: null
   google_plus: null
   keybase: null
-  instagram: sheldonhull
+  instagram: null
   lastfm: null
   linkedin: 'https://www.linkedin.com/in/sheldonhull/'
   pinterest: null
@@ -244,6 +244,7 @@ defaults:
       share: false
       related: true
       permalink: /blog/:title
+      classes: wide
   - scope:
       path: _pages
       type: pages

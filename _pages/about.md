@@ -3,18 +3,22 @@ permalink: /about/
 layout: single
 title: "About"
 excerpt: "about me"
-last_modified_at: 2018-01-10T11:22:24-05:00
-classes: wide
-layout: splash
+last_modified_at: 2019-02-21
+layout: single
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/img/NightHouse.jpg
-
   caption: "Night Photography - Sheldon Hull"
+sidebar:
+  - title: "About"
+    image: /assets/img/about-me.jpg
+    image_alt: "image"
+    text: "This is me, with a little too much coffee..."
+author_profile: false
 ---
 
-![About-Me](/assets/img/about-me.jpg)
+
 ## Core Values
 I live as a follower of Christ, desiring to impact the world around with with who He is. I'm an unashamed disciple and though I've got plenty I mess up, following Him is my joy. I'm passionate about worship, and worship through music, playing guitar.
 
