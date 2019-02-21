@@ -3,7 +3,7 @@ title:  "Exploring SQL Server With Powershell And SMO Basics"
 date: 2017-08-09
 tags: ["sql-server","powershell","smo","tech"]
 categories: ["sql-server","powershell"]
-last_modified_at: 2019-02-09
+last_modified_at: 2019-02-21
 ---
 
 # SqlServer Powershell Cmdlets 2017 - Initialize Look
@@ -125,9 +125,7 @@ Depending on the type of object, you can additionally explore them with GetEnume
 
 For instance, here's a walkthrough on the various ways you might explore the object and find you need to dig into it to get the full detail of what you have access to.
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/e3ed8534b1565c67d6d59163b0921d59.js"></script>
-{% endraw %}
+{% gist e3ed8534b1565c67d6d59163b0921d59 %}
 
 
 ## Comparing Restoring a Database with Cmdlet vs SMO
@@ -136,15 +134,11 @@ For instance, here's a walkthrough on the various ways you might explore the obj
 
 An example of how simple using dbatools cmdlet can make restoring a database copy
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/7314ffa3fc830f36a2eda8ee7e27f7c4.js"></script>
-{% endraw %}
+{% gist 7314ffa3fc830f36a2eda8ee7e27f7c4 %}
 
 
 ### rolling your own wheel
 
 Now compare this to the complexity of running your own invocation of the SMO namespace and requires a lot more coding. Since dbatools wraps up a lot of the functionality, I've actually migrated to leveraging this toolkit for these dba related tasks instead of trying to reinvent the wheel.
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/08fe28dd236a239f25821378268ef8e5.js"></script>
-{% endraw %}
+{% gist 08fe28dd236a239f25821378268ef8e5 %}

@@ -2,7 +2,7 @@
 title:  "Install ReadyRoll via Command Line"
 date: 2016-08-18
 tags: ["cool-tool","redgate","sql-server"]
-last_modified_at: 2019-02-09
+last_modified_at: 2019-02-21
 ---
 
 #### command line install options
@@ -25,6 +25,4 @@ I personally use Ketarin to help me manage automatically updating apps like SQL 
 ![](/assets/img/2016-08-16_11-05-53.png)
 - For automated setup and install use the following code with Ketarin
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/bfde8f5846555183e3abd4e7575bc2a9.js"></script>
-{% endraw %}
+{% gist bfde8f5846555183e3abd4e7575bc2a9 %}

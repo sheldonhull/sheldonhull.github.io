@@ -20,9 +20,7 @@ Instead, just as the author of Hebrews writes (Heb 10), we can come with bold co
 
 
 
-{% raw %}
-<script src="https://gist.github.com/sheldonhull/03a51d7ea231974bb3ce10feb0d2ad6c.js"></script>
-{% endraw %}
+{% gist 03a51d7ea231974bb3ce10feb0d2ad6c %}
 
 
 **_disclaimer_**

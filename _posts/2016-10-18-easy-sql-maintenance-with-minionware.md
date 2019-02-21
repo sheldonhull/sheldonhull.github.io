@@ -4,7 +4,7 @@
 title:  "Easy SQL Maintenance with Minionware"
 date: 2016-10-18
 tags: ["powershell","sql-server"]
-last_modified_at: 2017-01-25
+last_modified_at: 2019-02-21
 excerpt:  "Review of using Minionware sql maintenance solution"
 ---
 > info "Updated 2017-01-25"
@@ -21,6 +21,4 @@ There has been various forms of discussion on the adjustments of Fill Factor for
 Maybe this will help you get up to speed if you want to try out this great solution, but tweak a few defaults.
 The ease of installation across multiple instances makes this my current favorite solution, followed by the [fantastic Ola Hallengren solution](http://bit.ly/2e8d9qW).
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/2fee8ab97c0210918e8fb10719fca3f5.js"></script>
-{% endraw %}
+{% gist 2fee8ab97c0210918e8fb10719fca3f5 %}

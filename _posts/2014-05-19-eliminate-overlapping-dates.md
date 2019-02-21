@@ -12,6 +12,4 @@ Itzik provided an excellent solution, though I had to take time to digest. The o
 
 ![Example of Problem and Solution with Overlapping Dates](/assets/img/Eliminate_Overlapping_Dates_ogww1m.png)
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/8c7235ecb75bb91833e1.js"></script>
-{% endraw %}
+{% gist 8c7235ecb75bb91833e1 %}

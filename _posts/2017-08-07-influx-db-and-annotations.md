@@ -4,7 +4,7 @@
 title:  "InfluxDB and Annotations"
 date: 2017-08-07
 tags: ["time-series","powershell","influxdb","monitoring","sql-server","cool-tools"]
-last_modified_at: 2018-03-25
+last_modified_at: 2019-02-21
 toc: true
 ---
 
@@ -26,9 +26,7 @@ This post on maxchadwick.xyz greatly helped me get started: [Creating Grafana An
 
 Per Max's original post it supports html as well, so you could link for example to a build, test result, or anything else you want to link to from your performance statistics.
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/e95ca6d909f741ebe80fa28c6da4de5b.js"></script>
-{% endraw %}
+{% gist e95ca6d909f741ebe80fa28c6da4de5b %}
 
 
 This provides an annotation on your timeline in a nice format for browsing through the timeline. I can see usage cases for identifying specific activity or progress in tests, helping coorelate the performance metrics with known activity steps from a build, script, or other related tasks. You could have an type of activity trigger this powershell insert, providing a lot of flexibility to help relate useful metrics to your monitoring.

@@ -2,7 +2,7 @@
 title:  "Setting Up InfluxDb, Chronograf, and Grafana for the SqlServer Dev"
 date: 2017-05-17
 tags: ["sql-server","influxdb","performance-tuning","tech","powershell","cool-tools"]
-last_modified_at: 2019-02-09
+last_modified_at: 2019-02-21
 toc: true
 ---
 
@@ -23,9 +23,7 @@ It's pretty epic to combine information across a variety of sources and be able 
 ## Downloading
 
 I started by running this quick powershell script to download the stable toolkit.
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/5fa33704e2599e3ddb46a8299ad3bafe.js"></script>
-{% endraw %}
+{% gist 5fa33704e2599e3ddb46a8299ad3bafe %}
 
 Once extracted, I moved the influx extracted subfolder into the InfluxDB folder to keep it clean. Now all the binaries rested in `C:\Influx\InfluxDB` folder with no nesting folders.
 I referenced the documentation for getting started with InfluxDB.
@@ -34,9 +32,7 @@ I referenced the documentation for getting started with InfluxDB.
 
 Started up the local influxdb binary.
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/6f4e11d60244af00edac438cb9ae6ea5.js"></script>
-{% endraw %}
+{% gist 6f4e11d60244af00edac438cb9ae6ea5 %}
 
 
 Initializing the new database was simple as documented: `create database statty`
@@ -69,9 +65,7 @@ cmd /k influx.exe -host "MyInfluxDbHost" -database "statty" -precision "s" -form
 
 Once you have this running you can take the telegraf binaries and run them on any other server to start capturing some default preset metrics. I launched with the following script and placed this in `C:\Influx` directory to make it easy to access for future runs.
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/1a9641ce607569dde912f996137debae.js"></script>
-{% endraw %}
+{% gist 1a9641ce607569dde912f996137debae %}
 
 
 Edit the conf file to add some tags, change default sampling interval and more. I'll post another article about setting up telegraf to run as a service in the future so search for more info
@@ -89,9 +83,7 @@ start %~dp0telegraf.exe -config %~dp0telegraf.conf
 
 One these metrics began to run, I ran Chronograf. This is Influx's alternative to Grafana, another more mature product.
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/958094675f6ab53897616755dd130144.js"></script>
-{% endraw %}
+{% gist 958094675f6ab53897616755dd130144 %}
 
 
 ![](/assets/img/Initial+Screen+After+Opening+Localhost+when+running+the+Chronograf.exe)
@@ -106,9 +98,7 @@ My preferred visualization tool, this was far more robust and well documented th
 
 When starting Grafana, you can run the following script. It creates a copy of the default ini to copy for the user to edit if not already there.
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/3cff34cf9029bd99cd1e888e755c307c.js"></script>
-{% endraw %}
+{% gist 3cff34cf9029bd99cd1e888e755c307c %}
 
 
 Once you open the localhost page, if you don't see datasources in the left hand drop down, create an organization and ensure you are an admin, you'll then see the option to add datasources. I simple pointed the page to InfluxDB console running on the server I had setup previously.

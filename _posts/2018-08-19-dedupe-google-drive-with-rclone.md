@@ -1,6 +1,6 @@
 ---
 date: '2018-08-19 23:55 -0500'
-last_modified_at: '2018-08-19 23:55 -0500'
+last_modified_at: 2019-02-21
 published: true
 title: Dedupe Google Drive with RClone
 tags:
@@ -58,6 +58,4 @@ This includes quite a few nifty S3 operations. Even though I'm more experienced 
 
 Buried in there was also mention of the ability to mount **any** of the storage systems as local drives in Windows. See [RClount Mount documentation.](https://rclone.org/commands/rclone_mount/). This means you could mount an S3 bucket as a local drive with RClone. I'll try and post an update on that after I try it out. It's pretty promising.
 
-{% raw %}
-<script src="https://gist.github.com/sheldonhull/e286bd05ff154b47c8a1f8ecf2bdc22b.js"></script>
-{% endraw %}
+{% gist e286bd05ff154b47c8a1f8ecf2bdc22b %}

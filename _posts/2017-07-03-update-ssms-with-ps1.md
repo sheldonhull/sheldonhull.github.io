@@ -2,7 +2,7 @@
 title:  "Update SSMS With PS1"
 date: 2017-07-03
 tags: ["sql-server","powershell","cool-tools","tech"]
-last_modified_at: 2019-02-10
+last_modified_at: 2019-02-21
 excerpt: "Installing and Updating SSMS with a simple PowerShell script can be a nice little timesaver..."
 ---
 
@@ -17,6 +17,4 @@ The bat file is a simple way for someone to execute as admin.
 
 Hope this saves you some time. I found it helpful to keep a bunch of developers up to date with minimal effort on their part, since SSMS doesn't have auto updating capability, and thus seems to never get touched by many devs. :-) Better yet adapt to drop the SSMS Installer into a shared drive and have it check that version, so you just download from a central location.
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/8f2bbd2455fe2f2ba8d41af33525464e.js"></script>
-{% endraw %}
+{% gist 8f2bbd2455fe2f2ba8d41af33525464e %}

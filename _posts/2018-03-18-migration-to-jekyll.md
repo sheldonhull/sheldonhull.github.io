@@ -3,7 +3,7 @@ title:  "Migration To Jekyll"
 date: 2018-03-19
 tags: ["tech","jekyll"]
 toc: true
-last_modified_at: 2019-02-09
+last_modified_at: 2019-02-21
 ---
 
 I've been in the process of migrating my site to it's final home (as far as my inner geek can be satisfied staying with one platform)... Jekyll.
@@ -42,9 +42,7 @@ I found a reference to a great library called [Communary.PASM](https://www.power
 
 The resulting adhoc script I created:
 
-{% raw %}
-<script src="https://gist.github.com/sheldonhull/c57c51882e7102e6b9b383443c115409.js"></script>
-{% endraw %}
+{% gist c57c51882e7102e6b9b383443c115409 %}
 
 The resulting matches were helpful in saving me a lot of time, finding partial matches when a few characters were off.
 

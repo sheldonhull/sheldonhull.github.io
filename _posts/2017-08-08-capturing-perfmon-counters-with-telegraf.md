@@ -2,7 +2,7 @@
 title:  "Capturing Perfmon Counters With Telegraf"
 date: 2017-08-08
 tags: ["sql-server","monitoring","grafana","influxdb","cool-tools","powershell"]
-last_modified_at: 2018-03-25
+last_modified_at: 2019-02-21
 ---
 
 ## Other Posts in Series
@@ -19,9 +19,7 @@ I had a lot of issues with getting the GO enviroment setup in windows, this time
 
 Once downloaded, generate a new config file by running the first command and then the next to install as service. (I tried doing through NSSM originally and it failed to work with telegraf fyi)
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/583210cfb588d1958b5c2ba67515ec29.js"></script>
-{% endraw %}
+{% gist 583210cfb588d1958b5c2ba67515ec29 %}
 
 
 Once this service was setup and credentials entered, it's ready to run as a service in the background, sending whatever you've configured to the destination of choice.

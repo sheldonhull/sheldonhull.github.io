@@ -60,6 +60,4 @@ once you have the parameters, use .NET convert functionality to
 
 Below I've included a custom TFS Task for basic start/stop/restart/change credentials with a custom tfs task. It's not super refined, but it's a good start to get you on your way.
 
-{% raw %}
- <script src="https://gist.github.com/sheldonhull/622ee7b3da8423b689c9a266816103aa.js"></script>
-{% endraw %}
+{% gist 622ee7b3da8423b689c9a266816103aa %}

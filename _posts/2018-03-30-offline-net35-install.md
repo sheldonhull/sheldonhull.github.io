@@ -3,7 +3,7 @@ title: SQL .NET Requirements
 excerpt: >-
   SQL Server requirements vary based on the version.
 tags: ["sql-server","tech"]
-last_modified_at: 2018-07-12
+last_modified_at: 2019-02-21
 date: 2018-07-12
 published: true
 toc: true
@@ -59,9 +59,7 @@ Next to create a reusable package
     1. Install35Offline.ps1
     2. Install35Offline.bat
 
-{% raw %}
-<script src="https://gist.github.com/sheldonhull/954303c02bf1a5e05b45628dada83f9a.js"></script>
-{% endraw %}
+{% gist 954303c02bf1a5e05b45628dada83f9a %}
 
 Hopefully this will save you some effort, as it took me a little to figure out how to wrap it all up to make it easy to run.
 
