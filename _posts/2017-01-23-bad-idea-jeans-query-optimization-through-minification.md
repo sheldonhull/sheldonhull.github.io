@@ -18,6 +18,7 @@ In a file size comparison on this small small query I found a full 1KB size savi
 | NO-LINE-BREAKS.sql   | 8 KB |
 
 If you extrapolate this over a larger query I found a 20% reduction.
+
 |           File            |  Size  |
 | ------------------------- | ------ |
 | LONG-NO-LINE-BREAKS.sql   | 129 KB |
