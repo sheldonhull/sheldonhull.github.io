@@ -1,11 +1,13 @@
 ---
-title:  "Dataedo - First Look"
-date: 2017-08-07
-tags: ["sql-server","cool-tools","tech"]
-last_modified_at: 2019-02-09
+title: Dataedo - First Look
+date: 2017-08-07T00:00:00.000Z
+last_modified_at: '2019-02-22'
 ---
+> info "update 2019-02-22"
+> Image links broken. Since their product is continually improving, I'm going to just link to their product here instead so you can review their latest demo content there. [Dataedo](http://bit.ly/2U1OkgV)
+> Overall, I've enjoyed the product and think it has been improved over time. There are SQL scripts for bulk updating certain values on their website that can help improve building a project for an existing database as well. 
 
-## Diagraming and Documentation
+## Diagramming and Documentation
 
 Previously, I've [written up on database diagramming]({% post_url 2015-12-09-documenting-your-database-with-diagrams %})for visualization of database structures. Check that out for more detailed review on what I've used.
 
@@ -25,8 +27,6 @@ The only difference I could see for adding tables to the ERD when adding previou
 
 ## Exporting Customization Is Easy
 
-![](/assets/img/exporting.pngexporting?format=original)
-
 Exporting documentation provided immediate feedback on generating a custom template, along with all the required files. This was a definite plus over some other tools I've worked with, as it promoted the customization that would be required by some, with all the necessary files generated. My props to the developers of this, as this showed a nice touch for their technical audience, not forcing the user into a small set of options, or making it complicated to customize.
 
 No delete button for the CustomTemplate was a bit confusing, but an easy fix for them in the future. At this time, you'd just delete the folder in Dataedo/Templates/HTML and they won't show up in the template dialogue.
@@ -34,8 +34,6 @@ No delete button for the CustomTemplate was a bit confusing, but an easy fix for
 During the export process you also have the option of saving the export command options you already setup to a dataedo command file to make it easily automated. That's a nice touch!
 
 ## ERD Diagrams
-
-![](/assets/img/erd.pngerd?format=original)
 
 **PROS**
 
@@ -55,6 +53,6 @@ During the export process you also have the option of saving the export command 
 4.  Grouping objects in the ERD to group related elements in part of a larger module
 5.  Producivity enhancements to allow quickly creating multiple modules, and dragging objects into the modules. Eliminate manual 1 by 1 actions to work with those.
 
-# end comments
+## end comments
 
 Well done Dataedo team :-) Looking forward to the continued improvements. I've found visualization of database structures is very helpful to design, and a new toolkit out like yours promises to provide even more great tools to use to do this.
