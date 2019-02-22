@@ -4,7 +4,7 @@ date: 2017-08-07T00:00:00.000Z
 last_modified_at: '2019-02-22'
 ---
 > info "update 2019-02-22"
-> Image links broken. Since their product is continually improving, I'm going to just link to their product here instead so you can review their latest demo content there. [Dataedo](http://bit.ly/2U1OkgV)
+> Image links broken. Since their product is continually improving, I'm going to just link to their product here instead so you can review their latest demo content there. [Dataedo](http://bit.ly/2U1OkgV). 
 > Overall, I've enjoyed the product and think it has been improved over time. There are SQL scripts for bulk updating certain values on their website that can help improve building a project for an existing database as well. 
 
 ## Diagramming and Documentation
