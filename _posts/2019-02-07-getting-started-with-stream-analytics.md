@@ -2,6 +2,7 @@
 title: Getting Started with Stream Analytics
 date: '2019-02-07 19:53:00'
 last_modified_at: '2019-02-07 19:53:28'
+toc: true
 excerpt: >-
   If you are a newbie to the world of streaming analytics and need to get moving
   on parsing some Application Insights this is for you.
@@ -9,8 +10,6 @@ tags:
   - sql-server
   - development
   - tech
-toc: true
-published: true
 typora-root-url: ..\assets\img
 typora-copy-images-to: ..\assets\img
 ---
@@ -85,3 +84,7 @@ When you start the job, the default start job date can be changed. Use custom da
 ## Configure Grafana or PowerBI
 
 Initially I started with Power BI. However, I found out that Grafana 5.1 > has data source plugins for Azure and Application insights, along with dashboard to get you started. I've written on Grafana and InfluxDB in the past and am huge fan of Grafana. I'd highly suggest you explore that, as it's free, while publishing to a workspace with PowerBI can require a subscription, that might not be included in your current MSDN or Office 365 membership. YMMV.
+
+## Reporting with Grafana
+
+- [Filter Syntax Reference](http://bit.ly/2Uft9bv)
