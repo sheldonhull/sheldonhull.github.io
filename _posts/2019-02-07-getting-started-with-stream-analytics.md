@@ -88,3 +88,22 @@ Initially I started with Power BI. However, I found out that Grafana 5.1 > has d
 ## Reporting with Grafana
 
 - [Filter Syntax Reference](http://bit.ly/2Uft9bv)
+
+### Filtering
+I had to search to find details on the filtering but ended up finding the right syntax for doing partial match searches in the Filter Syntax Reference linked above. This also provides direct links to their ApiExplorer which allows testing and constructing api queries to confirm your syntax.
+
+If you had a custom metric you were grouping by that was `customEvent\name` then the filter to match something like a save action could be: 
+
+```text
+startswith(customEvent/name, 'Save')
+```
+
+This would match the custom metrics you had saved that might provide more granularity that you'd normally have to specify like:
+
+```text
+customEvent/Name eq 'Save(Customer)'
+customEvent/Name eq 'Save(Me)'
+customEvent/Name eq 'Save(Time)'
+customEvent/Name eq 'Save(Tacos)'
+```
+
