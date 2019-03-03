@@ -12,3 +12,4 @@ plugins:
   - jekyll-algolia
   - premonition
   - jekyll-include-cache
+future: true

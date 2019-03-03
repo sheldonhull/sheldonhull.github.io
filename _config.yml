@@ -8,7 +8,7 @@ description: random thoughts and ramblings
 url: 'https://www.sheldonhull.com'
 baseurl: ''
 repository: sheldonhull/sheldonhull.github.io
-teaser: /assets/img/sheldon_400x400.jpg
+teaser: /assets/img/sheldon_200x200.jpg
 breadcrumbs: true
 words_per_minute: 200
 comments:
@@ -54,7 +54,7 @@ facebook:
   username: null
   app_id: null
   publisher: null
-og_image: /assets/img/sheldon_400x400.jpg
+og_image: /assets/img/sheldon_200x200.jpg
 social:
   type: null
   name: null
@@ -65,7 +65,7 @@ analytics:
     tracking_id: UA-40198001-3
 author:
   name: Sheldon Hull
-  avatar: /assets/img/sheldon_400x400.jpg
+  avatar: /assets/img/sheldon_120x120.jpg
   bio: Resident automator of spline reticulation
   location: 'Houston, TX'
   email: null
@@ -182,7 +182,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
+future: false
 permalink: '/:categories/:title/'
 paginate: 8
 paginate_path: '/page:num/'
