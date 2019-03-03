@@ -8,4 +8,4 @@
 [context.deploy-preview.environment]
   JEKYLL_ENV = "development"
 [context.deploy-preview]
-  command = "jekyll build"
+  command = "jekyll build --future"
