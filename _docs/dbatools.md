@@ -1,9 +1,14 @@
 ---
-title: "dbatools"
-permalink: /docs/dbatools/
-excerpt: "A cheatsheet and quick start reference for working with dbatools"
-last_modified_at: 2019-02-19
+title: dbatools
+date: '2019-02-18'
+last_modified_at: '2019-03-11'
 toc: true
+excerpt: A cheatsheet and quick start reference for working with dbatools
+permalink: /docs/dbatools/
+tags:
+  - sql-server
+  - development
+  - powershell
 ---
 
 > info "2019-02-19"
@@ -14,3 +19,6 @@ toc: true
 ```powershell
 install-module 'dbatools' -Scope CurrentUser
 ```
+
+## Database Corruption
+{% gist 92fb73704acfd0c7c1e67308e2dca1f4 %}
