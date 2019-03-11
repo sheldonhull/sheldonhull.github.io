@@ -2,7 +2,7 @@
 title: Debugging Type Binding in PowerShell
 date: '2019-03-18'
 last_modified_at: '2019-03-11'
-toc: true
+toc: false
 excerpt: >-
   What is the best way to debug more efficiently complicated parameter binding
   and type casting scenarios in PowerShell.
