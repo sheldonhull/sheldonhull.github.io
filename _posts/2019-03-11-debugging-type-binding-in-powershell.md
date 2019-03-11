@@ -104,7 +104,9 @@ DEBUG: TypeConversion Information: 0 :     Result type is assignable from value 
 ```
 `OUTPUT: System.String`
 
-The noticeable difference is in `Use-Ampersand` it shows a statement of ` Converting null to ""` vs `Converting "" to "System.Object"`. In PowerShell, `$null <> [string]''`. An empty string comparison will pass the null check, resulting in the success of outputting `GetType()`.
+The noticeable difference is in `Use-Ampersand` it shows a statement of `Converting null to ""` vs `Converting "" to "System.Object"`. 
+
+In PowerShell, `$null <> [string]''`. An empty string comparison will pass the null check, resulting in the success of outputting `GetType()`.
 
 # A Few Thoughts On Approach With PowerShell
 Why it's doing this, I'm not certain, but before you invest more time researching, let me provide one piece of advice based on learning the hard way.
