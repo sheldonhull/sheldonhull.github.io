@@ -2,7 +2,7 @@ jekyll:
   image: jekyll/jekyll:latest
   container_name: sheldonhull.github.io
   command: >-
-    jekyll serve --port 4000 --config _config.yml,_config.dev.yml --force_polling --incremental --watch
+    jekyll serve --port 4000 --config _config.yml,_config.dev.yml
   ports:
     - '4000:4000'
     - 35729:35729
