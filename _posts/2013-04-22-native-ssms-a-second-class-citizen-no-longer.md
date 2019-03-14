@@ -6,7 +6,7 @@ tags:
   - cool-tools
 toc: true
 published: true
-last_modified_at: '2013-04-21'
+last_modified_at: 2019-03-14
 ---
 
 Intellisense can be a boon to adding quick development. Quick hints on scope specific variables, syntax suggestions, function descriptions and more provide a valuable tool to productive coding.Coding in SQL Server Management Studio (SSMS) has greatly improved over the version releases, but it still lags behind the power of Visual Studio's intellisense, template insertions with "fill in the blank" functionality .
@@ -39,7 +39,9 @@ Improvements to the SSMS Coding environment are shown. A shortcut to refresh the
 Of particular note is the "automatically trigger after" option. For users that want intellisense to help out only after a long pause and not constantly change while typing, this option is helpful. Setting a longer time on the ms will keep the box from showing up unless a command is pressed to initiate the intellisense showing up (Default: Control-Space).
 
 The highlight occurrences option is a great feature added by Devart. When a particular object is selected in the query editor window, other occurrences are highlighted for easy viewing.
+
 ![](/assets/img/SQLCompleteOptionsGeneral_vmf6ip.jpg)
+
 ![](/assets/img/SQLCompleteHighlightedOccurrences_rdk7hk.jpg)
 
 Automatic alias generation is another boon to the developer. SQL Complete is will automatically generate an alias for you upon object selection from intellisense. This also means that column selections later on will be correctly assign the alias, reducing typing.
@@ -55,18 +57,24 @@ Dragging the column names from object explorer results in a list of columns deli
 
 SQL Complete fills this gap. Pressing tab allows expansion of columns in a stacked list, with alias's already assigned correctly. The column select appends to the same line, but with the automatic formatting tool, the finished list is easily stacked vertically with the press of the format shortcut. These are simple examples, but I've found to extremely helpful when working with complex queries involving numerous tables. Expanding all the columns available or selecting, with correct alias generation is a major improvement to the SSMS development environment
 
+
 ![](/assets/img/SQLCompleteTabToExpand_yylpqd.jpg)
+
 ![](/assets/img/SQLCompleteTabbedExpanded_xqzeg2.jpg)
 ![](/assets/img/SQLCompleteColumnSelector_yfmgrl.jpg)
 
 Insert statements are "auto completed" helping provide quick statement generation, this is a lifesaver!
 
+
 ![](/assets/img/SCCompleteInsertColumnSelector_jwqie9.jpg)
+
 ![](/assets/img/SCAutoGenerateInsertCompleted_llmscx.jpg)
 
 Prompts also help developers know the table structure of objects/views, stored procedure parameters, and function usage. Might save some folks MSDN googling just to remind themselves about the correct function usage!
 
+
 ![](/assets/img/SCTableInfoPrompt_uzpbwk.jpg)
+
 ![](/assets/img/SCFunctionInfo_kigj4r.jpg)
 
 Compare this to the native function prompt:
@@ -79,7 +87,9 @@ Compare this to the native function prompt:
 
 Snippets are brought to us with SQL Complete with an amazing thought to detail. Not only are the snippets brought into our editor window, but are also displayed in intellisense, with"fields" provided to navigate to to "fill in the blanks." Variables for customization are offered and the sky is the limit here!
 
+
 ![](/assets/img/SCSnippetManager-W620_qqkamh.jpg)
+
 ![](/assets/img/SCSnippetIndex-W620_vknnlx.jpg)
 
 Below I demonstrate a cursor snippet. The only keystrokes I used to complete this action were:

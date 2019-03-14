@@ -10,6 +10,7 @@ group :jekyll_plugins do
     gem "jekyll-mermaid"
     gem "jekyll-archives"
     gem "premonition","~> 2.0.0"
-    gem "jekyll-webp"
+   # gem "jekyll-webp"
+    gem 'jekyll-picture-tag'
     # gem "jekyll-paginate-v2" # not yet working with this theme
 end

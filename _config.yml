@@ -139,13 +139,21 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-# Note: If you assign footer_scripts the theme's /assets/js/main.min.js file will be deactivated.
-# This script includes jQuery and various other plugins that you'll need to find replacements for and include separately.
-#footer_scripts:
+
 
 head_scripts:
-  - /assets/js/netlifycms.js  # for netlify cms
+  - https://cdn.jsdelivr.net/npm/netlify-cms@^2.0.0/dist/netlify-cms.js
   - https://identity.netlify.com/v1/netlify-identity-widget.js
+  #- https://cdnjs.cloudflare.com/ajax/libs/fluidbox/2.0.5/css/fluidbox.min.css
+
+# Note: If you assign footer_scripts the theme's /assets/js/main.min.js file will be deactivated.
+# This script includes jQuery and various other plugins that you'll need to find replacements for and include separately.
+# footer_scripts:
+#   - https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.min.js
+#   - https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js
+#   - https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js
+#   - https://cdnjs.cloudflare.com/ajax/libs/fluidbox/2.0.5/js/jquery.fluidbox.min.js
+
 incremental: false
 kramdown:
   input: GFM
@@ -199,7 +207,8 @@ plugins:
   - jekyll-algolia
   - premonition
   - jekyll-include-cache
-  - jekyll-webp
+  # - jekyll-webp
+  - jekyll-picture-tag
 
 whitelist:
   - jekyll-paginate

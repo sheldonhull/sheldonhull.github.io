@@ -15,9 +15,13 @@ I came across indicated the overhead might be a little more client side, but tha
 I get that passing the stored proc a table variable means it's working with provided object, but what about the portability of this object? In my case, there are at least 2 levels being worked. The MAIN proc and the CHILD proc. The child proc needs access to the same list of ids. The dynamic statement in the MAIN proc also needs the list of ids. Currently it was creating the list of ids by inserting into a table parameter the delimited list of values.
 
 Could I instead consider passing the actual table parameter around since it's by a readonly object and hopefully keep referring to it, instead of having separate copies being created each time. This could reduce the IO requirements and tempdb activity by having a single TVP being used by the MAIN and CHILD procs.
+
 ![TVP Testing 2](/assets/img/SQL_Sentry_Plan_Explorer_PRO-2015-04-30_09_56_17_xkvtbz.png)
+
 ![TVP Testing 3](/assets/img/SQL_Sentry_Plan_Explorer_PRO-2015-04-30_09_52_10_bxzrlg.png)
+
 ![TVP Testing 4](/assets/img/SQL_Sentry_Plan_Explorer_PRO-2015-04-30_09_58_30_j7k6u3.png)
+
 ![TVP Testing 5](/assets/img/SQL_Sentry_Plan_Explorer_PRO-2015-04-30_09_52_10_bxzrlg.png)
 Summarized IO:
 ![TVP Testing 1](/assets/img/-2015-04-30_09_06_36_s37z0t.png)

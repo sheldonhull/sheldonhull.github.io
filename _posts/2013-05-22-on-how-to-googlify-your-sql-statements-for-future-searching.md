@@ -47,6 +47,7 @@ Basic Settings I choose (If you aren't using [Bitstream ](http://ftp.gnome.org/p
 
 I setup as follows:
 ![DocFetcher_createIndex1](/assets/img/DocFetcher_createIndex1_t0qhl5.jpg)
+
 ![DocFetcher_createIndex2](/assets/img/DocFetcher_createIndex2_i121sx.jpg)
 
 1.  Now the DocFetcher daemon will run in the background, if you copied my settings, and update your indexes.  Searching requires no complex regex, and can be done easily with statements. I'd caution on putting exact phrases in quotes, as it does detect wildcards.
