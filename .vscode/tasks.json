@@ -4,13 +4,23 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
+            "label": "serve",
             "type": "shell",
-            "command": "docker-compose up",
+            "command": "powershell.exe -nologo -noprofile -command 'start-process powershell.exe ''-nologo -noprofile -file \"\".\\Serve.ps1\"\" -WorkingDirectory ${WorkspaceDirectory}'''",
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "rebuild",
+            "type": "shell",
+            "command": "powershell.exe -nologo -noprofile -command 'start-process powershell.exe ''-nologo -noprofile -file \"\".\\rebuild.ps1\"\" -WorkingDirectory ${WorkspaceDirectory}'''",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
         }
     ]
 }

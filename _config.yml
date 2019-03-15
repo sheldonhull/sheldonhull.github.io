@@ -200,7 +200,8 @@ plugins:
   - jekyll-algolia
   - premonition
   - jekyll-include-cache
-  - jekyll-webp
+  #- jekyll-webp
+  - jekyll-picture-tag
 
 whitelist:
   - jekyll-paginate
