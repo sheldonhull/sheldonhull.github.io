@@ -1,16 +1,15 @@
 ---
 date: '2018-07-23 11:07 -0500'
 tags: ["tech","powershell"]
-last_modified_at: '2018-07-23 11:07 -0500'
+last_modified_at: 2019-03-15
 published: true
 title: Deleting a Directory That Has a Trailing Space Shouldn't Be This Hard
-excerpt: >-
-  Can't delete a directory due to some edge case in naming errors... like a
-  trailing space. Here's the fix!
+excerpt: "Can't delete a directory due to some edge case in naming errors... like a trailing space. Here's the fix!"
 ---
 
-![Removing Folder Fails](/assets/img/ConEmu64_2018-07-23_11-42-59 - Copy.png)
 It shouldn't be this hard. This is a consumate #windowsmoment
+
+![Removing Folder Fails](/assets/img/ConEmu64_2018-07-23_11-42-59 - Copy.png)
 
 If you occasionally use something like Robocopy, or other command line tool, it can be possible to create a directory with a trailing slash. For instance
 
