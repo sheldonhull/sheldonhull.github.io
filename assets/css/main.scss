@@ -427,3 +427,14 @@ position: relative;
   .premonition.error .header {
     color: #d9534f;
   }
+
+
+  /* DARK THEME OVERRIDES - Sheldon */
+  $background-color: #18191b;
+  $body: #18191b;
+  /*
+  font overrides
+  */
+  $serif      : "Source Sans Pro", Georgia, Times, serif;
+  $sans-serif : "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  $monospace  : "Fira Code Retina", Monaco, Consolas, "Lucida Console", monospace;

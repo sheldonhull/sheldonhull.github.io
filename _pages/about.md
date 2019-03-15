@@ -3,7 +3,7 @@ permalink: /about/
 layout: single
 title: "About"
 excerpt: "about me"
-last_modified_at: 2019-02-21
+last_modified_at: 2019-03-15
 layout: single
 header:
   overlay_color: "#000"
@@ -19,9 +19,18 @@ author_profile: false
 ---
 
 
+
 ## Core Values
 I live as a follower of Christ, desiring to impact the world around with with who He is. I'm an unashamed disciple and though I've got plenty I mess up, following Him is my joy. I'm passionate about worship, and worship through music, playing guitar.
 
+
+<!-- 2. Create links -->
+
+<a data-fancybox="gallery" href="/assets/img/about-me.jpg"><img src="/assets/img/about-me.jpg"></a>
+<a data-fancybox="gallery" href="/assets/img/about-me.jpg"><img src="/assets/img/about-me.jpg"></a>
+
+
+<!-- 3. Have fun! -->
 ## Family
 I've been blessed with 3 kids and a wonderful wife Sarah who has brought beauty into my world and to my life. I'm thankful for the richness of family and experiencing this journey.
 

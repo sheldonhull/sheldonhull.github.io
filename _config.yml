@@ -8,7 +8,7 @@ description: random thoughts and ramblings
 url: 'https://www.sheldonhull.com'
 baseurl: ''
 repository: sheldonhull/sheldonhull.github.io
-teaser: /assets/img/sheldon_200x200.jpg
+# teaser: /assets/img/sheldon_200x200.jpg
 breadcrumbs: true
 words_per_minute: 200
 comments:
@@ -142,10 +142,11 @@ excerpt_separator: "\n\n"
 # Note: If you assign footer_scripts the theme's /assets/js/main.min.js file will be deactivated.
 # This script includes jQuery and various other plugins that you'll need to find replacements for and include separately.
 #footer_scripts:
-
+# - #DANGER SEE ABOVE
 head_scripts:
   - /assets/js/netlifycms.js  # for netlify cms
   - https://identity.netlify.com/v1/netlify-identity-widget.js
+
 incremental: false
 kramdown:
   input: GFM
