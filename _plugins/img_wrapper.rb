@@ -9,7 +9,9 @@ Jekyll::Hooks.register :posts, :pre_render do |post, payload|
     # only process if we deal with a markdown file
     if payload['site']['markdown_ext'].include? docExt
       # newContent = post.content.gsub(/(?:!\[(.*?)\]\((.*?)\))/, '<a href="\2"><img src="\2" alt="\1" class="fade in"/></a>')
-      newContent = post.content.gsub(/\!\[(.+)\]\((.+)\)/, '{% picture lazy \2 --alt "\1" %}')
+      # newContent = post.content.gsub(/\!\[(.+)\]\((.+)\)/, '{% picture lazy \2 --alt "\1" %}')
+      newContent = post.content.gsub(/\!\[(.*?)\]\(\/assets\/img\/(.+)\)/, '{% picture lazy \2 --alt \1 %}')
       post.content = newContent
+      Jekyll.logger.info newContent
     end
   end

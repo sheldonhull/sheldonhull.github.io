@@ -290,6 +290,10 @@ algolia:
   settings:
     highlightPreTag: '<em class="custom_highlight">'
     highlightPostTag: '</em>'
+# Sample Jekyll Picture Tag settings
+picture:
+  source: assets/img/_fullsize
+  output: generated
 
 # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
 # span, block element options fall back to global

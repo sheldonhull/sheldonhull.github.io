@@ -7,8 +7,7 @@ services:
       context: .
       dockerfile: dockerfile
     container_name: sheldonhull.github.io
-    command: >-
-      jekyll serve --port 4000 --config _config.yml,_config.dev.yml
+    command: jekyll serve --port 4000 --config _config.yml,_config.dev.yml --verbose
     ports:
       - '4000:4000'
       - 35729:35729

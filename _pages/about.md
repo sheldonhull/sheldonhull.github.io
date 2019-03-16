@@ -3,7 +3,7 @@ permalink: /about/
 layout: single
 title: "About"
 excerpt: "about me"
-last_modified_at: 2019-03-15
+last_modified_at: 2019-03-16
 layout: single
 header:
   overlay_color: "#000"
@@ -12,7 +12,7 @@ header:
   caption: "Night Photography - Sheldon Hull"
 sidebar:
   - title: "About"
-    image: /assets/img/about-me.jpg
+    image: /assets/img/about-me-200.jpg
     image_alt: "image"
     text: "This is me, with a little too much coffee..."
 author_profile: false
