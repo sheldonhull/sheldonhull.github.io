@@ -8,7 +8,7 @@ description: random thoughts and ramblings
 url: 'https://www.sheldonhull.com'
 baseurl: ''
 repository: sheldonhull/sheldonhull.github.io
-teaser: /assets/img/sheldon_200x200.jpg
+#teaser: /assets/img/sheldon_200x200.jpg
 breadcrumbs: true
 words_per_minute: 200
 comments:

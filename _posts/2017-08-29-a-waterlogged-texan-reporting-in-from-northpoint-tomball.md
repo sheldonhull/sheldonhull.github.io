@@ -1,14 +1,15 @@
 ---
-
-
 title:  "A Waterlogged Texan Reporting In from Northpoint Tomball"
 date: 2017-08-29
 tags: ["ramblings","family","follower-of-Jesus"]
+excerpt: "What a crazy weekend. Choose to evacuate the family as water was slowly creeping up closer to the house."
 ---
 
-![The view from my driveway. I was seriously blessed, as many others were not as high](/assets/img/View+from+My+Driveway.jpg) The view from my driveway. I was seriously blessed, as many others were not as high
+## Waterlogged
 
 What a crazy weekend. Choose to evacuate the family as water was slowly creeping up closer to the house. I was ready today when I made it back to the house to see the water in the house, but to my astonishment it was only half-way up the driveway. Turning down the road 1 house away, many houses did not fare so well, and water looks to have made it in many homes.
+
+![The view from my driveway. I was seriously blessed, as many others were not as high](/assets/img/View+from+My+Driveway.jpg)
 
 It has been a stressful time, and still not finished, but what a remarkable time to see people coming together. From a neighbor walking my family in a small boat to the front to ease the way for the kids and pregant wife in 4 ft of dirty water to the evacuation boats running all day to help get people out. I saw first responders from a surfer walking a raft in his wetsuit to Kemah volunteer firefighters walking the roads to check on people and confirm everyone wanting evacuation was taken care of.
 

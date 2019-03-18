@@ -1,14 +1,19 @@
-jekyll:
-  image: jekyll/jekyll:latest
-  container_name: sheldonhull.github.io
-  command: >-
-    jekyll serve --port 4000 --config _config.yml,_config.dev.yml --force_polling --incremental --watch
-  ports:
-    - '4000:4000'
-    - 35729:35729
-  environment:
-    - JEKYLL_ENV=dev
-    - DOCKER_API_VERSION=1.24
-    - COMPOSE_API_VERSION=1.24
-  volumes:
-    - '.:/srv/jekyll'
+version: '3'
+
+services:
+  jekyll:
+    #image: jekyll/jekyll:latest
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: sheldonhull.github.io
+    command: jekyll serve --port 4000 --config _config.yml,_config.dev.yml --verbose
+    ports:
+      - '4000:4000'
+      - 35729:35729
+    environment:
+      - JEKYLL_ENV=dev
+      - DOCKER_API_VERSION=1.24
+      - COMPOSE_API_VERSION=1.24
+    volumes:
+      - '.:/srv/jekyll'
