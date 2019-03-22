@@ -73,7 +73,7 @@ As a simple example, I just provided the primary key. You could get creative wit
 
 ![Choose the key column to compare against](/assets/img/choose-the-key-column-to-compare-against.png)
 
-![](/assets/img/84a38857-022c-4d68-8c00-1f79cfcac3b2-sm.png)
+![84a38857-022c-4d68-8c00-1f79cfcac3b2-sm](/assets/img/84a38857-022c-4d68-8c00-1f79cfcac3b2-sm.png)
 
 ### Handling Conflicts differently
 

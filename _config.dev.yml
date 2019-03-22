@@ -9,7 +9,14 @@ plugins:
   - jekyll-mermaid
   - jekyll-archives
   - jekyll-remote-theme
-  - jekyll-algolia
+#  - jekyll-algolia
   - premonition
   - jekyll-include-cache
+  - jekyll-picture-tag
 future: true
+#plugins_dir: .\_plugins_dev
+analytics:
+  provider: #google-gtag
+  google:
+    tracking_id:
+search_provider: lunr

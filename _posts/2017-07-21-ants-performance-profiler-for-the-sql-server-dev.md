@@ -23,7 +23,7 @@ At the time of this articles publishing, there is no 2017 Visual studio extensio
 
 ## Timeline & Bookmarks
 
-![](/assets/img/timeline-bookmarks.png)
+![timeline-bookmarks](/assets/img/timeline-bookmarks.png)
 
 During the profiling you can perform actions with the application and create bookmarks of points in time as you are performing these actions to make it easier to compare and review results later.
 

@@ -8,6 +8,10 @@ description: random thoughts and ramblings
 url: 'https://www.sheldonhull.com'
 baseurl: ''
 repository: sheldonhull/sheldonhull.github.io
+
+
+#plugins_dir: .\_plugins
+
 #teaser: /assets/img/sheldon_200x200.jpg
 breadcrumbs: true
 words_per_minute: 200
@@ -199,7 +203,8 @@ plugins:
   - jekyll-algolia
   - premonition
   - jekyll-include-cache
-  - jekyll-webp
+  #- jekyll-webp
+  - jekyll-picture-tag
 
 whitelist:
   - jekyll-paginate
@@ -236,7 +241,7 @@ defaults:
       type: posts
     values:
       layout: single
-      toc: true
+     # toc: true
       toc_sticky: true
       author_profile: true
       read_time: true
@@ -244,7 +249,7 @@ defaults:
       share: false
       related: true
       permalink: /blog/:title
-      classes: wide
+      #classes: wide
   - scope:
       path: _pages
       type: pages
@@ -288,6 +293,26 @@ algolia:
   settings:
     highlightPreTag: '<em class="custom_highlight">'
     highlightPostTag: '</em>'
+
+
+#jekyll-picture-tag
+# Sample Jekyll Picture Tag settings https://github.com/robwierzbowski/jekyll-picture-tag/blob/master/lib/jekyll-picture-tag/defaults/global.yml
+picture:
+  source: assets/img
+  output: assets/img
+
+
+# Default settings for _config.yml
+# picture:
+#   source: ''
+#   output: generated
+#   suppress_warnings: false
+#   relative_url: true
+#   cdn_environments: ['production']
+#   nomarkdown: true
+
+# url: ''
+# baseurl: ''
 
 # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
 # span, block element options fall back to global

@@ -26,7 +26,7 @@ There will definitely be people in our neighborhood that will be dealing with re
 
 Walked over to the church today from our friends house. Figured I'd get some work done, and was doubtful of my ability to concentrate with my kiddos getting stir crazy. The walk was supposed to be 37 mins... an hour later I arrived. Gave me some extra time to pray at least :-)
 
-![](/assets/img/a+longer+walk+than+intended...+but+i'm+a+guy.png)
+![a+longer+walk+than+intended...+but+i'm+a+guy](/assets/img/a+longer+walk+than+intended...+but+i'm+a+guy.png)
 
 Projections for the area are never certain, but seems to point to being clear of anything that would cause water to get into the house.
 

@@ -90,7 +90,7 @@ One these metrics began to run, I ran Chronograf. This is Influx's alternative t
 
 Upon loading and opening up the instance monitor, I found immediately that I was able to get some metrics from the defaults.
 
-![](/assets/img/Defaults+-+Nice+Start.png)
+![Defaults+-+Nice+Start](/assets/img/Defaults+-+Nice+Start.png)
 
 ## Get Grafana
 

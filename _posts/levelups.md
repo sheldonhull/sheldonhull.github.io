@@ -28,4 +28,4 @@ published: false
 - 2015-08-04 Database Stuck in Single-User Mode Due to Botched Restore
 - 2015-08-11 Running very large scripts is not a strong area for SSMS
 
-![]({{site.url}}/assets/img/forg-2016-logo.png)
+![forg-2016-logo](/assets/img/forg-2016-logo.png)

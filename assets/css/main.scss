@@ -378,15 +378,15 @@ position: relative;
 
 // PREMONITION
 .premonition {
-    $default-color: $light-blue; // #5bc0de;
-    $default-light-color: #e3edf2;
-    $info-color: $lime-green; //#50af51;
-    $info-light-color: #f3f8f3;
-    $warning-color: #f0ad4e;
-    $warning-light-color: #fcf8f2;
-    $error-color: $red;// #d9534f;
-    $error-light-color: #fdf7f7;
-    $content-color: rgba(0,0,0,0.5);
+  $default-color: $light-blue; // #5bc0de;
+  $default-light-color: #e3edf2;
+  $info-color: $lime-green; //#50af51;
+  $info-light-color: #f3f8f3;
+  $warning-color: #f0ad4e;
+  $warning-light-color: #fcf8f2;
+  $error-color: $red;// #d9534f;
+  $error-light-color: #fdf7f7;
+  $content-color: rgba(0,0,0,0.5);
 
     display: grid;
     grid-template-columns: 43px auto;

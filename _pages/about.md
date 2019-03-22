@@ -5,14 +5,14 @@ title: "About"
 excerpt: "about me"
 last_modified_at: 2019-02-21
 layout: single
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/img/NightHouse.jpg
-  caption: "Night Photography - Sheldon Hull"
+# header:
+#   overlay_color: "#000"
+#   overlay_filter: "0.5"
+#   overlay_image: /assets/img/NightHouse.jpg
+#   caption: "Night Photography - Sheldon Hull"
 sidebar:
   - title: "About"
-    image: /assets/img/about-me.jpg
+    image: /assets/img/about-me-200.jpg
     image_alt: "image"
     text: "This is me, with a little too much coffee..."
 author_profile: false
@@ -20,7 +20,9 @@ author_profile: false
 
 
 ## Core Values
+
 I live as a follower of Christ, desiring to impact the world around with with who He is. I'm an unashamed disciple and though I've got plenty I mess up, following Him is my joy. I'm passionate about worship, and worship through music, playing guitar.
+
 
 ## Family
 I've been blessed with 3 kids and a wonderful wife Sarah who has brought beauty into my world and to my life. I'm thankful for the richness of family and experiencing this journey.

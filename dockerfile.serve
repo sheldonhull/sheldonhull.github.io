@@ -1,0 +1,41 @@
+FROM jekyll/builder:latest
+
+# Adds a C compiler and make, and the headers for ruby
+RUN apk --update add alpine-sdk ruby-dev
+RUN apk --update add dos2unix
+
+# Add extra: jekyll-responsive_images, which requires imagemagick-dev
+RUN apk --update add imagemagick
+
+# fix line ending issues
+RUN apk --update add dos2unix
+#RUN dos2unix /entrypoint.sh && apt-get --purge remove -y dos2unix && rm -rf /var/lib/apt/lists/*
+
+RUN jekyll -v
+
+ADD Gemfile .
+RUN gem install bundler && bundle install --system
+#COPY docker-entrypoint.sh /usr/local/bin/
+#COPY .  /srv/jekyll/
+# RUN wget -O /usr/local/bin/dumb-init https://github.com/Yelp/dumb-init/releases/download/v1.2.1/dumb-init_1.2.1_amd64 && \
+# echo "057ecd4ac1d3c3be31f82fc0848bf77b1326a975b4f8423fe31607205a0fe945  /usr/local/bin/dumb-init" | sha256sum -c - && \
+# chmod 755 /usr/local/bin/dumb-init
+# ENTRYPOINT ["/usr/local/bin/dumb-init", "--"]
+
+WORKDIR /site
+
+COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/bin/sh", "/entrypoint.sh"]
+
+#ENTRYPOINT [ "docker-entrypoint.sh" ]
+EXPOSE 4000
+#CMD [ "bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "4000","--config", "_config.yml,_config.dev.yml","--verbose" ,"--trace"]
+CMD bundle exec jekyll serve -h 0.0.0.0 -P 4000 --config _config.yml,_config.dev.yml --verbose --trace
+#CMD [ "--force_polling", "-H", "0.0.0.0", "-P", "4000","--config", "_config.yml,_config.dev.yml","--verbose" ,"--trace"]
+#CMD [ "bundle", "exec"] #, "jekyll"]
+ENV JEKYLL_ENV docker
+
+
+
+#  CHECK PERMISSIONS
+# PS> docker run --rm --volume="$PWD":/srv/jekyll -it -p 4000:4000 jekyll/builder:latest jekyll serve --force_polling --host 0.0.0.0

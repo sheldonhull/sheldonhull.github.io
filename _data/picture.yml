@@ -1,0 +1,35 @@
+# _data/picture.yml #https://github.com/robwierzbowski/jekyll-picture-tag
+
+media_presets:
+  wide_desktop: 'min-width: 1801px'
+  desktop: 'max-width: 1800px'
+  wide_tablet: 'max-width: 1200px'
+  tablet: 'max-width: 900px'
+  mobile: 'max-width: 600px'
+
+markup_presets:
+  default:
+    formats: [webp, original]
+    widths: [200, 400, 800, 1600]
+    media_widths:
+      mobile: [200, 400, 600]
+      tablet: [400, 600, 800]
+    size: 800px
+    sizes:
+      mobile: 100vw
+      desktop: 60vw
+    attributes:
+      picture: 'class="awesome" data-volume="11"'
+      img: 'class="some-other-class"'
+
+  icon:
+    base-width: 20
+    pixel_ratios: [1, 1.5, 2]
+
+  lazy:
+    markup: data_auto
+    formats: [webp, original]
+    widths: [200, 400, 600, 800]
+    noscript: true
+    attributes:
+      img: class="lazy"
