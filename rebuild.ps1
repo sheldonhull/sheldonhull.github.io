@@ -4,7 +4,7 @@ good snippets here: https://github.com/envygeeks/jekyll-docker
 #>
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 Set-location $PSScriptRoot
-docker-compose build --force-rm # --no-cache
+docker-compose build --force-rm --no-cache
 # docker-compose pull
 # docker-compose build
 # docker-compose up
