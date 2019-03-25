@@ -275,7 +275,7 @@ defaults:
       author_profile: false
       share: true
 
-search_provider: lunr # temporarily as something is coming back with view-from-backyard image in index????
+search_provider: algolia # temporarily as something is coming back with view-from-backyard image in index????
 algolia:
   application_id         : 04HSGXXQD5
   index_name             : sheldonhull.com
