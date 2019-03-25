@@ -204,7 +204,7 @@ plugins:
   - premonition
   - jekyll-include-cache
   #- jekyll-webp
-  - jekyll-picture-tag
+ # - jekyll-picture-tag
 
 whitelist:
   - jekyll-paginate
